@@ -1,0 +1,117 @@
+{
+  "eda": {
+    "correlation": {
+      "lambda_per_h": -0.04942356645680524,
+      "uas_archetype_p_mr": -0.9967524076810367
+    },
+    "figures": null,
+    "outlier_count": 0,
+    "response": "MOE-2",
+    "summary": {
+      "count": 32,
+      "max": 0.02435028289892842,
+      "mean": -0.1537946783649809,
+      "min": -0.34271927676251684,
+      "std": 0.1044168947965574
+    }
+  },
+  "feature_scores": [
+    {
+      "ranking": [
+        {
+          "factor": "uas_archetype_p_mr",
+          "score": 4596.318540569496
+        },
+        {
+          "factor": "lambda_per_h",
+          "score": 0.07346010783086387
+        }
+      ],
+      "response": "MOE-2",
+      "scoring": "f_regression"
+    }
+  ],
+  "field_version": "1.0",
+  "hypothesis_tests": [
+    {
+      "aor": "ALL",
+      "bootstrap_test": {
+        "bootstrap_seed": 20260808,
+        "n_resamples": 9999,
+        "p_value": 0.0
+      },
+      "ci": {
+        "high": -0.1514439320139836,
+        "low": -0.15617270836547384,
+        "method": "BCa",
+        "n_resamples": 9999
+      },
+      "effect": -0.15379467836498087,
+      "n_pairs": 12288,
+      "p_value": 0.0,
+      "pre_checks": [
+        {
+          "name": "shapiro",
+          "p_value": 2.3312614131503244e-37,
+          "passed": false,
+          "statistic": 0.981021973543133
+        },
+        {
+          "name": "levene",
+          "p_value": 0.0,
+          "passed": false,
+          "statistic": 3083.9891764925296
+        }
+      ],
+      "reject_h0": true,
+      "response": "MOE-2",
+      "statistic": 4342284.5,
+      "test": "wilcoxon"
+    }
+  ],
+  "pareto_front": {
+    "objectives": {
+      "maximize": [
+        "gain"
+      ],
+      "minimize": [
+        "cost"
+      ]
+    },
+    "points": [
+      {
+        "cost": 2.0658673979981184,
+        "design_point_id": 6,
+        "gain": -0.025913428974041322
+      },
+      {
+        "cost": 2.1669935677748176,
+        "design_point_id": 13,
+        "gain": 0.02435028289892842
+      },
+      {
+        "cost": 2.107358656744299,
+        "design_point_id": 17,
+        "gain": -0.007916954854889984
+      }
+    ]
+  },
+  "study": {
+    "alpha": 0.05,
+    "aor": "ALL",
+    "bootstrap_seed": 20260808,
+    "factors": {
+      "lambda_per_h": {
+        "max": 17.570894645361918,
+        "min": 2.3644020817173326
+      },
+      "uas_archetype_p_mr": {
+        "max": 0.9851197018842847,
+        "min": 0.0016687174192430675
+      }
+    },
+    "n_design_points": 32,
+    "n_resamples": 9999,
+    "response": "MOE-2"
+  }
+}

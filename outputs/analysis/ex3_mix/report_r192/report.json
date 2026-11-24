@@ -1,0 +1,1696 @@
+{
+  "anova_by_levels": [
+    {
+      "factor": "uas_archetype_p_mr",
+      "n_levels": 3,
+      "p_value": 1.4620124728065124e-08,
+      "posthoc": {
+        "method": "tukey_hsd",
+        "pvalue": [
+          [
+            1.0,
+            0.0004098604912595727,
+            8.733908929414724e-09
+          ],
+          [
+            0.0004098604912595727,
+            1.0,
+            5.301416652403468e-05
+          ],
+          [
+            8.733908929414724e-09,
+            5.301416652403468e-05,
+            1.0
+          ]
+        ]
+      },
+      "reject_h0": true,
+      "response": "MOS-1",
+      "statistic": 62.48872681505493,
+      "test": "f_oneway"
+    },
+    {
+      "factor": "uas_archetype_p_mr",
+      "n_levels": 3,
+      "p_value": 8.632085237813064e-09,
+      "posthoc": {
+        "method": "tukey_hsd",
+        "pvalue": [
+          [
+            1.0,
+            0.00019501883807204745,
+            5.083220067092498e-09
+          ],
+          [
+            0.00019501883807204745,
+            1.0,
+            4.9729876713255905e-05
+          ],
+          [
+            5.083220067092498e-09,
+            4.9729876713255905e-05,
+            1.0
+          ]
+        ]
+      },
+      "reject_h0": true,
+      "response": "MOE-1",
+      "statistic": 67.02855813150154,
+      "test": "f_oneway"
+    },
+    {
+      "factor": "uas_archetype_p_mr",
+      "n_levels": 3,
+      "p_value": 1.6942264183667096e-08,
+      "posthoc": {
+        "method": "tukey_hsd",
+        "pvalue": [
+          [
+            1.0,
+            0.00013096619033947654,
+            9.939000733538705e-09
+          ],
+          [
+            0.00013096619033947654,
+            1.0,
+            0.0001947866838495349
+          ],
+          [
+            9.939000733538705e-09,
+            0.0001947866838495349,
+            1.0
+          ]
+        ]
+      },
+      "reject_h0": true,
+      "response": "MOE-3",
+      "statistic": 61.26820968188581,
+      "test": "f_oneway"
+    },
+    {
+      "factor": "uas_archetype_p_mr",
+      "n_levels": 3,
+      "p_value": 2.544350382402991e-08,
+      "posthoc": {
+        "method": "tukey_hsd",
+        "pvalue": [
+          [
+            1.0,
+            0.00011282984006977248,
+            1.507876257189622e-08
+          ],
+          [
+            0.00011282984006977248,
+            1.0,
+            0.00041516656495055315
+          ],
+          [
+            1.507876257189622e-08,
+            0.00041516656495055315,
+            1.0
+          ]
+        ]
+      },
+      "reject_h0": true,
+      "response": "MOP-1",
+      "statistic": 58.009007163546286,
+      "test": "f_oneway"
+    },
+    {
+      "factor": "uas_archetype_p_mr",
+      "n_levels": 3,
+      "p_value": 1.1605183033648201e-08,
+      "posthoc": {
+        "method": "tukey_hsd",
+        "pvalue": [
+          [
+            1.0,
+            0.00021437297318549486,
+            6.827834742040295e-09
+          ],
+          [
+            0.00021437297318549486,
+            1.0,
+            6.947069115659232e-05
+          ],
+          [
+            6.827834742040295e-09,
+            6.947069115659232e-05,
+            1.0
+          ]
+        ]
+      },
+      "reject_h0": true,
+      "response": "MOE-2",
+      "statistic": 64.4439503602857,
+      "test": "f_oneway"
+    }
+  ],
+  "decision_index": {
+    "criterion": "rank AoRs by significant paired dMOS-1 (prioriza neutralizacao); custo anotado, nao ponderado",
+    "label": "reporting composite (nao metrica do paper)",
+    "primary_response": "MOS-1",
+    "ranking": [
+      {
+        "aor": "AoR-2",
+        "borderline": false,
+        "cost": {
+          "leaks": 9850.0,
+          "rockets_per_engagement": 2.611162957185447
+        },
+        "effect": 0.2400789486833558,
+        "note": "",
+        "rank": 1,
+        "significant": true
+      },
+      {
+        "aor": "AoR-6",
+        "borderline": false,
+        "cost": {
+          "leaks": 9850.0,
+          "rockets_per_engagement": 2.611162957185447
+        },
+        "effect": 0.23996218440662886,
+        "note": "",
+        "rank": 2,
+        "significant": true
+      },
+      {
+        "aor": "ALL",
+        "borderline": false,
+        "cost": {
+          "leaks": 9850.0,
+          "rockets_per_engagement": 2.611162957185447
+        },
+        "effect": 0.21408396003768523,
+        "note": "",
+        "rank": 3,
+        "significant": true
+      },
+      {
+        "aor": "AoR-3",
+        "borderline": false,
+        "cost": {
+          "leaks": 9850.0,
+          "rockets_per_engagement": 2.611162957185447
+        },
+        "effect": 0.21088449070470958,
+        "note": "",
+        "rank": 4,
+        "significant": true
+      },
+      {
+        "aor": "AoR-5",
+        "borderline": false,
+        "cost": {
+          "leaks": 9850.0,
+          "rockets_per_engagement": 2.611162957185447
+        },
+        "effect": 0.19008448540706607,
+        "note": "",
+        "rank": 5,
+        "significant": true
+      },
+      {
+        "aor": "AoR-4",
+        "borderline": false,
+        "cost": {
+          "leaks": 9850.0,
+          "rockets_per_engagement": 2.611162957185447
+        },
+        "effect": 0.18744856768188362,
+        "note": "",
+        "rank": 6,
+        "significant": true
+      },
+      {
+        "aor": "AoR-1",
+        "borderline": false,
+        "cost": {
+          "leaks": 9850.0,
+          "rockets_per_engagement": 2.611162957185447
+        },
+        "effect": 0.1416694233101775,
+        "note": "",
+        "rank": 7,
+        "significant": true
+      }
+    ]
+  },
+  "decision_summary": {
+    "dominant_factor": {
+      "factor": "uas_archetype_p_mr",
+      "score": 1312.2112240225647,
+      "text": "fator dominante: uas_archetype_p_mr (feature score 1312.21)"
+    },
+    "evidence": {
+      "reasons": [],
+      "sufficient": true,
+      "text": "evidencia suficiente para a conclusao no espaco amostrado"
+    },
+    "headline": {
+      "borderline": false,
+      "effect": 0.21408396003768523,
+      "response": "MOS-1",
+      "significant": true,
+      "text": "MOS-1: efeito +0.21 significativo (alpha=0.05). Rejeita-se a hipotese nula de igualdade entre as configuracoes (wilcoxon, p=0; IC 95% BCa [0.21, 0.22] exclui zero), indicando modernized > baseline."
+    },
+    "note": "the decision index below is a reporting composite (nao metrica do paper)",
+    "primary_response": "MOS-1",
+    "surrogate": {
+      "grid_summary": {
+        "max": 0.4335649000566184,
+        "mean": 0.21377287746709298,
+        "min": 0.03414440624972932
+      },
+      "model": "rf",
+      "n_train": 20,
+      "q2": 0.9486521537811777,
+      "response": "MOS-1"
+    }
+  },
+  "field_version": "1.0",
+  "figures": {
+    "decision_index": "decision_index.png",
+    "feature_importance": "feature_importance.png",
+    "histogram": "histogram.png",
+    "pareto": "pareto.png"
+  },
+  "master_table": [
+    {
+      "aor": "ALL",
+      "borderline": false,
+      "ci_high": 0.21990117147613586,
+      "ci_low": 0.2083604465620244,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.21408396003768523,
+      "n_pairs": 3840,
+      "p_value": 0.0,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-1",
+      "borderline": false,
+      "ci_high": 0.15493943717305225,
+      "ci_low": 0.12925210576545987,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.1416694233101775,
+      "n_pairs": 3023,
+      "p_value": 1.0807234644405846e-87,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-2",
+      "borderline": false,
+      "ci_high": 0.25049353747391545,
+      "ci_low": 0.2299210597982198,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.2400789486833558,
+      "n_pairs": 3812,
+      "p_value": 6.423923725746067e-293,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-3",
+      "borderline": false,
+      "ci_high": 0.22004967816827828,
+      "ci_low": 0.20132201029554286,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.21088449070470958,
+      "n_pairs": 3838,
+      "p_value": 9.660941219600262e-287,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-4",
+      "borderline": false,
+      "ci_high": 0.19654211661389434,
+      "ci_low": 0.17841412076578209,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.18744856768188362,
+      "n_pairs": 3836,
+      "p_value": 9.275174972122406e-267,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-5",
+      "borderline": false,
+      "ci_high": 0.20153667887058227,
+      "ci_low": 0.17852669947379524,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.19008448540706607,
+      "n_pairs": 3720,
+      "p_value": 8.12494338970041e-178,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-6",
+      "borderline": false,
+      "ci_high": 0.2549800613841279,
+      "ci_low": 0.22526475048478858,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.23996218440662886,
+      "n_pairs": 2997,
+      "p_value": 1.5371703202520627e-149,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "ALL",
+      "borderline": false,
+      "ci_high": 0.14059913451705353,
+      "ci_low": 0.13354944703374505,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.13706158894861478,
+      "n_pairs": 3840,
+      "p_value": 0.0,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-1",
+      "borderline": false,
+      "ci_high": 0.14571039021969942,
+      "ci_low": 0.12593410933282972,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.13607124290277492,
+      "n_pairs": 3007,
+      "p_value": 7.299287628996434e-190,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-2",
+      "borderline": false,
+      "ci_high": 0.1295198166496555,
+      "ci_low": 0.11927217520006331,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.1242079568564985,
+      "n_pairs": 3810,
+      "p_value": 0.0,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-3",
+      "borderline": false,
+      "ci_high": 0.13339357529638793,
+      "ci_low": 0.12365581667579192,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.12844004390716968,
+      "n_pairs": 3838,
+      "p_value": 0.0,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-4",
+      "borderline": false,
+      "ci_high": 0.14384028296017334,
+      "ci_low": 0.13190453529017918,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.1379235124809405,
+      "n_pairs": 3836,
+      "p_value": 0.0,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-5",
+      "borderline": false,
+      "ci_high": 0.13439386552933683,
+      "ci_low": 0.12161921824810629,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.12788027789507644,
+      "n_pairs": 3718,
+      "p_value": 5.13941005461197e-303,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-6",
+      "borderline": false,
+      "ci_high": 0.12880804617544253,
+      "ci_low": 0.11385628813558221,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.1212753562091558,
+      "n_pairs": 2985,
+      "p_value": 1.61351003696082e-222,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "ALL",
+      "borderline": false,
+      "ci_high": 0.24167942970495432,
+      "ci_low": 0.23028854672452995,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.23595407410550565,
+      "n_pairs": 3840,
+      "p_value": 0.0,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-1",
+      "borderline": false,
+      "ci_high": 0.1476670338981919,
+      "ci_low": 0.12268288002393221,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.13522825046744905,
+      "n_pairs": 3007,
+      "p_value": 3.4564789694944627e-93,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-2",
+      "borderline": false,
+      "ci_high": 0.24801513297320382,
+      "ci_low": 0.22871976108777972,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.23834151065116746,
+      "n_pairs": 3810,
+      "p_value": 0.0,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-3",
+      "borderline": false,
+      "ci_high": 0.23447595578786884,
+      "ci_low": 0.21740134224389193,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.2260517334240232,
+      "n_pairs": 3838,
+      "p_value": 0.0,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-4",
+      "borderline": false,
+      "ci_high": 0.2263208652048992,
+      "ci_low": 0.20828950612379804,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.21721963083093074,
+      "n_pairs": 3836,
+      "p_value": 0.0,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-5",
+      "borderline": false,
+      "ci_high": 0.23754303153411477,
+      "ci_low": 0.2172533488927532,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.2271038415319602,
+      "n_pairs": 3718,
+      "p_value": 2.7860843767883313e-296,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-6",
+      "borderline": false,
+      "ci_high": 0.24473971253562443,
+      "ci_low": 0.21783113776848587,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.23126599438062206,
+      "n_pairs": 2985,
+      "p_value": 1.6618515732296938e-193,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "ALL",
+      "borderline": false,
+      "ci_high": 298.4951120013455,
+      "ci_low": 290.3648763066975,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 294.348377039925,
+      "n_pairs": 3840,
+      "p_value": 0.0,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-1",
+      "borderline": false,
+      "ci_high": 401.2580663548397,
+      "ci_low": 382.27843675503846,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 391.8415087019177,
+      "n_pairs": 3007,
+      "p_value": 0.0,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-2",
+      "borderline": false,
+      "ci_high": 302.1734665607146,
+      "ci_low": 288.2249228403738,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 295.075892805066,
+      "n_pairs": 3810,
+      "p_value": 0.0,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-3",
+      "borderline": false,
+      "ci_high": 276.2202355585029,
+      "ci_low": 264.5381402137718,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 270.33226632813654,
+      "n_pairs": 3838,
+      "p_value": 0.0,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-4",
+      "borderline": false,
+      "ci_high": 315.68782925873074,
+      "ci_low": 301.9866341048375,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 308.69271355744246,
+      "n_pairs": 3836,
+      "p_value": 0.0,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-5",
+      "borderline": false,
+      "ci_high": 425.3807621077556,
+      "ci_low": 403.87115074171675,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 414.5376508107277,
+      "n_pairs": 3718,
+      "p_value": 0.0,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-6",
+      "borderline": false,
+      "ci_high": 481.3650406072309,
+      "ci_low": 455.7680412012265,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 468.2837744276941,
+      "n_pairs": 2985,
+      "p_value": 0.0,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "ALL",
+      "borderline": false,
+      "ci_high": -0.15022109459784547,
+      "ci_low": -0.15928038366152172,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.15480329742518412,
+      "n_pairs": 3840,
+      "p_value": 0.0,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-1",
+      "borderline": false,
+      "ci_high": -0.07889854224725179,
+      "ci_low": -0.10151148730910198,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.09027441322904427,
+      "n_pairs": 3007,
+      "p_value": 3.489115022404108e-65,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-2",
+      "borderline": false,
+      "ci_high": -0.15080067642241848,
+      "ci_low": -0.16730502739227238,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.15891505822585258,
+      "n_pairs": 3810,
+      "p_value": 6.443893662742678e-240,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-3",
+      "borderline": false,
+      "ci_high": -0.15289806811915446,
+      "ci_low": -0.16676811011650094,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.15984876412686183,
+      "n_pairs": 3838,
+      "p_value": 1.5937468628508185e-294,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-4",
+      "borderline": false,
+      "ci_high": -0.136553265812618,
+      "ci_low": -0.1520075330732759,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.14438190135338488,
+      "n_pairs": 3836,
+      "p_value": 5.727417306685992e-239,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-5",
+      "borderline": false,
+      "ci_high": -0.11802521977093752,
+      "ci_low": -0.13639083736085716,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.1274684929651409,
+      "n_pairs": 3718,
+      "p_value": 8.849052438673647e-169,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-6",
+      "borderline": false,
+      "ci_high": -0.11103574998434776,
+      "ci_low": -0.13434504020346869,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.12259028572494336,
+      "n_pairs": 2985,
+      "p_value": 1.4494227334170547e-102,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "ALL",
+      "borderline": false,
+      "ci_high": null,
+      "ci_low": null,
+      "ci_method": null,
+      "config": "absolute",
+      "effect": 0.24181790416486784,
+      "n_pairs": 3840,
+      "p_value": null,
+      "response": "MOS-2",
+      "significant": null,
+      "test": "absolute"
+    }
+  ],
+  "relationships": [
+    {
+      "caveat": "correlacao nao implica causalidade",
+      "col_x": "uas_archetype_p_mr",
+      "col_y": "gain",
+      "factor": "uas_archetype_p_mr",
+      "insight": "uas_archetype_p_mr: correlacao muito forte (r=+0.99); correlacao nao implica causalidade.",
+      "intercept": -0.005950741769607082,
+      "kendall": 0.9789473684210527,
+      "mse": 0.00021983397348909723,
+      "n": 20,
+      "pearson": 0.993211112729269,
+      "r2": 0.9864683144489128,
+      "response": "MOS-1",
+      "slope": 0.43933589576195564,
+      "spearman": 0.9969924812030074,
+      "strength": "muito forte"
+    },
+    {
+      "caveat": "correlacao nao implica causalidade",
+      "col_x": "uas_archetype_p_mr",
+      "col_y": "gain",
+      "factor": "uas_archetype_p_mr",
+      "insight": "uas_archetype_p_mr: correlacao muito forte (r=+1.00); correlacao nao implica causalidade.",
+      "intercept": 0.0011907597061756037,
+      "kendall": 0.9894736842105263,
+      "mse": 4.639162576823416e-05,
+      "n": 20,
+      "pearson": 0.9962255887955247,
+      "r2": 0.99246542377099,
+      "response": "MOE-1",
+      "slope": 0.27128871938311866,
+      "spearman": 0.9984962406015038,
+      "strength": "muito forte"
+    },
+    {
+      "caveat": "correlacao nao implica causalidade",
+      "col_x": "uas_archetype_p_mr",
+      "col_y": "gain",
+      "factor": "uas_archetype_p_mr",
+      "insight": "uas_archetype_p_mr: correlacao muito forte (r=+1.00); correlacao nao implica causalidade.",
+      "intercept": -0.00835651314355676,
+      "kendall": 1.0,
+      "mse": 6.643535851290674e-05,
+      "n": 20,
+      "pearson": 0.9983229444689371,
+      "r2": 0.9966487014531281,
+      "response": "MOE-3",
+      "slope": 0.4878067405349558,
+      "spearman": 1.0,
+      "strength": "muito forte"
+    },
+    {
+      "caveat": "correlacao nao implica causalidade",
+      "col_x": "uas_archetype_p_mr",
+      "col_y": "gain",
+      "factor": "uas_archetype_p_mr",
+      "insight": "uas_archetype_p_mr: correlacao muito forte (r=-1.00); correlacao nao implica causalidade.",
+      "intercept": 429.7465111291343,
+      "kendall": -0.9578947368421054,
+      "mse": 35.889645862275785,
+      "n": 20,
+      "pearson": -0.9970559245927012,
+      "r2": 0.9941205167654061,
+      "response": "MOP-1",
+      "slope": -270.3449048535886,
+      "spearman": -0.993984962406015,
+      "strength": "muito forte"
+    },
+    {
+      "caveat": "correlacao nao implica causalidade",
+      "col_x": "uas_archetype_p_mr",
+      "col_y": "gain",
+      "factor": "uas_archetype_p_mr",
+      "insight": "uas_archetype_p_mr: correlacao muito forte (r=-1.00); correlacao nao implica causalidade.",
+      "intercept": 0.03304462519747009,
+      "kendall": -0.9894736842105263,
+      "mse": 5.565510919023123e-05,
+      "n": 20,
+      "pearson": -0.9976260589735626,
+      "r2": 0.9952577535431221,
+      "response": "MOE-2",
+      "slope": -0.3750696352647371,
+      "spearman": -0.9984962406015038,
+      "strength": "muito forte"
+    }
+  ],
+  "responses": [
+    {
+      "dominant_factor": {
+        "factor": "uas_archetype_p_mr",
+        "score": 1312.2112240225647,
+        "text": "fator dominante: uas_archetype_p_mr (feature score 1312.21)"
+      },
+      "eda": {
+        "correlation": {
+          "lambda_per_h": null,
+          "uas_archetype_p_mr": 0.993211112729269
+        },
+        "figures": null,
+        "histogram": {
+          "counts": [
+            2,
+            4,
+            1,
+            3,
+            2,
+            1,
+            3,
+            1,
+            1,
+            2
+          ],
+          "edges": [
+            0.015350532260803663,
+            0.058915567127326283,
+            0.1024806019938489,
+            0.1460456368603715,
+            0.18961067172689414,
+            0.23317570659341677,
+            0.2767407414599394,
+            0.320305776326462,
+            0.36387081119298464,
+            0.4074358460595073,
+            0.4510008809260299
+          ]
+        },
+        "outlier_count": 0,
+        "response": "MOS-1",
+        "summary": {
+          "count": 20,
+          "max": 0.4510008809260299,
+          "mean": 0.21408396003768523,
+          "min": 0.015350532260803663,
+          "std": 0.13077046069078135
+        }
+      },
+      "feature_scores": [
+        {
+          "factor": "uas_archetype_p_mr",
+          "score": 1312.2112240225647
+        }
+      ],
+      "fit": {
+        "ks_statistic": 0.11143544870991007,
+        "name": "norm",
+        "p_value": 0.941765494929078
+      },
+      "hypothesis": {
+        "aor": "ALL",
+        "bootstrap_test": {
+          "bootstrap_seed": 20260807,
+          "n_resamples": 9999,
+          "p_value": 0.0
+        },
+        "ci": {
+          "high": 0.21990117147613586,
+          "low": 0.2083604465620244,
+          "method": "BCa",
+          "n_resamples": 9999
+        },
+        "effect": 0.21408396003768523,
+        "n_pairs": 3840,
+        "p_value": 0.0,
+        "pre_checks": [
+          {
+            "name": "shapiro",
+            "p_value": 1.5716989903446305e-21,
+            "passed": false,
+            "statistic": 0.9822867210948824
+          },
+          {
+            "name": "levene",
+            "p_value": 0.0,
+            "passed": false,
+            "statistic": 2014.389343292886
+          }
+        ],
+        "reject_h0": true,
+        "response": "MOS-1",
+        "statistic": 185411.0,
+        "test": "wilcoxon"
+      },
+      "insight": {
+        "borderline": false,
+        "effect": 0.21408396003768523,
+        "response": "MOS-1",
+        "significant": true,
+        "text": "MOS-1: efeito +0.21 significativo (alpha=0.05). Rejeita-se a hipotese nula de igualdade entre as configuracoes (wilcoxon, p=0; IC 95% BCa [0.21, 0.22] exclui zero), indicando modernized > baseline."
+      },
+      "outlier_count": 0,
+      "pareto_front": {
+        "objectives": {
+          "maximize": [
+            "gain"
+          ],
+          "minimize": [
+            "cost"
+          ]
+        },
+        "points": [
+          {
+            "cost": 2.6172766119499626,
+            "design_point_id": 0,
+            "gain": 0.18791327443474715
+          },
+          {
+            "cost": 2.69336902205522,
+            "design_point_id": 6,
+            "gain": 0.31594160282281963
+          },
+          {
+            "cost": 2.7062332807313663,
+            "design_point_id": 7,
+            "gain": 0.3627055478607059
+          },
+          {
+            "cost": 2.5526488136615044,
+            "design_point_id": 10,
+            "gain": 0.1858752727032126
+          },
+          {
+            "cost": 2.631408267671692,
+            "design_point_id": 11,
+            "gain": 0.30609530305121485
+          },
+          {
+            "cost": 2.8142341870749075,
+            "design_point_id": 14,
+            "gain": 0.4510008809260299
+          },
+          {
+            "cost": 2.297448705960219,
+            "design_point_id": 16,
+            "gain": 0.10151213297726856
+          },
+          {
+            "cost": 2.4756518386476785,
+            "design_point_id": 17,
+            "gain": 0.14820439556811588
+          }
+        ]
+      },
+      "response": "MOS-1"
+    },
+    {
+      "dominant_factor": {
+        "factor": "uas_archetype_p_mr",
+        "score": 2370.9863813043,
+        "text": "fator dominante: uas_archetype_p_mr (feature score 2370.99)"
+      },
+      "eda": {
+        "correlation": {
+          "lambda_per_h": null,
+          "uas_archetype_p_mr": 0.9962255887955247
+        },
+        "figures": null,
+        "histogram": {
+          "counts": [
+            3,
+            3,
+            1,
+            1,
+            4,
+            1,
+            2,
+            2,
+            1,
+            2
+          ],
+          "edges": [
+            0.01543121672607292,
+            0.04181834044437934,
+            0.06820546416268576,
+            0.09459258788099217,
+            0.1209797115992986,
+            0.14736683531760503,
+            0.17375395903591143,
+            0.20014108275421785,
+            0.22652820647252428,
+            0.2529153301908307,
+            0.2793024539091371
+          ]
+        },
+        "outlier_count": 0,
+        "response": "MOE-1",
+        "summary": {
+          "count": 20,
+          "max": 0.2793024539091371,
+          "mean": 0.13706158894861475,
+          "min": 0.01543121672607292,
+          "std": 0.08050606099984473
+        }
+      },
+      "feature_scores": [
+        {
+          "factor": "uas_archetype_p_mr",
+          "score": 2370.9863813043
+        }
+      ],
+      "fit": {
+        "ks_statistic": 0.10823022393569026,
+        "name": "uniform",
+        "p_value": 0.9534037226509887
+      },
+      "hypothesis": {
+        "aor": "ALL",
+        "bootstrap_test": {
+          "bootstrap_seed": 20260807,
+          "n_resamples": 9999,
+          "p_value": 0.0
+        },
+        "ci": {
+          "high": 0.14059913451705353,
+          "low": 0.13354944703374505,
+          "method": "BCa",
+          "n_resamples": 9999
+        },
+        "effect": 0.13706158894861478,
+        "n_pairs": 3840,
+        "p_value": 0.0,
+        "pre_checks": [
+          {
+            "name": "shapiro",
+            "p_value": 1.2883029633282582e-25,
+            "passed": false,
+            "statistic": 0.9745934598296832
+          },
+          {
+            "name": "levene",
+            "p_value": 0.0,
+            "passed": false,
+            "statistic": 2001.1683121268923
+          }
+        ],
+        "reject_h0": true,
+        "response": "MOE-1",
+        "statistic": 168502.0,
+        "test": "wilcoxon"
+      },
+      "insight": {
+        "borderline": false,
+        "effect": 0.13706158894861478,
+        "response": "MOE-1",
+        "significant": true,
+        "text": "MOE-1: efeito +0.14 significativo (alpha=0.05). Rejeita-se a hipotese nula de igualdade entre as configuracoes (wilcoxon, p=0; IC 95% BCa [0.13, 0.14] exclui zero), indicando modernized > baseline."
+      },
+      "outlier_count": 0,
+      "pareto_front": {
+        "objectives": {
+          "maximize": [
+            "gain"
+          ],
+          "minimize": [
+            "cost"
+          ]
+        },
+        "points": [
+          {
+            "cost": 2.6172766119499626,
+            "design_point_id": 0,
+            "gain": 0.12478504975262873
+          },
+          {
+            "cost": 2.69336902205522,
+            "design_point_id": 6,
+            "gain": 0.2017023325736954
+          },
+          {
+            "cost": 2.7062332807313663,
+            "design_point_id": 7,
+            "gain": 0.22471378044677404
+          },
+          {
+            "cost": 2.5526488136615044,
+            "design_point_id": 10,
+            "gain": 0.12282676520143071
+          },
+          {
+            "cost": 2.631408267671692,
+            "design_point_id": 11,
+            "gain": 0.19911342368866136
+          },
+          {
+            "cost": 2.8142341870749075,
+            "design_point_id": 14,
+            "gain": 0.2793024539091371
+          },
+          {
+            "cost": 2.297448705960219,
+            "design_point_id": 16,
+            "gain": 0.06637421893377933
+          },
+          {
+            "cost": 2.4756518386476785,
+            "design_point_id": 17,
+            "gain": 0.09894220999164594
+          }
+        ]
+      },
+      "response": "MOE-1"
+    },
+    {
+      "dominant_factor": {
+        "factor": "uas_archetype_p_mr",
+        "score": 5353.052369182385,
+        "text": "fator dominante: uas_archetype_p_mr (feature score 5353.05)"
+      },
+      "eda": {
+        "correlation": {
+          "lambda_per_h": null,
+          "uas_archetype_p_mr": 0.9983229444689371
+        },
+        "figures": null,
+        "histogram": {
+          "counts": [
+            1,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "edges": [
+            -0.008222849284495529,
+            0.039408714423781854,
+            0.08704027813205924,
+            0.13467184184033665,
+            0.18230340554861402,
+            0.22993496925689139,
+            0.2775665329651688,
+            0.3251980966734462,
+            0.37282966038172355,
+            0.4204612240900009,
+            0.4680927877982783
+          ]
+        },
+        "outlier_count": 0,
+        "response": "MOE-3",
+        "summary": {
+          "count": 20,
+          "max": 0.4680927877982783,
+          "mean": 0.23595407410550556,
+          "min": -0.008222849284495529,
+          "std": 0.14445456796826509
+        }
+      },
+      "feature_scores": [
+        {
+          "factor": "uas_archetype_p_mr",
+          "score": 5353.052369182385
+        }
+      ],
+      "fit": {
+        "ks_statistic": 0.07227877947522388,
+        "name": "uniform",
+        "p_value": 0.9996738633355008
+      },
+      "hypothesis": {
+        "aor": "ALL",
+        "bootstrap_test": {
+          "bootstrap_seed": 20260807,
+          "n_resamples": 9999,
+          "p_value": 0.0
+        },
+        "ci": {
+          "high": 0.24167942970495432,
+          "low": 0.23028854672452995,
+          "method": "BCa",
+          "n_resamples": 9999
+        },
+        "effect": 0.23595407410550565,
+        "n_pairs": 3840,
+        "p_value": 0.0,
+        "pre_checks": [
+          {
+            "name": "shapiro",
+            "p_value": 1.830895155078024e-12,
+            "passed": false,
+            "statistic": 0.9932447061333501
+          },
+          {
+            "name": "levene",
+            "p_value": 5.402527285320914e-20,
+            "passed": false,
+            "statistic": 84.29093472093179
+          }
+        ],
+        "reject_h0": true,
+        "response": "MOE-3",
+        "statistic": 246927.0,
+        "test": "wilcoxon"
+      },
+      "insight": {
+        "borderline": false,
+        "effect": 0.23595407410550565,
+        "response": "MOE-3",
+        "significant": true,
+        "text": "MOE-3: efeito +0.24 significativo (alpha=0.05). Rejeita-se a hipotese nula de igualdade entre as configuracoes (wilcoxon, p=0; IC 95% BCa [0.23, 0.24] exclui zero), indicando modernized > baseline."
+      },
+      "outlier_count": 0,
+      "pareto_front": {
+        "objectives": {
+          "maximize": [
+            "gain"
+          ],
+          "minimize": [
+            "cost"
+          ]
+        },
+        "points": [
+          {
+            "cost": 2.69336902205522,
+            "design_point_id": 6,
+            "gain": 0.3496688140418553
+          },
+          {
+            "cost": 2.7062332807313663,
+            "design_point_id": 7,
+            "gain": 0.40725717327503014
+          },
+          {
+            "cost": 2.5526488136615044,
+            "design_point_id": 10,
+            "gain": 0.21611666224517365
+          },
+          {
+            "cost": 2.631408267671692,
+            "design_point_id": 11,
+            "gain": 0.34582677861642513
+          },
+          {
+            "cost": 2.8142341870749075,
+            "design_point_id": 14,
+            "gain": 0.4680927877982783
+          },
+          {
+            "cost": 2.297448705960219,
+            "design_point_id": 16,
+            "gain": 0.12407633375244398
+          },
+          {
+            "cost": 2.4756518386476785,
+            "design_point_id": 17,
+            "gain": 0.16893081707475274
+          }
+        ]
+      },
+      "response": "MOE-3"
+    },
+    {
+      "dominant_factor": {
+        "factor": "uas_archetype_p_mr",
+        "score": 3043.4935499918315,
+        "text": "fator dominante: uas_archetype_p_mr (feature score 3043.49)"
+      },
+      "eda": {
+        "correlation": {
+          "lambda_per_h": null,
+          "uas_archetype_p_mr": -0.9970559245927012
+        },
+        "figures": null,
+        "histogram": {
+          "counts": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "edges": [
+            163.6072127208305,
+            190.18694810708095,
+            216.76668349333139,
+            243.34641887958185,
+            269.9261542658323,
+            296.5058896520827,
+            323.0856250383332,
+            349.66536042458364,
+            376.2450958108341,
+            402.82483119708456,
+            429.404566583335
+          ]
+        },
+        "outlier_count": 0,
+        "response": "MOP-1",
+        "summary": {
+          "count": 20,
+          "max": 429.404566583335,
+          "mean": 294.34837703992497,
+          "min": 163.6072127208305,
+          "std": 80.15916889432798
+        }
+      },
+      "feature_scores": [
+        {
+          "factor": "uas_archetype_p_mr",
+          "score": 3043.4935499918315
+        }
+      ],
+      "fit": {
+        "ks_statistic": 0.07712822788801044,
+        "name": "uniform",
+        "p_value": 0.9990257274902727
+      },
+      "hypothesis": {
+        "aor": "ALL",
+        "bootstrap_test": {
+          "bootstrap_seed": 20260807,
+          "n_resamples": 9999,
+          "p_value": 0.0
+        },
+        "ci": {
+          "high": 298.4951120013455,
+          "low": 290.3648763066975,
+          "method": "BCa",
+          "n_resamples": 9999
+        },
+        "effect": 294.348377039925,
+        "n_pairs": 3840,
+        "p_value": 0.0,
+        "pre_checks": [
+          {
+            "name": "shapiro",
+            "p_value": 2.989023937856796e-33,
+            "passed": false,
+            "statistic": 0.9537171030832634
+          },
+          {
+            "name": "levene",
+            "p_value": 0.0,
+            "passed": false,
+            "statistic": 3986.5044668409173
+          }
+        ],
+        "reject_h0": true,
+        "response": "MOP-1",
+        "statistic": 0.0,
+        "test": "wilcoxon"
+      },
+      "insight": {
+        "borderline": false,
+        "effect": 294.348377039925,
+        "response": "MOP-1",
+        "significant": true,
+        "text": "MOP-1: efeito +294.35 significativo (alpha=0.05). Rejeita-se a hipotese nula de igualdade entre as configuracoes (wilcoxon, p=0; IC 95% BCa [290.36, 298.50] exclui zero), indicando modernized > baseline."
+      },
+      "outlier_count": 0,
+      "pareto_front": {
+        "objectives": {
+          "maximize": [
+            "gain"
+          ],
+          "minimize": [
+            "cost"
+          ]
+        },
+        "points": [
+          {
+            "cost": 2.449106717473953,
+            "design_point_id": 1,
+            "gain": 403.80506474877603
+          },
+          {
+            "cost": 2.4780211860749546,
+            "design_point_id": 3,
+            "gain": 429.404566583335
+          },
+          {
+            "cost": 2.407735924291531,
+            "design_point_id": 12,
+            "gain": 381.37185958232607
+          },
+          {
+            "cost": 2.297448705960219,
+            "design_point_id": 16,
+            "gain": 362.3374774188266
+          }
+        ]
+      },
+      "response": "MOP-1"
+    },
+    {
+      "dominant_factor": {
+        "factor": "uas_archetype_p_mr",
+        "score": 3777.6694498433817,
+        "text": "fator dominante: uas_archetype_p_mr (feature score 3777.67)"
+      },
+      "eda": {
+        "correlation": {
+          "lambda_per_h": null,
+          "uas_archetype_p_mr": -0.9976260589735626
+        },
+        "figures": null,
+        "histogram": {
+          "counts": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0,
+            3,
+            2,
+            3
+          ],
+          "edges": [
+            -0.33930671147960484,
+            -0.30435091852229157,
+            -0.2693951255649783,
+            -0.234439332607665,
+            -0.19948353965035173,
+            -0.16452774669303846,
+            -0.12957195373572516,
+            -0.0946161607784119,
+            -0.059660367821098625,
+            -0.024704574863785356,
+            0.010251218093527902
+          ]
+        },
+        "outlier_count": 0,
+        "response": "MOE-2",
+        "summary": {
+          "count": 20,
+          "max": 0.010251218093527902,
+          "mean": -0.15480329742518412,
+          "min": -0.33930671147960484,
+          "std": 0.11114723328418356
+        }
+      },
+      "feature_scores": [
+        {
+          "factor": "uas_archetype_p_mr",
+          "score": 3777.6694498433817
+        }
+      ],
+      "fit": {
+        "ks_statistic": 0.07636098157796134,
+        "name": "beta",
+        "p_value": 0.9991692152174445
+      },
+      "hypothesis": {
+        "aor": "ALL",
+        "bootstrap_test": {
+          "bootstrap_seed": 20260807,
+          "n_resamples": 9999,
+          "p_value": 0.0
+        },
+        "ci": {
+          "high": -0.15022109459784547,
+          "low": -0.15928038366152172,
+          "method": "BCa",
+          "n_resamples": 9999
+        },
+        "effect": -0.15480329742518412,
+        "n_pairs": 3840,
+        "p_value": 0.0,
+        "pre_checks": [
+          {
+            "name": "shapiro",
+            "p_value": 5.073337228807632e-19,
+            "passed": false,
+            "statistic": 0.9860657788088704
+          },
+          {
+            "name": "levene",
+            "p_value": 1.5903172089899752e-240,
+            "passed": false,
+            "statistic": 1179.1560190969967
+          }
+        ],
+        "reject_h0": true,
+        "response": "MOE-2",
+        "statistic": 472458.5,
+        "test": "wilcoxon"
+      },
+      "insight": {
+        "borderline": false,
+        "effect": -0.15480329742518412,
+        "response": "MOE-2",
+        "significant": true,
+        "text": "MOE-2: efeito -0.15 significativo (alpha=0.05). Rejeita-se a hipotese nula de igualdade entre as configuracoes (wilcoxon, p=0; IC 95% BCa [-0.16, -0.15] exclui zero), indicando modernized < baseline."
+      },
+      "outlier_count": 0,
+      "pareto_front": {
+        "objectives": {
+          "maximize": [
+            "gain"
+          ],
+          "minimize": [
+            "cost"
+          ]
+        },
+        "points": [
+          {
+            "cost": 2.449106717473953,
+            "design_point_id": 1,
+            "gain": 0.00579962957352675
+          },
+          {
+            "cost": 2.4780211860749546,
+            "design_point_id": 3,
+            "gain": 0.010251218093527902
+          },
+          {
+            "cost": 2.407735924291531,
+            "design_point_id": 12,
+            "gain": -0.044713371220474286
+          },
+          {
+            "cost": 2.297448705960219,
+            "design_point_id": 16,
+            "gain": -0.06782531078776578
+          }
+        ]
+      },
+      "response": "MOE-2"
+    }
+  ],
+  "study": {
+    "alpha": 0.05,
+    "aors": [
+      "ALL",
+      "AoR-1",
+      "AoR-2",
+      "AoR-3",
+      "AoR-4",
+      "AoR-5",
+      "AoR-6"
+    ],
+    "bootstrap_seed": 20260807,
+    "factors": {
+      "lambda_per_h": {
+        "max": 6.0,
+        "min": 6.0
+      },
+      "uas_archetype_p_mr": {
+        "max": 0.9824649688698752,
+        "min": 0.015915401274688677
+      }
+    },
+    "id": "consolidated",
+    "kind": "consolidated",
+    "model_seed": 20260807,
+    "n_design_points": 20,
+    "responses": [
+      "MOS-1",
+      "MOE-1",
+      "MOE-3",
+      "MOP-1",
+      "MOE-2",
+      "MOS-2"
+    ],
+    "responses_skipped": []
+  },
+  "thresholds": {
+    "alpha": 0.05,
+    "anova_n_levels": 3,
+    "design_points_per_factor": 10,
+    "min_pairs_for_power": 34,
+    "references": {
+      "correlation_strength": "Schober, Boer & Schwarte (2018)",
+      "design_points": "Loeppky, Sacks & Welch (2009)",
+      "power": "Cohen (1988)",
+      "significance": "Bussab & Morettin (2010)",
+      "surrogate_q2": "Golbraikh & Tropsha (2002)"
+    },
+    "schober_cutoffs": [
+      0.09,
+      0.39,
+      0.69,
+      0.89
+    ],
+    "surrogate_q2_min": 0.5
+  },
+  "validity": {
+    "byte_determinism_note": "byte-identidade das 3 camadas por-ambiente (mesmas versoes de matplotlib/jinja2)",
+    "caveats": [
+      "nao generalizar alem do espaco amostrado (faixas dos fatores)",
+      "correlacao nao implica causalidade"
+    ],
+    "factor_ranges": {
+      "lambda_per_h": {
+        "max": 6.0,
+        "min": 6.0
+      },
+      "uas_archetype_p_mr": {
+        "max": 0.9824649688698752,
+        "min": 0.015915401274688677
+      }
+    },
+    "max_arrivals": null,
+    "n_design_points": 20,
+    "n_reps": 192,
+    "seeds": {
+      "base": 20260807,
+      "bootstrap": 20260807,
+      "design": null,
+      "model": 20260807
+    }
+  }
+}

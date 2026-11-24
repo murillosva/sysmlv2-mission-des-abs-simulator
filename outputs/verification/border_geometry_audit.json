@@ -1,0 +1,773 @@
+{
+ "chord_vs_arc": {
+  "arc": {
+   "fraction_inside_brazil": 0.0,
+   "max_offset_from_border_km": 0.0,
+   "note": "zero by construction: omega walks the stored polyline itself"
+  },
+  "chord": {
+   "fraction_inside_brazil": 0.534181,
+   "fraction_inside_brazil_pmf_weighted": 0.525803,
+   "fraction_off_border": 0.888336,
+   "fraction_outside_brazil_off_border": 0.354155,
+   "max_depth_inside_brazil_km": 20.1326,
+   "max_offset_from_border_km": 20.4065,
+   "max_separation_from_arc_km": 42.259,
+   "max_separation_sector": 21,
+   "mean_offset_from_border_km": 5.0976
+  },
+  "omega_compression": {
+   "max_ratio": 2.053,
+   "max_ratio_sector": 21,
+   "note": "arc_km / chord_km — factor by which a uniform omega on the chord compresses the induced density along the real border"
+  },
+  "per_sector": [
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.0,
+    "chord_km": 84.0673,
+    "chord_max_offset_from_border_km": 7.8373,
+    "chord_max_separation_from_arc_km": 16.5784,
+    "compression_ratio": 1.1895,
+    "sector": 1
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.905473,
+    "chord_km": 96.6717,
+    "chord_max_offset_from_border_km": 7.19,
+    "chord_max_separation_from_arc_km": 7.2984,
+    "compression_ratio": 1.0344,
+    "sector": 2
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.985075,
+    "chord_km": 75.025,
+    "chord_max_offset_from_border_km": 20.1326,
+    "chord_max_separation_from_arc_km": 29.2508,
+    "compression_ratio": 1.3329,
+    "sector": 3
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.0,
+    "chord_km": 60.4005,
+    "chord_max_offset_from_border_km": 17.1049,
+    "chord_max_separation_from_arc_km": 27.9629,
+    "compression_ratio": 1.6556,
+    "sector": 4
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.99005,
+    "chord_km": 86.9843,
+    "chord_max_offset_from_border_km": 13.5123,
+    "chord_max_separation_from_arc_km": 14.383,
+    "compression_ratio": 1.1496,
+    "sector": 5
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.9801,
+    "chord_km": 94.5117,
+    "chord_max_offset_from_border_km": 13.4401,
+    "chord_max_separation_from_arc_km": 13.9784,
+    "compression_ratio": 1.0581,
+    "sector": 6
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.263682,
+    "chord_km": 90.5402,
+    "chord_max_offset_from_border_km": 13.589,
+    "chord_max_separation_from_arc_km": 13.9091,
+    "compression_ratio": 1.1045,
+    "sector": 7
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.0,
+    "chord_km": 97.3637,
+    "chord_max_offset_from_border_km": 7.1194,
+    "chord_max_separation_from_arc_km": 7.6343,
+    "compression_ratio": 1.0271,
+    "sector": 8
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.0,
+    "chord_km": 100.0,
+    "chord_max_offset_from_border_km": 0.001,
+    "chord_max_separation_from_arc_km": 0.001,
+    "compression_ratio": 1.0,
+    "sector": 9
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.0,
+    "chord_km": 100.0,
+    "chord_max_offset_from_border_km": 0.0016,
+    "chord_max_separation_from_arc_km": 0.0016,
+    "compression_ratio": 1.0,
+    "sector": 10
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.0,
+    "chord_km": 80.8059,
+    "chord_max_offset_from_border_km": 17.8962,
+    "chord_max_separation_from_arc_km": 23.9197,
+    "compression_ratio": 1.2375,
+    "sector": 11
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.925373,
+    "chord_km": 85.1118,
+    "chord_max_offset_from_border_km": 17.9013,
+    "chord_max_separation_from_arc_km": 18.1795,
+    "compression_ratio": 1.1749,
+    "sector": 12
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.0,
+    "chord_km": 98.8388,
+    "chord_max_offset_from_border_km": 2.8589,
+    "chord_max_separation_from_arc_km": 2.8978,
+    "compression_ratio": 1.0117,
+    "sector": 13
+   },
+   {
+    "arc_km": 100.0001,
+    "chord_fraction_inside_brazil": 0.970149,
+    "chord_km": 99.0314,
+    "chord_max_offset_from_border_km": 4.9431,
+    "chord_max_separation_from_arc_km": 5.0478,
+    "compression_ratio": 1.0098,
+    "sector": 14
+   },
+   {
+    "arc_km": 99.9999,
+    "chord_fraction_inside_brazil": 0.940299,
+    "chord_km": 88.0301,
+    "chord_max_offset_from_border_km": 18.1528,
+    "chord_max_separation_from_arc_km": 21.2565,
+    "compression_ratio": 1.136,
+    "sector": 15
+   },
+   {
+    "arc_km": 99.9999,
+    "chord_fraction_inside_brazil": 0.855721,
+    "chord_km": 91.8286,
+    "chord_max_offset_from_border_km": 16.1947,
+    "chord_max_separation_from_arc_km": 17.2197,
+    "compression_ratio": 1.089,
+    "sector": 16
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.845771,
+    "chord_km": 94.8714,
+    "chord_max_offset_from_border_km": 10.2976,
+    "chord_max_separation_from_arc_km": 10.4219,
+    "compression_ratio": 1.0541,
+    "sector": 17
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.542289,
+    "chord_km": 69.1195,
+    "chord_max_offset_from_border_km": 10.784,
+    "chord_max_separation_from_arc_km": 14.4443,
+    "compression_ratio": 1.4468,
+    "sector": 18
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.159204,
+    "chord_km": 86.5246,
+    "chord_max_offset_from_border_km": 8.6254,
+    "chord_max_separation_from_arc_km": 10.2846,
+    "compression_ratio": 1.1557,
+    "sector": 19
+   },
+   {
+    "arc_km": 99.9999,
+    "chord_fraction_inside_brazil": 0.154229,
+    "chord_km": 95.6018,
+    "chord_max_offset_from_border_km": 5.3059,
+    "chord_max_separation_from_arc_km": 5.8274,
+    "compression_ratio": 1.046,
+    "sector": 20
+   },
+   {
+    "arc_km": 100.0002,
+    "chord_fraction_inside_brazil": 0.9801,
+    "chord_km": 48.7088,
+    "chord_max_offset_from_border_km": 17.9901,
+    "chord_max_separation_from_arc_km": 42.259,
+    "compression_ratio": 2.053,
+    "sector": 21
+   },
+   {
+    "arc_km": 99.9998,
+    "chord_fraction_inside_brazil": 0.0,
+    "chord_km": 86.3555,
+    "chord_max_offset_from_border_km": 20.4065,
+    "chord_max_separation_from_arc_km": 21.3106,
+    "compression_ratio": 1.158,
+    "sector": 22
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.975124,
+    "chord_km": 91.7245,
+    "chord_max_offset_from_border_km": 7.8467,
+    "chord_max_separation_from_arc_km": 10.9078,
+    "compression_ratio": 1.0902,
+    "sector": 23
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.950249,
+    "chord_km": 98.056,
+    "chord_max_offset_from_border_km": 4.7055,
+    "chord_max_separation_from_arc_km": 4.879,
+    "compression_ratio": 1.0198,
+    "sector": 24
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.412935,
+    "chord_km": 82.8094,
+    "chord_max_offset_from_border_km": 5.967,
+    "chord_max_separation_from_arc_km": 14.4944,
+    "compression_ratio": 1.2076,
+    "sector": 25
+   },
+   {
+    "arc_km": 100.0,
+    "chord_fraction_inside_brazil": 0.975124,
+    "chord_km": 81.8335,
+    "chord_max_offset_from_border_km": 9.3079,
+    "chord_max_separation_from_arc_km": 18.9153,
+    "compression_ratio": 1.222,
+    "sector": 26
+   },
+   {
+    "arc_km": 100.0001,
+    "chord_fraction_inside_brazil": 0.61194,
+    "chord_km": 92.1155,
+    "chord_max_offset_from_border_km": 12.6256,
+    "chord_max_separation_from_arc_km": 12.9336,
+    "compression_ratio": 1.0856,
+    "sector": 27
+   }
+  ],
+  "sampling": {
+   "inside_tolerance_km": 0.2,
+   "note": "uniform grid in omega; two weightings reported — uniform over sectors (pure geometry) and weighted by the sector selection pmf (what the simulator actually draws)",
+   "omega_grid_points_per_sector": 201,
+   "sectors": 27,
+   "total_points": 5427
+  }
+ },
+ "config": "zida_shield_default.yaml",
+ "field_version": "1.0",
+ "heading_inwardness": {
+  "arc": {
+   "east_flip": {
+    "fraction_inward": 0.928919,
+    "per_sector": [
+     {
+      "fraction_inward": 1.0,
+      "sector": 1
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 2
+     },
+     {
+      "fraction_inward": 0.959596,
+      "sector": 3
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 4
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 5
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 6
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 7
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 8
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 9
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 10
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 11
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 12
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 13
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 14
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 15
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 16
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 17
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 18
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 19
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 20
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 21
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 22
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 23
+     },
+     {
+      "fraction_inward": 0.121212,
+      "sector": 24
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 25
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 26
+     },
+     {
+      "fraction_inward": 0.0,
+      "sector": 27
+     }
+    ],
+    "sectors_pointing_outward": [
+     24,
+     27
+    ]
+   },
+   "literal": {
+    "fraction_inward": 0.998504,
+    "per_sector": [
+     {
+      "fraction_inward": 1.0,
+      "sector": 1
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 2
+     },
+     {
+      "fraction_inward": 0.959596,
+      "sector": 3
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 4
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 5
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 6
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 7
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 8
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 9
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 10
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 11
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 12
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 13
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 14
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 15
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 16
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 17
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 18
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 19
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 20
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 21
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 22
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 23
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 24
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 25
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 26
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 27
+     }
+    ],
+    "sectors_pointing_outward": []
+   }
+  },
+  "chord": {
+   "east_flip": {
+    "fraction_inward": 0.91171,
+    "per_sector": [
+     {
+      "fraction_inward": 1.0,
+      "sector": 1
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 2
+     },
+     {
+      "fraction_inward": 0.949495,
+      "sector": 3
+     },
+     {
+      "fraction_inward": 0.555556,
+      "sector": 4
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 5
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 6
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 7
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 8
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 9
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 10
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 11
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 12
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 13
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 14
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 15
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 16
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 17
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 18
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 19
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 20
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 21
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 22
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 23
+     },
+     {
+      "fraction_inward": 0.111111,
+      "sector": 24
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 25
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 26
+     },
+     {
+      "fraction_inward": 0.0,
+      "sector": 27
+     }
+    ],
+    "sectors_pointing_outward": [
+     24,
+     27
+    ]
+   },
+   "literal": {
+    "fraction_inward": 0.981669,
+    "per_sector": [
+     {
+      "fraction_inward": 1.0,
+      "sector": 1
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 2
+     },
+     {
+      "fraction_inward": 0.949495,
+      "sector": 3
+     },
+     {
+      "fraction_inward": 0.555556,
+      "sector": 4
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 5
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 6
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 7
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 8
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 9
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 10
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 11
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 12
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 13
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 14
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 15
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 16
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 17
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 18
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 19
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 20
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 21
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 22
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 23
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 24
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 25
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 26
+     },
+     {
+      "fraction_inward": 1.0,
+      "sector": 27
+     }
+    ],
+    "sectors_pointing_outward": []
+   }
+  },
+  "probe": {
+   "distance_km": 25.0,
+   "heading_deviation_deg": 0.0,
+   "note": "perpendicular only (deviation forced to zero) — isolates the rule",
+   "positions_per_sector": 99
+  }
+ },
+ "polygon": {
+  "arc_vertices_stored": 309,
+  "max_index": 27,
+  "min_index": 1,
+  "sectors": 27
+ },
+ "spec": "specs/030-uas-generation-miranda-v2/spec.md",
+ "territory_reference": {
+  "bbox_lon_lat": [
+   -74.002051,
+   -33.742188,
+   -34.805469,
+   5.257959
+  ],
+  "feature": "Brazil",
+  "geometry": "exterior ring of the largest MultiPolygon part (mainland)",
+  "n_vertices": 1648,
+  "note": "Generalised world-scale representation, NOT a legal boundary demarcation. See docs/assumptions.md 4a (Spec 030 A-4).",
+  "source": "Natural Earth 50m admin_0_countries (nvkelso/natural-earth-vector)"
+ }
+}

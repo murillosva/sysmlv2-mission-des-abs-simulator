@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "--lhs",
+    "lambda,p_mr",
+    "--samples",
+    "32",
+    "--design-seed",
+    "20260808",
+    "-o",
+    "outputs\\analysis\\ex4_interaction\\design.parquet"
+  ],
+  "design_seed": 20260808,
+  "design_seed_note": "seed do LHS (RNG meta-nivel, Article IV)",
+  "fixed": {},
+  "generator": "scripts/make_study_design.py",
+  "git_head": "f076450dfed7c9ab271a76f40071852edf9f0aa1",
+  "git_src_clean": true,
+  "git_tree_clean": true,
+  "lhs_presets": [
+    "lambda",
+    "p_mr"
+  ],
+  "n_design_points": 32,
+  "sampler": "LatinHypercube"
+}

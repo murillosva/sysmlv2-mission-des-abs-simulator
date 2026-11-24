@@ -1,0 +1,34 @@
+# λ-sweep configuration. Use:
+#   cuas-sim sweep --config configs/lambda_sweep.yaml --workers 8
+
+sysml_root: sysml
+
+base:
+  # Anything in the default zida_shield_default.yaml can be overridden here.
+  skip_pre_pea: true        # Phase-1/2/3 are deterministic — skip for speed.
+  log_level: INFO
+
+# UAS / hour grid
+lambdas_per_hour:
+  - 1
+  - 2
+  - 4
+  - 6
+  - 9
+  - 12
+  - 18
+  - 24
+  - 36
+
+# Master seeds
+seeds:
+  - 42
+  - 137
+  - 271
+  - 314
+  - 577
+  - 1024
+  - 2718
+  - 3141
+  - 5772
+  - 9999

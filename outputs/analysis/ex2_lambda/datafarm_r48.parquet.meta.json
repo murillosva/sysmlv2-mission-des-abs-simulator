@@ -1,0 +1,7 @@
+{
+  "base_seed": 20260806,
+  "design_ref": "outputs\\analysis\\ex2_lambda\\design.parquet",
+  "field_version": "1.0",
+  "max_arrivals": null,
+  "n_reps": 48
+}

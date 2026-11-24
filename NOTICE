@@ -1,0 +1,78 @@
+NOTICES FOR THIRD-PARTY COMPONENTS
+===================================
+
+This repository incorporates material from the third-party sources listed
+below. Item 1 is distributed under the terms of the Mozilla Public License,
+Version 2.0 (MPL 2.0). A copy of the MPL 2.0 is available at:
+https://www.mozilla.org/en-US/MPL/2.0/
+
+The MPL 2.0 requires that the original copyright notices be preserved and that
+any modifications to MPL-licensed files be made available under the same
+licence.
+
+No figure or table of the accompanying paper is redistributed in this
+repository.
+
+-------------------------------------------------------------------------------
+1. CoSMA Framework
+-------------------------------------------------------------------------------
+
+Original work:
+  P. Helle and G. Schramm, "Fly me to the Moon—modeling Apollo 11 using
+  SysML v2," Systems Engineering, 2026.
+
+Copyright (c) 2026 AIRBUS and its affiliates. All rights reserved.
+
+Licensed under the Mozilla Public License, Version 2.0.
+
+Affected files in this repository:
+  sysml/CoSMA/CoSMAPackage.sysml
+  sysml/CoSMA/CoSMAQuantitiesAndUnitsPackage.sysml
+  sysml/CoSMA/CoSMAViewsPackage.sysml
+
+Upstream repository:
+  https://github.com/airbus/apollo-11-sysml-v2
+
+The three files keep their original copyright and MPL 2.0 notices. The
+modifications are declared in the file headers: in CoSMAPackage.sysml,
+Astronaut -> Operator and MannedSpaceMission -> CrewedMission; in
+CoSMAQuantitiesAndUnitsPackage.sysml, added aviation, maritime and ISR units
+(knot, nmi, arcmin, arcsec, fathom) (Szvaticsek, 2026). The modified files
+remain available under the MPL 2.0. See sysml/README.md for the provenance of
+the model.
+
+-------------------------------------------------------------------------------
+2. Natural Earth
+-------------------------------------------------------------------------------
+
+Source:
+  Natural Earth, 1:50m Admin 0 - Countries (ne_50m_admin_0_countries),
+  https://www.naturalearthdata.com/ (nvkelso/natural-earth-vector).
+
+Natural Earth data are in the public domain.
+
+Affected files in this repository:
+  scripts/data/brazil_ne50m_mainland.json   (exterior ring of mainland Brazil)
+  scripts/data/setores_zida_27.json         (border geometry derived from it)
+  configs/zida_shield_default.yaml          (border coordinates derived from it)
+  configs/border_sectors.yaml               (border coordinates derived from it)
+
+The border geometry is a generalized, world-scale cartographic representation
+used to generate simulated incursions. It is not a legal boundary demarcation.
+
+-------------------------------------------------------------------------------
+3. Miranda (2025) - methodological reference
+-------------------------------------------------------------------------------
+
+The incursion-generation method (border sectors, normal sector distribution,
+inward heading with Gaussian deviation) is adapted from Miranda (2025), ITA
+thesis. No data from that work is redistributed: the 27 sectors, their
+numbering and their cumulative distribution are this project's own
+construction.
+
+-------------------------------------------------------------------------------
+4. All other source code and artefacts in this repository
+-------------------------------------------------------------------------------
+
+Copyright (c) 2026 Murillo S. Szvaticsek. All rights reserved.
+Licensed under the MIT License. See LICENSE for the full text.

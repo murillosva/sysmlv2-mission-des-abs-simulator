@@ -1,0 +1,7 @@
+{
+  "base_seed": 20260807,
+  "design_ref": "outputs\\analysis\\ex3_mix\\design.parquet",
+  "field_version": "1.0",
+  "max_arrivals": null,
+  "n_reps": 96
+}

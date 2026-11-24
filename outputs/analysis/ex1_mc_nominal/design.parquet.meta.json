@@ -1,0 +1,20 @@
+{
+  "design_seed": 0,
+  "factors": {
+    "lambda_per_h": {
+      "high": 6.0,
+      "kind": "fixed",
+      "low": 6.0,
+      "options": null
+    },
+    "uas_archetype_p_mr": {
+      "high": 0.5,
+      "kind": "fixed",
+      "low": 0.5,
+      "options": null
+    }
+  },
+  "field_version": "1.0",
+  "n_samples": 1,
+  "sampler": "fixed"
+}

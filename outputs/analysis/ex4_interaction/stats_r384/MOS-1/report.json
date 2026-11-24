@@ -1,0 +1,147 @@
+{
+  "eda": {
+    "correlation": {
+      "lambda_per_h": -0.19016698291641898,
+      "uas_archetype_p_mr": 0.9467219723372429
+    },
+    "figures": null,
+    "outlier_count": 0,
+    "response": "MOS-1",
+    "summary": {
+      "count": 32,
+      "max": 0.45748184342770154,
+      "mean": 0.1836977184715184,
+      "min": 0.010325154078815343,
+      "std": 0.11121550407746546
+    }
+  },
+  "feature_scores": [
+    {
+      "ranking": [
+        {
+          "factor": "uas_archetype_p_mr",
+          "score": 259.2472142899264
+        },
+        {
+          "factor": "lambda_per_h",
+          "score": 1.1256104337199584
+        }
+      ],
+      "response": "MOS-1",
+      "scoring": "f_regression"
+    }
+  ],
+  "field_version": "1.0",
+  "hypothesis_tests": [
+    {
+      "aor": "ALL",
+      "bootstrap_test": {
+        "bootstrap_seed": 20260808,
+        "n_resamples": 9999,
+        "p_value": 0.0
+      },
+      "ci": {
+        "high": 0.18669902994076257,
+        "low": 0.18081714565167417,
+        "method": "BCa",
+        "n_resamples": 9999
+      },
+      "effect": 0.1836977184715184,
+      "n_pairs": 12288,
+      "p_value": 0.0,
+      "pre_checks": [
+        {
+          "name": "shapiro",
+          "p_value": 2.5708900013625578e-36,
+          "passed": false,
+          "statistic": 0.9823087194468786
+        },
+        {
+          "name": "levene",
+          "p_value": 0.0,
+          "passed": false,
+          "statistic": 4764.984038698701
+        }
+      ],
+      "reject_h0": true,
+      "response": "MOS-1",
+      "statistic": 2422075.5,
+      "test": "wilcoxon"
+    }
+  ],
+  "pareto_front": {
+    "objectives": {
+      "maximize": [
+        "gain"
+      ],
+      "minimize": [
+        "cost"
+      ]
+    },
+    "points": [
+      {
+        "cost": 2.414740920654476,
+        "design_point_id": 3,
+        "gain": 0.25919178297042983
+      },
+      {
+        "cost": 2.0658673979981184,
+        "design_point_id": 6,
+        "gain": 0.04238206348486556
+      },
+      {
+        "cost": 2.8929589573075294,
+        "design_point_id": 7,
+        "gain": 0.45748184342770154
+      },
+      {
+        "cost": 2.637655530103505,
+        "design_point_id": 8,
+        "gain": 0.3376348508826908
+      },
+      {
+        "cost": 2.5122478293968413,
+        "design_point_id": 9,
+        "gain": 0.2759454257347592
+      },
+      {
+        "cost": 2.765351859679756,
+        "design_point_id": 21,
+        "gain": 0.40390813885881505
+      },
+      {
+        "cost": 2.6407369346381113,
+        "design_point_id": 22,
+        "gain": 0.3579801759402615
+      },
+      {
+        "cost": 2.3122675548503087,
+        "design_point_id": 25,
+        "gain": 0.22429812135105553
+      },
+      {
+        "cost": 2.2067310384119803,
+        "design_point_id": 30,
+        "gain": 0.12170690984941825
+      }
+    ]
+  },
+  "study": {
+    "alpha": 0.05,
+    "aor": "ALL",
+    "bootstrap_seed": 20260808,
+    "factors": {
+      "lambda_per_h": {
+        "max": 17.570894645361918,
+        "min": 2.3644020817173326
+      },
+      "uas_archetype_p_mr": {
+        "max": 0.9851197018842847,
+        "min": 0.0016687174192430675
+      }
+    },
+    "n_design_points": 32,
+    "n_resamples": 9999,
+    "response": "MOS-1"
+  }
+}

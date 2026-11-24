@@ -1,0 +1,288 @@
+{
+ "config": "zida_shield_default.yaml",
+ "empirical": {
+  "fraction_multirotor": 0.498655,
+  "heading_sigma_deg": 14.973813,
+  "heading_within_45deg": 0.99755,
+  "max_offset_from_polyline_deg": 1.421e-14,
+  "pmf_max_deviation": 0.001044812,
+  "resort_rate": 0.002826985,
+  "sector_1_count": 0
+ },
+ "field_version": "1.0",
+ "parameters": {
+  "heading_deviation_sigma_deg": 15.0,
+  "heading_deviation_truncated": false,
+  "heading_inward_rule": "literal",
+  "mu": 14.0,
+  "n_sectors": 27,
+  "p_multirotor": 0.5,
+  "sector_draw_rule": "cdf",
+  "sigma": 4.333333333333333,
+  "sigma_formula": "(N-1)/6",
+  "spawn_interpolation": "arc"
+ },
+ "per_sector": [
+  {
+   "cdf": 0.001349898,
+   "count": 0,
+   "lat_final": 1.721356,
+   "lon_final": -68.980074,
+   "p_empirical": 0.0,
+   "p_theoretical": 0.0,
+   "sector": 1
+  },
+  {
+   "cdf": 0.002809441,
+   "count": 288,
+   "lat_final": 1.700492,
+   "lon_final": -69.848628,
+   "p_empirical": 0.00144,
+   "p_theoretical": 0.001463494,
+   "sector": 2
+  },
+  {
+   "cdf": 0.005567052,
+   "count": 538,
+   "lat_final": 1.070186,
+   "lon_final": -69.599085,
+   "p_empirical": 0.00269,
+   "p_theoretical": 0.002765076,
+   "sector": 3
+  },
+  {
+   "cdf": 0.010508128,
+   "count": 1024,
+   "lat_final": 0.62716,
+   "lon_final": -69.281643,
+   "p_empirical": 0.00512,
+   "p_theoretical": 0.004954452,
+   "sector": 4
+  },
+  {
+   "cdf": 0.01890433,
+   "count": 1741,
+   "lat_final": 0.519425,
+   "lon_final": -70.055712,
+   "p_empirical": 0.008705,
+   "p_theoretical": 0.008418931,
+   "sector": 5
+  },
+  {
+   "cdf": 0.032434935,
+   "count": 2704,
+   "lat_final": -0.323331,
+   "lon_final": -69.914067,
+   "p_empirical": 0.01352,
+   "p_theoretical": 0.013567234,
+   "sector": 6
+  },
+  {
+   "cdf": 0.053113715,
+   "count": 4191,
+   "lat_final": -0.996658,
+   "lon_final": -69.451222,
+   "p_empirical": 0.020955,
+   "p_theoretical": 0.020734759,
+   "sector": 7
+  },
+  {
+   "cdf": 0.083085052,
+   "count": 6074,
+   "lat_final": -1.874085,
+   "lon_final": -69.52451,
+   "p_empirical": 0.03037,
+   "p_theoretical": 0.030052473,
+   "sector": 8
+  },
+  {
+   "cdf": 0.124281624,
+   "count": 8194,
+   "lat_final": -2.763635,
+   "lon_final": -69.686522,
+   "p_empirical": 0.04097,
+   "p_theoretical": 0.041308095,
+   "sector": 9
+  },
+  {
+   "cdf": 0.17798356,
+   "count": 10821,
+   "lat_final": -3.653192,
+   "lon_final": -69.848541,
+   "p_empirical": 0.054105,
+   "p_theoretical": 0.053847313,
+   "sector": 10
+  },
+  {
+   "cdf": 0.24437206,
+   "count": 13246,
+   "lat_final": -4.298476,
+   "lon_final": -70.190011,
+   "p_empirical": 0.06623,
+   "p_theoretical": 0.066568221,
+   "sector": 11
+  },
+  {
+   "cdf": 0.322206167,
+   "count": 15588,
+   "lat_final": -4.333629,
+   "lon_final": -70.955943,
+   "p_empirical": 0.07794,
+   "p_theoretical": 0.078044812,
+   "sector": 12
+  },
+  {
+   "cdf": 0.408747043,
+   "count": 17432,
+   "lat_final": -4.502999,
+   "lon_final": -71.830322,
+   "p_empirical": 0.08716,
+   "p_theoretical": 0.086775152,
+   "sector": 13
+  },
+  {
+   "cdf": 0.5,
+   "count": 18492,
+   "lat_final": -4.988075,
+   "lon_final": -72.580691,
+   "p_empirical": 0.09246,
+   "p_theoretical": 0.091499988,
+   "sector": 14
+  },
+  {
+   "cdf": 0.591252957,
+   "count": 18390,
+   "lat_final": -5.665705,
+   "lon_final": -72.997465,
+   "p_empirical": 0.09195,
+   "p_theoretical": 0.091499988,
+   "sector": 15
+  },
+  {
+   "cdf": 0.677793833,
+   "count": 17220,
+   "lat_final": -6.482216,
+   "lon_final": -73.148424,
+   "p_empirical": 0.0861,
+   "p_theoretical": 0.086775152,
+   "sector": 16
+  },
+  {
+   "cdf": 0.75562794,
+   "count": 15400,
+   "lat_final": -7.045697,
+   "lon_final": -73.79552,
+   "p_empirical": 0.077,
+   "p_theoretical": 0.078044812,
+   "sector": 17
+  },
+  {
+   "cdf": 0.82201644,
+   "count": 13258,
+   "lat_final": -7.664031,
+   "lon_final": -73.886659,
+   "p_empirical": 0.06629,
+   "p_theoretical": 0.066568221,
+   "sector": 18
+  },
+  {
+   "cdf": 0.875718376,
+   "count": 10708,
+   "lat_final": -8.360702,
+   "lon_final": -73.52953,
+   "p_empirical": 0.05354,
+   "p_theoretical": 0.053847313,
+   "sector": 19
+  },
+  {
+   "cdf": 0.916914948,
+   "count": 8303,
+   "lat_final": -9.024526,
+   "lon_final": -72.973118,
+   "p_empirical": 0.041515,
+   "p_theoretical": 0.041308095,
+   "sector": 20
+  },
+  {
+   "cdf": 0.946886285,
+   "count": 6016,
+   "lat_final": -9.418275,
+   "lon_final": -72.774586,
+   "p_empirical": 0.03008,
+   "p_theoretical": 0.030052473,
+   "sector": 21
+  },
+  {
+   "cdf": 0.967565065,
+   "count": 4133,
+   "lat_final": -9.929208,
+   "lon_final": -72.179609,
+   "p_empirical": 0.020665,
+   "p_theoretical": 0.020734759,
+   "sector": 22
+  },
+  {
+   "cdf": 0.98109567,
+   "count": 2729,
+   "lat_final": -9.988957,
+   "lon_final": -71.345285,
+   "p_empirical": 0.013645,
+   "p_theoretical": 0.013567234,
+   "sector": 23
+  },
+  {
+   "cdf": 0.989491872,
+   "count": 1643,
+   "lat_final": -9.47009,
+   "lon_final": -70.620703,
+   "p_empirical": 0.008215,
+   "p_theoretical": 0.008418931,
+   "sector": 24
+  },
+  {
+   "cdf": 0.994432948,
+   "count": 1019,
+   "lat_final": -10.21856,
+   "lon_final": -70.638696,
+   "p_empirical": 0.005095,
+   "p_theoretical": 0.004954452,
+   "sector": 25
+  },
+  {
+   "cdf": 0.997190559,
+   "count": 554,
+   "lat_final": -10.952596,
+   "lon_final": -70.545327,
+   "p_empirical": 0.00277,
+   "p_theoretical": 0.002765076,
+   "sector": 26
+  },
+  {
+   "cdf": 0.998650102,
+   "count": 294,
+   "lat_final": -10.950534,
+   "lon_final": -69.702594,
+   "p_empirical": 0.00147,
+   "p_theoretical": 0.001463494,
+   "sector": 27
+  }
+ ],
+ "sampling": {
+  "n_mc": 200000,
+  "note": "the same n_mc for every quantity — sector, heading and threat class",
+  "seed_archetype": 7,
+  "seed_geometry": 4242,
+  "seed_sector": 2025
+ },
+ "source": "cuas_sim.world.border_polygon (simulator code, not a reimplementation)",
+ "spec": "specs/030-uas-generation-miranda-v2/spec.md §5.3",
+ "theoretical": {
+  "cdf_first": 0.001349898,
+  "cdf_last": 0.998650102,
+  "cdf_median_sector": 0.5,
+  "heading_within_45deg": 0.9973,
+  "p_sector_1": 0.0,
+  "pmf_mean": 14.5,
+  "rejected_mass": 0.002699796
+ }
+}

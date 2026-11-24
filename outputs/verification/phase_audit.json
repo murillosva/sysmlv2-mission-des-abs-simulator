@@ -1,0 +1,3003 @@
+{
+ "field_version": "1.0",
+ "injected_violations": {
+  "missing_phase:detected": 828,
+  "out_of_order:detected": 828,
+  "unknown_state:detected": 828
+ },
+ "oracle": [
+  "Initial",
+  "TransitToFARP",
+  "FARPToCAPRepositioning",
+  "CAPHoldingOrbit",
+  "AirspacePolicing",
+  "CAPToFARPReturn",
+  "FARPToBaseRecovery",
+  "MissionComplete"
+ ],
+ "replicas": [
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 93,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 93,
+     "violations": []
+    }
+   },
+   "design_point_id": 0,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-1/dp00_rep0",
+   "events_lines": [
+    99,
+    99
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 4267172748,
+   "study": "EX-1",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 15,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 97,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 10,
+      "PURSUING": 15,
+      "RETURNING_TO_CAP": 10,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 99,
+     "violations": []
+    }
+   },
+   "design_point_id": 0,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp00_rep0",
+   "events_lines": [
+    103,
+    105
+   ],
+   "lambda_per_h": 10.503622310130394,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 808163543,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 10,
+      "PURSUING": 16,
+      "RETURNING_TO_CAP": 10,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 100,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 10,
+      "PURSUING": 16,
+      "RETURNING_TO_CAP": 10,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 100,
+     "violations": []
+    }
+   },
+   "design_point_id": 1,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp01_rep0",
+   "events_lines": [
+    106,
+    106
+   ],
+   "lambda_per_h": 17.54166924763586,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2647875624,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 16,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 109,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 15,
+      "PURSUING": 19,
+      "RETURNING_TO_CAP": 15,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 118,
+     "violations": []
+    }
+   },
+   "design_point_id": 2,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp02_rep0",
+   "events_lines": [
+    115,
+    124
+   ],
+   "lambda_per_h": 8.869284695758799,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1058675721,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 7,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 7,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 86,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 7,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 7,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 87,
+     "violations": []
+    }
+   },
+   "design_point_id": 3,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp03_rep0",
+   "events_lines": [
+    92,
+    93
+   ],
+   "lambda_per_h": 9.124694294578791,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 3611649499,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 16,
+      "PURSUING": 20,
+      "RETURNING_TO_CAP": 16,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 122,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 16,
+      "PURSUING": 20,
+      "RETURNING_TO_CAP": 16,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 122,
+     "violations": []
+    }
+   },
+   "design_point_id": 4,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp04_rep0",
+   "events_lines": [
+    128,
+    128
+   ],
+   "lambda_per_h": 16.07924972310569,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2899013311,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 14,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 95,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 15,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 96,
+     "violations": []
+    }
+   },
+   "design_point_id": 5,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp05_rep0",
+   "events_lines": [
+    101,
+    102
+   ],
+   "lambda_per_h": 7.950412843931565,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 3025271218,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 5,
+      "PURSUING": 11,
+      "RETURNING_TO_CAP": 5,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 79,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 7,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 7,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 88,
+     "violations": []
+    }
+   },
+   "design_point_id": 6,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp06_rep0",
+   "events_lines": [
+    85,
+    94
+   ],
+   "lambda_per_h": 6.721196739475342,
+   "metric_rows_compared": 117,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1113026684,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 10,
+      "PURSUING": 11,
+      "RETURNING_TO_CAP": 10,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 95,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 10,
+      "PURSUING": 11,
+      "RETURNING_TO_CAP": 10,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 95,
+     "violations": []
+    }
+   },
+   "design_point_id": 7,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp07_rep0",
+   "events_lines": [
+    101,
+    101
+   ],
+   "lambda_per_h": 2.9921941910953755,
+   "metric_rows_compared": 103,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1097779590,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 5,
+      "PURSUING": 9,
+      "RETURNING_TO_CAP": 5,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 78,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 7,
+      "PURSUING": 10,
+      "RETURNING_TO_CAP": 7,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 85,
+     "violations": []
+    }
+   },
+   "design_point_id": 8,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp08_rep0",
+   "events_lines": [
+    84,
+    91
+   ],
+   "lambda_per_h": 5.38756962372909,
+   "metric_rows_compared": 109,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2922724570,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 14,
+      "PURSUING": 19,
+      "RETURNING_TO_CAP": 14,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 115,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 12,
+      "PURSUING": 17,
+      "RETURNING_TO_CAP": 12,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 107,
+     "violations": []
+    }
+   },
+   "design_point_id": 9,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp09_rep0",
+   "events_lines": [
+    121,
+    113
+   ],
+   "lambda_per_h": 12.018683709617886,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2689948926,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 19,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 111,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 14,
+      "PURSUING": 20,
+      "RETURNING_TO_CAP": 14,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 116,
+     "violations": []
+    }
+   },
+   "design_point_id": 10,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp10_rep0",
+   "events_lines": [
+    117,
+    122
+   ],
+   "lambda_per_h": 14.629616382076922,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 3846775346,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 8,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 86,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 8,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 86,
+     "violations": []
+    }
+   },
+   "design_point_id": 11,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp11_rep0",
+   "events_lines": [
+    92,
+    92
+   ],
+   "lambda_per_h": 3.9709156139811776,
+   "metric_rows_compared": 85,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2686957893,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 8,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 86,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 8,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 86,
+     "violations": []
+    }
+   },
+   "design_point_id": 12,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp12_rep0",
+   "events_lines": [
+    92,
+    92
+   ],
+   "lambda_per_h": 4.017820790766903,
+   "metric_rows_compared": 85,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 4026175079,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 19,
+      "PURSUING": 24,
+      "RETURNING_TO_CAP": 19,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 135,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 18,
+      "PURSUING": 24,
+      "RETURNING_TO_CAP": 18,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 132,
+     "violations": []
+    }
+   },
+   "design_point_id": 13,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp13_rep0",
+   "events_lines": [
+    141,
+    138
+   ],
+   "lambda_per_h": 11.763612712424466,
+   "metric_rows_compared": 119,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1052538675,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 15,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 96,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 11,
+      "PURSUING": 17,
+      "RETURNING_TO_CAP": 11,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 104,
+     "violations": []
+    }
+   },
+   "design_point_id": 14,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp14_rep0",
+   "events_lines": [
+    102,
+    110
+   ],
+   "lambda_per_h": 13.131752804482124,
+   "metric_rows_compared": 119,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 486064130,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 16,
+      "PURSUING": 22,
+      "RETURNING_TO_CAP": 16,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 124,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 16,
+      "PURSUING": 22,
+      "RETURNING_TO_CAP": 16,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 124,
+     "violations": []
+    }
+   },
+   "design_point_id": 15,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-2/dp15_rep0",
+   "events_lines": [
+    130,
+    130
+   ],
+   "lambda_per_h": 15.487619405676268,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1823769244,
+   "study": "EX-2",
+   "uas_archetype_p_mr": 0.5
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 16,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 109,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 14,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 107,
+     "violations": []
+    }
+   },
+   "design_point_id": 0,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp00_rep0",
+   "events_lines": [
+    115,
+    113
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 116,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1168395135,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.43665185821237545
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 91,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 17,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 110,
+     "violations": []
+    }
+   },
+   "design_point_id": 1,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp01_rep0",
+   "events_lines": [
+    97,
+    116
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 865828326,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.08863449190342876
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 12,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 12,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 103,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 12,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 12,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 103,
+     "violations": []
+    }
+   },
+   "design_point_id": 2,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp02_rep0",
+   "events_lines": [
+    109,
+    109
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1892439167,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.5381312879952513
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 5,
+      "PURSUING": 9,
+      "RETURNING_TO_CAP": 5,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 78,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 3,
+      "PURSUING": 9,
+      "RETURNING_TO_CAP": 3,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 72,
+     "violations": []
+    }
+   },
+   "design_point_id": 3,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp03_rep0",
+   "events_lines": [
+    84,
+    78
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 117,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 832148329,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.015915401274688677
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 91,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 14,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 95,
+     "violations": []
+    }
+   },
+   "design_point_id": 4,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp04_rep0",
+   "events_lines": [
+    97,
+    101
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 119,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2280662886,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.3231117802205175
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 5,
+      "PURSUING": 11,
+      "RETURNING_TO_CAP": 5,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 80,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 94,
+     "violations": []
+    }
+   },
+   "design_point_id": 5,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp05_rep0",
+   "events_lines": [
+    86,
+    100
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 927015072,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.12818864150269935
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 12,
+      "PURSUING": 17,
+      "RETURNING_TO_CAP": 12,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 107,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 16,
+      "PURSUING": 21,
+      "RETURNING_TO_CAP": 16,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 123,
+     "violations": []
+    }
+   },
+   "design_point_id": 6,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp06_rep0",
+   "events_lines": [
+    113,
+    129
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2611663956,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.7531630973864577
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 10,
+      "PURSUING": 15,
+      "RETURNING_TO_CAP": 10,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 98,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 12,
+      "PURSUING": 16,
+      "RETURNING_TO_CAP": 12,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 106,
+     "violations": []
+    }
+   },
+   "design_point_id": 7,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp07_rep0",
+   "events_lines": [
+    104,
+    112
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 856757488,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.8211465302711716
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 12,
+      "PURSUING": 18,
+      "RETURNING_TO_CAP": 12,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 108,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 11,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 11,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 100,
+     "violations": []
+    }
+   },
+   "design_point_id": 8,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp08_rep0",
+   "events_lines": [
+    114,
+    106
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 111,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 852441341,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.6426604291897133
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 10,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 88,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 10,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 88,
+     "violations": []
+    }
+   },
+   "design_point_id": 9,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp09_rep0",
+   "events_lines": [
+    94,
+    94
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 103,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 3671823402,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.919778989602133
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 17,
+      "PURSUING": 21,
+      "RETURNING_TO_CAP": 17,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 126,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 17,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 110,
+     "violations": []
+    }
+   },
+   "design_point_id": 10,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp10_rep0",
+   "events_lines": [
+    132,
+    116
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2259873349,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.475034525093768
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 9,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 90,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 9,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 90,
+     "violations": []
+    }
+   },
+   "design_point_id": 11,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp11_rep0",
+   "events_lines": [
+    96,
+    96
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 85,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2228400035,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.7447814395119994
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 5,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 5,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 81,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 91,
+     "violations": []
+    }
+   },
+   "design_point_id": 12,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp12_rep0",
+   "events_lines": [
+    87,
+    97
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 252452346,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.18326460073816053
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 18,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 110,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 15,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 108,
+     "violations": []
+    }
+   },
+   "design_point_id": 13,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp13_rep0",
+   "events_lines": [
+    116,
+    114
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 98,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2752494804,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.6666972847701331
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 10,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 10,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 96,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 11,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 11,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 100,
+     "violations": []
+    }
+   },
+   "design_point_id": 14,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp14_rep0",
+   "events_lines": [
+    102,
+    106
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 100,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1632036311,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.9824649688698752
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 12,
+      "PURSUING": 14,
+      "RETURNING_TO_CAP": 12,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 104,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 7,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 7,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 87,
+     "violations": []
+    }
+   },
+   "design_point_id": 15,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp15_rep0",
+   "events_lines": [
+    110,
+    93
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 109,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 4217845793,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.8794302692933549
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 11,
+      "PURSUING": 14,
+      "RETURNING_TO_CAP": 11,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 101,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 11,
+      "PURSUING": 14,
+      "RETURNING_TO_CAP": 11,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 101,
+     "violations": []
+    }
+   },
+   "design_point_id": 16,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp16_rep0",
+   "events_lines": [
+    107,
+    107
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 116,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 3446028903,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.26988171020459434
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 10,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 10,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 97,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 93,
+     "violations": []
+    }
+   },
+   "design_point_id": 17,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp17_rep0",
+   "events_lines": [
+    103,
+    99
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 108,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2251168471,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.3681955853041975
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 16,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 108,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 18,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 111,
+     "violations": []
+    }
+   },
+   "design_point_id": 18,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp18_rep0",
+   "events_lines": [
+    114,
+    117
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 3004636688,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.5604256732917021
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 92,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 93,
+     "violations": []
+    }
+   },
+   "design_point_id": 19,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-3/dp19_rep0",
+   "events_lines": [
+    98,
+    99
+   ],
+   "lambda_per_h": 6.0,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2729719102,
+   "study": "EX-3",
+   "uas_archetype_p_mr": 0.21913726786243584
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 10,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 88,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 11,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 89,
+     "violations": []
+    }
+   },
+   "design_point_id": 0,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp00_rep0",
+   "events_lines": [
+    94,
+    95
+   ],
+   "lambda_per_h": 4.878476639862743,
+   "metric_rows_compared": 101,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1172773501,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.22712104352717272
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 6,
+      "PURSUING": 8,
+      "RETURNING_TO_CAP": 6,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 80,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 7,
+      "PURSUING": 9,
+      "RETURNING_TO_CAP": 7,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 84,
+     "violations": []
+    }
+   },
+   "design_point_id": 1,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp01_rep0",
+   "events_lines": [
+    86,
+    90
+   ],
+   "lambda_per_h": 3.6868935708985626,
+   "metric_rows_compared": 103,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2454309131,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.38419532625658265
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 11,
+      "PURSUING": 17,
+      "RETURNING_TO_CAP": 11,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 104,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 7,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 7,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 88,
+     "violations": []
+    }
+   },
+   "design_point_id": 2,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp02_rep0",
+   "events_lines": [
+    110,
+    94
+   ],
+   "lambda_per_h": 12.47088909980636,
+   "metric_rows_compared": 121,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1303368956,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.601621448603722
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 25,
+      "PURSUING": 30,
+      "RETURNING_TO_CAP": 25,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 159,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 31,
+      "PURSUING": 33,
+      "RETURNING_TO_CAP": 31,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 180,
+     "violations": []
+    }
+   },
+   "design_point_id": 3,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp03_rep0",
+   "events_lines": [
+    165,
+    186
+   ],
+   "lambda_per_h": 14.242987644856159,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 3505495590,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.8270653066329552
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 11,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 92,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 11,
+      "PURSUING": 15,
+      "RETURNING_TO_CAP": 11,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 102,
+     "violations": []
+    }
+   },
+   "design_point_id": 4,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp04_rep0",
+   "events_lines": [
+    98,
+    108
+   ],
+   "lambda_per_h": 5.67413787529728,
+   "metric_rows_compared": 116,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 227186822,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.2843683075051958
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 11,
+      "PURSUING": 14,
+      "RETURNING_TO_CAP": 11,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 101,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 91,
+     "violations": []
+    }
+   },
+   "design_point_id": 5,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp05_rep0",
+   "events_lines": [
+    107,
+    97
+   ],
+   "lambda_per_h": 5.1859671014587185,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1090029281,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.13627953984777863
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 6,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 6,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 84,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 7,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 7,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 87,
+     "violations": []
+    }
+   },
+   "design_point_id": 6,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp06_rep0",
+   "events_lines": [
+    90,
+    93
+   ],
+   "lambda_per_h": 14.781174096867018,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1444100088,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.10137684346411915
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 21,
+      "PURSUING": 22,
+      "RETURNING_TO_CAP": 21,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 139,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 21,
+      "PURSUING": 22,
+      "RETURNING_TO_CAP": 21,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 139,
+     "violations": []
+    }
+   },
+   "design_point_id": 7,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp07_rep0",
+   "events_lines": [
+    145,
+    145
+   ],
+   "lambda_per_h": 6.135176813597342,
+   "metric_rows_compared": 115,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2847111319,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.9851197018842847
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 18,
+      "PURSUING": 20,
+      "RETURNING_TO_CAP": 18,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 128,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 17,
+      "PURSUING": 19,
+      "RETURNING_TO_CAP": 17,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 124,
+     "violations": []
+    }
+   },
+   "design_point_id": 8,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp08_rep0",
+   "events_lines": [
+    134,
+    130
+   ],
+   "lambda_per_h": 9.209466545325693,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 575784567,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.9126377881932825
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 17,
+      "PURSUING": 22,
+      "RETURNING_TO_CAP": 17,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 127,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 19,
+      "PURSUING": 23,
+      "RETURNING_TO_CAP": 19,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 134,
+     "violations": []
+    }
+   },
+   "design_point_id": 9,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp09_rep0",
+   "events_lines": [
+    133,
+    140
+   ],
+   "lambda_per_h": 9.961250694924729,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 3533793266,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.7720494920397896
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 10,
+      "PURSUING": 14,
+      "RETURNING_TO_CAP": 10,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 97,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 12,
+      "PURSUING": 16,
+      "RETURNING_TO_CAP": 12,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 105,
+     "violations": []
+    }
+   },
+   "design_point_id": 10,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp10_rep0",
+   "events_lines": [
+    103,
+    111
+   ],
+   "lambda_per_h": 3.4520074211016016,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1782148890,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.5714744750366905
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 4,
+      "PURSUING": 9,
+      "RETURNING_TO_CAP": 4,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 75,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 4,
+      "PURSUING": 9,
+      "RETURNING_TO_CAP": 4,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 75,
+     "violations": []
+    }
+   },
+   "design_point_id": 11,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp11_rep0",
+   "events_lines": [
+    81,
+    81
+   ],
+   "lambda_per_h": 2.9120964057540215,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2838452443,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.33289347034361627
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 11,
+      "PURSUING": 16,
+      "RETURNING_TO_CAP": 11,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 103,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 17,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 110,
+     "violations": []
+    }
+   },
+   "design_point_id": 12,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp12_rep0",
+   "events_lines": [
+    109,
+    116
+   ],
+   "lambda_per_h": 13.978574825073533,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 37185468,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.5105612970244289
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 5,
+      "PURSUING": 10,
+      "RETURNING_TO_CAP": 5,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 79,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 90,
+     "violations": []
+    }
+   },
+   "design_point_id": 13,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp13_rep0",
+   "events_lines": [
+    85,
+    96
+   ],
+   "lambda_per_h": 10.570645746054845,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1499444596,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.0016687174192430675
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 14,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 92,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 12,
+      "PURSUING": 18,
+      "RETURNING_TO_CAP": 12,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 108,
+     "violations": []
+    }
+   },
+   "design_point_id": 14,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp14_rep0",
+   "events_lines": [
+    98,
+    114
+   ],
+   "lambda_per_h": 15.248690183904888,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 4073925023,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.7144308237534953
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 15,
+      "PURSUING": 20,
+      "RETURNING_TO_CAP": 15,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 119,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 14,
+      "PURSUING": 20,
+      "RETURNING_TO_CAP": 14,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 116,
+     "violations": []
+    }
+   },
+   "design_point_id": 15,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp15_rep0",
+   "events_lines": [
+    125,
+    122
+   ],
+   "lambda_per_h": 11.615590507349069,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1503405667,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.5432083513106414
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 6,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 6,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 84,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 7,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 7,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 88,
+     "violations": []
+    }
+   },
+   "design_point_id": 16,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp16_rep0",
+   "events_lines": [
+    90,
+    94
+   ],
+   "lambda_per_h": 17.570894645361918,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1413665576,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.05594380689054257
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 3,
+      "PURSUING": 9,
+      "RETURNING_TO_CAP": 3,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 72,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 6,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 6,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 84,
+     "violations": []
+    }
+   },
+   "design_point_id": 17,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp17_rep0",
+   "events_lines": [
+    78,
+    90
+   ],
+   "lambda_per_h": 16.99906586209883,
+   "metric_rows_compared": 119,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2955373459,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.07408101810252919
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 16,
+      "PURSUING": 22,
+      "RETURNING_TO_CAP": 16,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 124,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 20,
+      "PURSUING": 26,
+      "RETURNING_TO_CAP": 20,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 140,
+     "violations": []
+    }
+   },
+   "design_point_id": 18,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp18_rep0",
+   "events_lines": [
+    130,
+    146
+   ],
+   "lambda_per_h": 13.435680361638433,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2845887713,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.7943685423793272
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 5,
+      "PURSUING": 7,
+      "RETURNING_TO_CAP": 5,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 76,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 5,
+      "PURSUING": 7,
+      "RETURNING_TO_CAP": 5,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 76,
+     "violations": []
+    }
+   },
+   "design_point_id": 19,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp19_rep0",
+   "events_lines": [
+    82,
+    82
+   ],
+   "lambda_per_h": 2.3644020817173326,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1722550841,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.1617748733080937
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 5,
+      "PURSUING": 10,
+      "RETURNING_TO_CAP": 5,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 78,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 5,
+      "PURSUING": 9,
+      "RETURNING_TO_CAP": 5,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 78,
+     "violations": []
+    }
+   },
+   "design_point_id": 20,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp20_rep0",
+   "events_lines": [
+    84,
+    84
+   ],
+   "lambda_per_h": 4.091805483320652,
+   "metric_rows_compared": 108,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1273107661,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.4865278560586087
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 14,
+      "PURSUING": 14,
+      "RETURNING_TO_CAP": 14,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 110,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 14,
+      "PURSUING": 14,
+      "RETURNING_TO_CAP": 14,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 110,
+     "violations": []
+    }
+   },
+   "design_point_id": 21,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp21_rep0",
+   "events_lines": [
+    116,
+    116
+   ],
+   "lambda_per_h": 7.293866561668289,
+   "metric_rows_compared": 115,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 712243825,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.9539528968063847
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 11,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 11,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 99,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 11,
+      "PURSUING": 12,
+      "RETURNING_TO_CAP": 11,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 99,
+     "violations": []
+    }
+   },
+   "design_point_id": 22,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp22_rep0",
+   "events_lines": [
+    105,
+    105
+   ],
+   "lambda_per_h": 7.53295358048736,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1956776366,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.8948608151150517
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 17,
+      "PURSUING": 21,
+      "RETURNING_TO_CAP": 17,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 126,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 18,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 111,
+     "violations": []
+    }
+   },
+   "design_point_id": 23,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp23_rep0",
+   "events_lines": [
+    132,
+    117
+   ],
+   "lambda_per_h": 12.617062265463433,
+   "metric_rows_compared": 119,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2995937544,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.6492859212122374
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 12,
+      "PURSUING": 18,
+      "RETURNING_TO_CAP": 12,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 107,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 19,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 112,
+     "violations": []
+    }
+   },
+   "design_point_id": 24,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp24_rep0",
+   "events_lines": [
+    113,
+    118
+   ],
+   "lambda_per_h": 17.175439866638094,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 3414744398,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.8609684126454004
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 14,
+      "PURSUING": 17,
+      "RETURNING_TO_CAP": 14,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 113,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 13,
+      "PURSUING": 16,
+      "RETURNING_TO_CAP": 13,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 109,
+     "violations": []
+    }
+   },
+   "design_point_id": 25,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp25_rep0",
+   "events_lines": [
+    119,
+    115
+   ],
+   "lambda_per_h": 15.934851418070592,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 3014798192,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.7427119014538835
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 10,
+      "PURSUING": 16,
+      "RETURNING_TO_CAP": 10,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 99,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 10,
+      "PURSUING": 16,
+      "RETURNING_TO_CAP": 10,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 100,
+     "violations": []
+    }
+   },
+   "design_point_id": 26,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp26_rep0",
+   "events_lines": [
+    105,
+    106
+   ],
+   "lambda_per_h": 8.159225572678274,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 2496069385,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.3530365132474013
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 93,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 94,
+     "violations": []
+    }
+   },
+   "design_point_id": 27,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp27_rep0",
+   "events_lines": [
+    99,
+    100
+   ],
+   "lambda_per_h": 8.585986271221483,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 4055842858,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.439178423077553
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 7,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 7,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 88,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 13,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 91,
+     "violations": []
+    }
+   },
+   "design_point_id": 28,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp28_rep0",
+   "events_lines": [
+    94,
+    97
+   ],
+   "lambda_per_h": 11.411853683948939,
+   "metric_rows_compared": 119,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 1777377578,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.19838810647821026
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 14,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 92,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 9,
+      "PURSUING": 15,
+      "RETURNING_TO_CAP": 9,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 96,
+     "violations": []
+    }
+   },
+   "design_point_id": 29,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp29_rep0",
+   "events_lines": [
+    98,
+    102
+   ],
+   "lambda_per_h": 10.328513719862665,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 297999882,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.275794659666251
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 15,
+      "PURSUING": 20,
+      "RETURNING_TO_CAP": 15,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 119,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 14,
+      "PURSUING": 20,
+      "RETURNING_TO_CAP": 14,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 116,
+     "violations": []
+    }
+   },
+   "design_point_id": 30,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp30_rep0",
+   "events_lines": [
+    125,
+    122
+   ],
+   "lambda_per_h": 16.097508938894222,
+   "metric_rows_compared": 118,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 4081760433,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.42412330311533064
+  },
+  {
+   "configs": {
+    "baseline": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 11,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 89,
+     "violations": []
+    },
+    "modernized": {
+     "a29_streams": 6,
+     "a29_streams_conformant": 6,
+     "conformant": true,
+     "extensions_used": {
+      "ENGAGING": 8,
+      "PURSUING": 11,
+      "RETURNING_TO_CAP": 8,
+      "RTB_FUEL_LIMIT": 6
+     },
+     "transitions": 89,
+     "violations": []
+    }
+   },
+   "design_point_id": 31,
+   "events_dir": "outputs/verification/phase_audit_runs/EX-4/dp31_rep0",
+   "events_lines": [
+    95,
+    95
+   ],
+   "lambda_per_h": 6.616789908355793,
+   "metric_rows_compared": 106,
+   "metrics_bit_identical_to_datafarm": true,
+   "rep": 0,
+   "seed": 3269772375,
+   "study": "EX-4",
+   "uas_archetype_p_mr": 0.6707045844540866
+  }
+ ],
+ "reproduce_one": "cuas-sim check-conformance --run outputs/verification/phase_audit_runs/EX-1/dp00_rep0",
+ "sampling_rule": "replica 0 de cada um dos 69 pontos de projeto dos quatro estudos, declarada antes da execucao",
+ "summary": {
+  "a29_streams_audited": 828,
+  "extensions_used_total": {
+   "ENGAGING": 1487,
+   "PURSUING": 2035,
+   "RETURNING_TO_CAP": 1487,
+   "RTB_FUEL_LIMIT": 828
+  },
+  "metrics_bit_identical": 69,
+  "replicas": 69,
+  "streams_conformant": 828,
+  "violations": 0
+ },
+ "what": "auditor de fases (src/cuas_sim/sysml_state_machine.py) aplicado a replicas da campanha re-executadas com o registro de eventos gravado"
+}

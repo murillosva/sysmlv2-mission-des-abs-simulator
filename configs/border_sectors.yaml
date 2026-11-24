@@ -1,0 +1,132 @@
+# Border-sector definitions for the 27-sector Amazon-strip polygon.
+#
+# Brazil-Colombia + Brazil-Peru border within the AoO, sectors 1–27 (N→S).
+# Sector 1 starts at the AoO clip line (lat 1.800000), NOT at the BR-CO-VE
+# tripoint; sector 27 ends 13.58 km short of the BR-PE-BO tripoint (the
+# uncovered southern residue of the 2 713.58 km source polyline).
+#
+# SOURCE
+# ──────
+# Coordinates digitised from Natural Earth 50m (nvkelso/natural-earth-vector).
+# Methodology adapted from Miranda (2025), ITA.
+# Sectors do NOT correspond directly to sectors 28-50 of the original thesis.
+#
+# STOCHASTIC PARAMS (Miranda 2025 adapted)
+# ────────────────────────────────────────
+#   sector_distribution: normal
+#   mu_sector:    14.0
+#   sigma_sector:  4.3333   (coverage P=0.997 ≈ ±3σ spans ~26 sectors)
+#
+# To use this file: copy the border_sectors block into your main mission config.
+
+border_sectors:
+
+  # ── Brazil-Colombia border (sectors 1–14, N→S) ──────────────────────────
+  - index: 1
+    start: { lat:  1.800000, lon: -68.228583 }
+    end:   { lat:  1.721356, lon: -68.980074 }
+
+  - index: 2
+    start: { lat:  1.721356, lon: -68.980074 }
+    end:   { lat:  1.700492, lon: -69.848628 }
+
+  - index: 3
+    start: { lat:  1.700492, lon: -69.848628 }
+    end:   { lat:  1.070186, lon: -69.599085 }
+
+  - index: 4
+    start: { lat:  1.070186, lon: -69.599085 }
+    end:   { lat:  0.627160, lon: -69.281643 }
+
+  - index: 5
+    start: { lat:  0.627160, lon: -69.281643 }
+    end:   { lat:  0.519425, lon: -70.055712 }
+
+  - index: 6
+    start: { lat:  0.519425, lon: -70.055712 }
+    end:   { lat: -0.323331, lon: -69.914067 }
+
+  - index: 7
+    start: { lat: -0.323331, lon: -69.914067 }
+    end:   { lat: -0.996658, lon: -69.451222 }
+
+  - index: 8
+    start: { lat: -0.996658, lon: -69.451222 }
+    end:   { lat: -1.874085, lon: -69.524510 }
+
+  - index: 9
+    start: { lat: -1.874085, lon: -69.524510 }
+    end:   { lat: -2.763635, lon: -69.686522 }
+
+  - index: 10
+    start: { lat: -2.763635, lon: -69.686522 }
+    end:   { lat: -3.653192, lon: -69.848541 }
+
+  - index: 11
+    start: { lat: -3.653192, lon: -69.848541 }
+    end:   { lat: -4.298476, lon: -70.190011 }
+
+  - index: 12
+    start: { lat: -4.298476, lon: -70.190011 }
+    end:   { lat: -4.333629, lon: -70.955943 }
+
+  - index: 13
+    start: { lat: -4.333629, lon: -70.955943 }
+    end:   { lat: -4.502999, lon: -71.830322 }
+
+  - index: 14
+    start: { lat: -4.502999, lon: -71.830322 }
+    end:   { lat: -4.988075, lon: -72.580691 }
+
+  # ── Brazil-Peru border, Javari River (sectors 15–27, N→S upstream) ──────
+  - index: 15
+    start: { lat: -4.988075, lon: -72.580691 }
+    end:   { lat: -5.665705, lon: -72.997465 }
+
+  - index: 16
+    start: { lat: -5.665705, lon: -72.997465 }
+    end:   { lat: -6.482216, lon: -73.148424 }
+
+  - index: 17
+    start: { lat: -6.482216, lon: -73.148424 }
+    end:   { lat: -7.045697, lon: -73.795520 }
+
+  - index: 18
+    start: { lat: -7.045697, lon: -73.795520 }
+    end:   { lat: -7.664031, lon: -73.886659 }
+
+  - index: 19
+    start: { lat: -7.664031, lon: -73.886659 }
+    end:   { lat: -8.360702, lon: -73.529530 }
+
+  - index: 20
+    start: { lat: -8.360702, lon: -73.529530 }
+    end:   { lat: -9.024526, lon: -72.973118 }
+
+  - index: 21
+    start: { lat: -9.024526, lon: -72.973118 }
+    end:   { lat: -9.418275, lon: -72.774586 }
+
+  - index: 22
+    start: { lat: -9.418275, lon: -72.774586 }
+    end:   { lat: -9.929208, lon: -72.179609 }
+
+  - index: 23
+    start: { lat: -9.929208, lon: -72.179609 }
+    end:   { lat: -9.988957, lon: -71.345285 }
+
+  - index: 24
+    start: { lat: -9.988957, lon: -71.345285 }
+    end:   { lat: -9.470090, lon: -70.620703 }
+
+  - index: 25
+    start: { lat: -9.470090, lon: -70.620703 }
+    end:   { lat: -10.218560, lon: -70.638696 }
+
+  - index: 26
+    start: { lat: -10.218560, lon: -70.638696 }
+    end:   { lat: -10.952596, lon: -70.545327 }
+
+  - index: 27   # BR-PE-BO tripoint (Bolívia)
+    start: { lat: -10.952596, lon: -70.545327 }
+    end:   { lat: -10.950534, lon: -69.702594 }

@@ -1,0 +1,238 @@
+{
+ "calc_defs": [
+  {
+   "aggregator_ref": "metrics.aggregator._compute_mos1 (Nn/Nt)",
+   "aggregator_value": 0.7,
+   "calc_def": "calculateNeutralizationRate",
+   "compared": true,
+   "expr": "Nn / Nt",
+   "metric": "MOS-1",
+   "model_value": 0.7,
+   "passed": true,
+   "rationale": "SysML, paper Eq.1 and Python agree: kills inside ZIDA / total incursions.",
+   "synthetic_inputs": {
+    "Nn": 7.0,
+    "Nt": 10.0
+   },
+   "verdict": "CONSISTENT"
+  },
+  {
+   "aggregator_ref": "metrics.aggregator._compute_mos2 (1 - leaks_m/leaks_b)",
+   "calc_def": "calculateEvasionReductionRate",
+   "compared": false,
+   "expr": "(rB - rM) / rM",
+   "metric": "MOS-2",
+   "rationale": "SysML matches paper Eq.2 (denom rM); Python uses rB, which respects the Table 20 [0,1] bound that Eq.2 violates. Python accepted; paper errata candidate.",
+   "verdict": "DIVERGENCE-ACCEPTED"
+  },
+  {
+   "aggregator_ref": "metrics.aggregator._compute_moe1 (1 - mean tef/T_PEA, Eq.5/6)",
+   "aggregator_value": 0.9,
+   "calc_def": "calculateEngagementTimeRate",
+   "compared": true,
+   "expr": "1 - totalTefSum / (N * Tmax)",
+   "metric": "MOE-1",
+   "model_value": 0.9,
+   "passed": true,
+   "rationale": "Spec 025 (Article VI section-9) reconciled _compute_moe1 with Eq.5: the '1 -' complement and the evasion penalty (1+E/N) were restored, so the outer aggregation 1 - Sum(tef)/(N*Tmax) now matches the calc def. Inner per-engagement tef/penalty/t_ev and the per-aircraft T_PEA (Spec 018) are below calc-def granularity (sanctioned, like MOE-2/MOE-3). Closes the SR-4b ESCALATE backlog.",
+   "synthetic_inputs": {
+    "N": 10.0,
+    "Tmax": 1.0,
+    "totalTefSum": 1.0
+   },
+   "verdict": "CONSISTENT"
+  },
+  {
+   "aggregator_ref": "metrics.aggregator._compute_moe2 (mean per-engagement)",
+   "aggregator_value": 0.5,
+   "calc_def": "calculateTrackingRate",
+   "compared": true,
+   "expr": "totalMOE2Sum / N",
+   "metric": "MOE-2",
+   "model_value": 0.5,
+   "passed": true,
+   "rationale": "Outer aggregation (Eq.10, Sum/N) matches. Inner per-step P_track was upgraded to angular acuity (Spec 016), below calc-def granularity — sanctioned, not a drift.",
+   "synthetic_inputs": {
+    "N": 3.0,
+    "totalMOE2Sum": 1.5
+   },
+   "verdict": "CONSISTENT"
+  },
+  {
+   "aggregator_ref": "metrics.aggregator._compute_moe3 (mean P_neut)",
+   "aggregator_value": 0.5,
+   "calc_def": "calculateNeutralizationProbability",
+   "compared": true,
+   "expr": "totalPhitSum / N",
+   "metric": "MOE-3",
+   "model_value": 0.5,
+   "passed": true,
+   "rationale": "Outer aggregation (Eq.19, Sum/N) matches. Inner term is the multi-shot cumulative P_neut over continuous firing distances (Spec 015/017), below calc-def granularity.",
+   "synthetic_inputs": {
+    "N": 3.0,
+    "totalPhitSum": 1.5
+   },
+   "verdict": "CONSISTENT"
+  },
+  {
+   "aggregator_ref": "config.*_update_interval_s (MAPPING-FIX: not _compute_mop1's count)",
+   "calc_def": "calculateUpdateRate",
+   "compared": false,
+   "expr": "(minUpdateInterval + maxUpdateInterval) / 2",
+   "metric": "MOP-1",
+   "rationale": "SysML (min+max)/2 is the update INTERVAL = the paper's MOP-1 ([1,60] s). Python's _compute_mop1 is an emergent heading-update COUNT — a different quantity. Re-bind the calc def to the update_interval_s config parameter; no formula change (metric-neutral).",
+   "verdict": "MAPPING-FIX"
+  },
+  {
+   "aggregator_ref": "metrics.aggregator._mop2_row (max acquisition)",
+   "aggregator_value": 13000.0,
+   "calc_def": "calculateAcquisitionRange",
+   "compared": true,
+   "expr": "maxAcquisitionDistance",
+   "metric": "MOP-2",
+   "model_value": 13000.0,
+   "passed": true,
+   "rationale": "SysML, paper (Table 18) and Python agree: the maximum acquisition distance.",
+   "synthetic_inputs": {
+    "maxAcquisitionDistance": 13000.0
+   },
+   "verdict": "CONSISTENT"
+  },
+  {
+   "aggregator_ref": "metrics.aggregator._mop3_row (envelope[1] max)",
+   "calc_def": "calculateWeaponEnvelope",
+   "compared": false,
+   "expr": "maxRange - minRange",
+   "metric": "MOP-3",
+   "rationale": "SysML reports the envelope WIDTH (max-min), Python the MAX, the paper Table 20 the interval [0.5,14]. A reported constant that feeds no computation - representation choice.",
+   "verdict": "DIVERGENCE-ACCEPTED"
+  }
+ ],
+ "field_version": "1.0",
+ "history": {
+  "campaign_start": "8291a2b (2026-08-04): desenho da campanha, posterior a correcao",
+  "note": "a mutacao M04 reproduz o defeito corrigido; a guarda atual a detecta",
+  "spec_024": "ee3d69b (2026-06-24): a comparacao calc def x agregador classificou o MOE-1 como DIVERGENCE-ESCALATE -- o modelo e as Eq. 5-8 do estudo de caso concordavam e a implementacao media a fracao da janela consumida",
+  "spec_025": "3cfa14c (2026-06-26): implementacao corrigida (complemento e penalidade restaurados); veredito passou a CONSISTENT com guarda numerica"
+ },
+ "mutations": [
+  {
+   "detected": true,
+   "failed_guards": [
+    "MOS-1"
+   ],
+   "id": "M01",
+   "metric": "MOS-1",
+   "mutation": "valor x1,1 (deriva grosseira)"
+  },
+  {
+   "detected": false,
+   "failed_guards": [],
+   "id": "M02",
+   "metric": "MOS-1",
+   "mutation": "denominador sem os vazamentos"
+  },
+  {
+   "detected": false,
+   "failed_guards": [],
+   "id": "M03",
+   "metric": "MOS-2",
+   "mutation": "trocar pela expressao do modelo (rB-rM)/rM"
+  },
+  {
+   "detected": true,
+   "failed_guards": [
+    "MOE-1"
+   ],
+   "id": "M04",
+   "metric": "MOE-1",
+   "mutation": "sem o complemento '1 -' (o defeito pre-Spec 025)"
+  },
+  {
+   "detected": false,
+   "failed_guards": [],
+   "id": "M05",
+   "metric": "MOE-1",
+   "mutation": "sem a penalidade (1+E/N) dos evadidos"
+  },
+  {
+   "detected": false,
+   "failed_guards": [],
+   "id": "M06",
+   "metric": "MOE-1",
+   "mutation": "normalizado pelo T_PEA maximo da frota"
+  },
+  {
+   "detected": false,
+   "failed_guards": [],
+   "id": "M07",
+   "metric": "MOE-1",
+   "mutation": "sem o clamp [0,1]"
+  },
+  {
+   "detected": false,
+   "failed_guards": [],
+   "id": "M08",
+   "metric": "MOE-2",
+   "mutation": "media -> mediana"
+  },
+  {
+   "detected": false,
+   "failed_guards": [],
+   "id": "M09",
+   "metric": "MOE-3",
+   "mutation": "media -> mediana"
+  },
+  {
+   "detected": true,
+   "failed_guards": [
+    "MOE-3"
+   ],
+   "id": "M10",
+   "metric": "MOE-3",
+   "mutation": "media -> soma"
+  },
+  {
+   "detected": false,
+   "failed_guards": [],
+   "id": "M11",
+   "metric": "MOP-1",
+   "mutation": "contagem x2"
+  },
+  {
+   "detected": false,
+   "failed_guards": [],
+   "id": "M12",
+   "metric": "MOP-2",
+   "mutation": "ramo do A-29N devolve o limite inferior do EO/IR"
+  },
+  {
+   "detected": false,
+   "failed_guards": [],
+   "id": "M13",
+   "metric": "MOP-3",
+   "mutation": "maximo -> largura do envelope"
+  }
+ ],
+ "summary": {
+  "adjudicated_not_compared": [
+   "MOS-2 (DIVERGENCE-ACCEPTED)",
+   "MOP-1 (MAPPING-FIX)",
+   "MOP-3 (DIVERGENCE-ACCEPTED)"
+  ],
+  "calc_defs": 8,
+  "compared_and_passed": 5,
+  "compared_full_expression": [
+   "MOS-1",
+   "MOP-2"
+  ],
+  "compared_outer_aggregation_only": [
+   "MOE-1",
+   "MOE-2",
+   "MOE-3"
+  ],
+  "mutations": 13,
+  "mutations_detected": 3
+ },
+ "what": "guarda de calculos (src/cuas_sim/sysml_calculations.py): avalia a expressao do calc def e a funcao REAL do agregador sobre as mesmas entradas sinteticas e exige igualdade; nos vereditos sem comparacao so registra a adjudicacao"
+}

@@ -1,0 +1,20 @@
+{
+  "design_seed": 20260807,
+  "factors": {
+    "lambda_per_h": {
+      "high": 6.0,
+      "kind": "fixed",
+      "low": 6.0,
+      "options": null
+    },
+    "uas_archetype_p_mr": {
+      "high": 1.0,
+      "kind": "numeric",
+      "low": 0.0,
+      "options": null
+    }
+  },
+  "field_version": "1.0",
+  "n_samples": 20,
+  "sampler": "LatinHypercube+fixed"
+}

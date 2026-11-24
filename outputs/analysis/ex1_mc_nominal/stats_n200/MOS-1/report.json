@@ -1,0 +1,99 @@
+{
+  "eda": {
+    "correlation": {
+      "lambda_per_h": null,
+      "uas_archetype_p_mr": null
+    },
+    "figures": null,
+    "outlier_count": 0,
+    "response": "MOS-1",
+    "summary": {
+      "count": 1,
+      "max": 0.18531400400313106,
+      "mean": 0.18531400400313106,
+      "min": 0.18531400400313106,
+      "std": 0.0
+    }
+  },
+  "feature_scores": [
+    {
+      "note": "insufficient design points / factor variance",
+      "ranking": [],
+      "response": "MOS-1",
+      "scoring": "f_regression"
+    }
+  ],
+  "field_version": "1.0",
+  "hypothesis_tests": [
+    {
+      "aor": "ALL",
+      "bootstrap_test": {
+        "bootstrap_seed": 20260804,
+        "n_resamples": 9999,
+        "p_value": 0.0
+      },
+      "ci": {
+        "high": 0.20307543535531372,
+        "low": 0.16827789667448073,
+        "method": "BCa",
+        "n_resamples": 9999
+      },
+      "effect": 0.1853140040031311,
+      "n_pairs": 200,
+      "p_value": 2.216458445873996e-32,
+      "pre_checks": [
+        {
+          "name": "shapiro",
+          "p_value": 0.02556683271923463,
+          "passed": false,
+          "statistic": 0.9843537618214457
+        },
+        {
+          "name": "levene",
+          "p_value": 9.91716703182128e-08,
+          "passed": false,
+          "statistic": 29.465260890782783
+        }
+      ],
+      "reject_h0": true,
+      "response": "MOS-1",
+      "statistic": 232.5,
+      "test": "wilcoxon"
+    }
+  ],
+  "pareto_front": {
+    "objectives": {
+      "maximize": [
+        "gain"
+      ],
+      "minimize": [
+        "cost"
+      ]
+    },
+    "points": [
+      {
+        "cost": 2.474737333078858,
+        "design_point_id": 0,
+        "gain": 0.18531400400313106
+      }
+    ]
+  },
+  "study": {
+    "alpha": 0.05,
+    "aor": "ALL",
+    "bootstrap_seed": 20260804,
+    "factors": {
+      "lambda_per_h": {
+        "max": 6.0,
+        "min": 6.0
+      },
+      "uas_archetype_p_mr": {
+        "max": 0.5,
+        "min": 0.5
+      }
+    },
+    "n_design_points": 1,
+    "n_resamples": 9999,
+    "response": "MOS-1"
+  }
+}

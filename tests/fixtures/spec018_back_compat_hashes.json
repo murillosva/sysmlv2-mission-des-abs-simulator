@@ -1,0 +1,109 @@
+{
+  "config": "configs/zida_shield_default.yaml",
+  "hashes": {
+    "1000": {
+      "metrics_sha256": "b85bf2b11d08d87df9b3eda2ec0de01768657b438ef8bf9ed6303b1089896729",
+      "events_baseline_sha256": "41511cb7fa4ead429cd5cbc5266e3cca46e567f6926f9217f882efd59b7e76c6",
+      "events_modernized_sha256": "ea5d286a246655dbe3aa10890c368d11c0af978cf27d9f266334a35f3d250077"
+    },
+    "1001": {
+      "metrics_sha256": "5c11c86b81dab105045fbbd13830d5fb006e736e5cae7ea95e257e69615c294d",
+      "events_baseline_sha256": "8eb390dbd39adf0de56efb57c0faf0434e630a14bd9d035f09c3ef784c74334b",
+      "events_modernized_sha256": "e7c0210646534a163c3af48ff1b8d19144a534220f251c78783bc36440f3b0f1"
+    },
+    "1002": {
+      "metrics_sha256": "1eba127ecd5c568416097064ccdda9aaa9e73940f596228b645e38d3848ff71b",
+      "events_baseline_sha256": "600a0d450aa2a4c38bd74621083472666442c6a2b8d23e0eb699eeadb91cff74",
+      "events_modernized_sha256": "b0f43d060a5228840f4af9aa95d386ace7446a8148eb767cac83b6b1d1d226f7"
+    },
+    "1003": {
+      "metrics_sha256": "1967b3a2087fea33ab884524034df58644e3eb78b2ab5172fbb44b0ad223f2d9",
+      "events_baseline_sha256": "dc11353d06bfa0daac77b723c6fad3d1d0b4f21d0703a67b4691cfce2bfb421b",
+      "events_modernized_sha256": "30cc29406ed6b347e92f1b2e7d7d802a59465bc2ce58cb8e1d25a3ffd499eba6"
+    },
+    "1004": {
+      "metrics_sha256": "0cce1181ec0b02e2d2115d1ac8d8ddfdb4ca12f78cfe3e156fc5467102a0551f",
+      "events_baseline_sha256": "57c6732ba346a10d63d0ace30e7f9004aa8fcdc10dcfbb59553ba52367b60fbb",
+      "events_modernized_sha256": "6c65950a9acd475bef50ff86602660e2d85f6fd6d0507b1bf73c21ee91cbf141"
+    },
+    "1005": {
+      "metrics_sha256": "900eec4719af1ff84684b9b144a77f99decdc1cd038d0b18075cf4c9c78ca0ae",
+      "events_baseline_sha256": "f5afb3bd0f15186db8c95dd3c837db1840fb6476a6834f2e4b88737fa47d9d76",
+      "events_modernized_sha256": "387eca3b5ac0494fcc3d7a188bc16ed9c8be79d3fde0f6e126f5318cb7439a8c"
+    },
+    "1006": {
+      "metrics_sha256": "40d84cd06f00764e24b16658f6b4b799d07c20fe88cdd96217d25cdc7566a910",
+      "events_baseline_sha256": "f167fb49cca01e3605586129b577b992fa0e54340f9bc1ae29706bd2c3ee4e00",
+      "events_modernized_sha256": "1c841e7891c5d15ed363165b0201555058cf9e183b4cd493d29be9a3a18ccd95"
+    },
+    "1007": {
+      "metrics_sha256": "75eaf5a9c5fe0eb062295a9a30d842cf0cdc1d13282154546633b2fdbe59fff6",
+      "events_baseline_sha256": "719c30b7f2a91e9c181e93d6e7f00edcc2ea9c61026039616c250aa0359c66e6",
+      "events_modernized_sha256": "3842da39c642bc31c2d073fd3ca28f4ec308e805c829b7995cc150d800a18857"
+    },
+    "1008": {
+      "metrics_sha256": "997bc52b78e59b6e434ed262f83839083bbca43e0b0e18b442b47a12a3d85bcd",
+      "events_baseline_sha256": "c3e6693be109c04b2dbe026aa8e2af40d8d448c463ea5473707f3345fbf0c88a",
+      "events_modernized_sha256": "0a4f39702efa31369d625d669118efe52ed5bab1e235a9a2f15b94cbf9ae732e"
+    },
+    "1009": {
+      "metrics_sha256": "ed9431e7e76764f5523807e669b0eeac854dc6d26b60f0eceb4776f4c37b7d25",
+      "events_baseline_sha256": "bb9b93cf62475624faa3ac52876c0cf304869e56aa95c452893259671ea493e1",
+      "events_modernized_sha256": "90e19ba744396c0f5f28638704f6cc0360ba8738eb8bab51c4b33a2c65d8053f"
+    },
+    "1010": {
+      "metrics_sha256": "9f27c6edd8f10346d9307f608ae39cd408b5dfecda9fcabcf3efffa2d1aa0615",
+      "events_baseline_sha256": "026f89c3d9dcafe822fe3c8446c3d23a9aed23cb9cccfd3b18578a4ff7769f44",
+      "events_modernized_sha256": "892dfe7b70a20a4c617a61e7adb86d8b7c5d6319da60b129976db6b8f4a32060"
+    },
+    "1011": {
+      "metrics_sha256": "bea7661f10f5bfbf409539cbb38f6192394611b8cc87ddfc7d94f028710a866d",
+      "events_baseline_sha256": "0b4e2f0f7343414aab978cd15cb5816b18c8b3dc0e3ce65fe0351b3ce76cec5e",
+      "events_modernized_sha256": "e94c61aebf329772a9f56caac06ebead6ec4455d730a3d5894f523cc6a36807d"
+    },
+    "1012": {
+      "metrics_sha256": "3c51ab47846c418e4facff6a9366198529b0b3d4dea8a0d51fad12ad7ee25d41",
+      "events_baseline_sha256": "f3877bd1220d7266a5bc6ab451fbc2b766fae9661479b32aaac05a2241db88a6",
+      "events_modernized_sha256": "cfc7ab307e7d4dce79d0b8f1f8304f81821f9702a3acee9535c4756fb34ac86b"
+    },
+    "1013": {
+      "metrics_sha256": "d42cdbad78f1848a1cdd32ca9fb080ed21082847fffdba7a9069d39e317a6d82",
+      "events_baseline_sha256": "b5958abc55a8b2e3ebd2960327b932cf5342e3547f099aa396b0ff55b79080f7",
+      "events_modernized_sha256": "c65fb70aa3426a58a11a83ed9d37e89132e91b38397f5633f9ecb5f3eb6a0dd4"
+    },
+    "1014": {
+      "metrics_sha256": "dcfb2abe840643f6ff1e64537fe632f82b3ec69933ff64afd6cca8ccf45f2111",
+      "events_baseline_sha256": "6a7ba8ab912cbc30368e9f0bd4e6332a4898d8b6ffeec1e0cfdbfec52d10710b",
+      "events_modernized_sha256": "6c433e3f5d18cf01970b4c41b36d3f4aecceb0180737f9b18b10a5da51319bfd"
+    },
+    "1015": {
+      "metrics_sha256": "815da2d2cee9c8f599f462894999b01d591269ee358d6e98458858dd119e33f9",
+      "events_baseline_sha256": "a22580353e28c0420024ddecf3f9846522f33cd47b96d0f79d67417fd2833bb0",
+      "events_modernized_sha256": "1079e1b3909dd0e218aa5d606f4b462527fe03e7d1d75548ad85e4296d2a2431"
+    },
+    "1016": {
+      "metrics_sha256": "b7bb41baf0362824633baf010c1caaea9f58c980b8ec7ae74f62113c9e6ce1e1",
+      "events_baseline_sha256": "ce30eb3a0b0fcfb0c1177197409ac13e8c5a302b2d2f1872c63b6d9c81298dfa",
+      "events_modernized_sha256": "e5b36919738f6ce6efcca4a0dccfb06e676015f0c46a5d7189cf27fbfa78ff58"
+    },
+    "1017": {
+      "metrics_sha256": "c3054a8ba377a8503b961714ebff60f502dac68379f4642d8cd0970b2394c201",
+      "events_baseline_sha256": "5ac5e0cd01952ead6893f7ffc584de15272b83fa5d9578073cd7d934035051d8",
+      "events_modernized_sha256": "ea2c5944819f2647e72ee88a355468a158d1cd3e5214d99013e4f5af83e59175"
+    },
+    "1018": {
+      "metrics_sha256": "d43f276782d9887393db1ef4fa901ddc37ac5997e2ef60512881511e11179c68",
+      "events_baseline_sha256": "09739ddaf61a9f1468d0fa1e92cd76a3d83aaf0c6bd8c170855a1c976040fb8b",
+      "events_modernized_sha256": "59970b8c43f3ed39d526e002359e011311a8c0b95bf88ca7662b893b8c3a77fc"
+    },
+    "1019": {
+      "metrics_sha256": "37f3c37236f2d29b2987d59121de0db2f73fcab4eb3a8bdc0c4d617edfc95ff5",
+      "events_baseline_sha256": "17ee3e4214c00d026f8480ca09201b9fa3e9dec6ebb0b6b02c53db1edc16f1d2",
+      "events_modernized_sha256": "83d2f88c60fce9332bba86d0f17bde2725beab8a5184363e05347bff83a20d05"
+    }
+  },
+  "max_arrivals": 50,
+  "purpose": "AC-2 back-compat bit-identity hashes; metrics_sha256 regenerated for Spec 025 (MOE-1 Eq.5 reconciliation); events_* unchanged (proven metric-neutral)",
+  "schema_version": "1.0",
+  "spec": "025-moe1-eq5-reconciliation (was 018-uas-spawn-window)"
+}

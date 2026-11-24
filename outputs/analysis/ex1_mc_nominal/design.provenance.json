@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "--fixed",
+    "lambda_per_h=6.0,uas_archetype_p_mr=0.5",
+    "--design-seed",
+    "0",
+    "-o",
+    "outputs/analysis/ex1_mc_nominal/design.parquet"
+  ],
+  "design_seed": 0,
+  "design_seed_note": "inerte: design fixo nao sorteia",
+  "fixed": {
+    "lambda_per_h": 6.0,
+    "uas_archetype_p_mr": 0.5
+  },
+  "generator": "scripts/make_study_design.py",
+  "git_head": "c9623c12931d248106bddd37366c11fe2bf690da",
+  "git_src_clean": true,
+  "git_tree_clean": false,
+  "lhs_presets": [],
+  "n_design_points": 1,
+  "sampler": "fixed"
+}

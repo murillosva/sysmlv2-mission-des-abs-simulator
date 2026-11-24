@@ -1,0 +1,293 @@
+{
+ "derived": {
+  "cross_term_over_realized_ranges": {
+   "ci_high": -0.13313353074641895,
+   "ci_low": -0.3066358128563886,
+   "estimate": -0.22473060774934236
+  },
+  "decline_pct_lambda_min_to_lambda_max": {
+   "ci_high": 58.36509372838974,
+   "ci_low": 31.80915950195201,
+   "estimate": 46.98151511028057
+  },
+  "decline_pct_nominal_to_lambda_max": {
+   "ci_high": 51.613177020545976,
+   "ci_low": 26.196399064414003,
+   "estimate": 40.27268486128237
+  },
+  "figure2_terciles": [
+   {
+    "lambda_range": [
+     2.3644020817173326,
+     7.293866561668289
+    ],
+    "mean_lambda_per_h": 4.753783623912031,
+    "mix_slope": {
+     "ci_high": 0.49154398270515204,
+     "ci_low": 0.3985287439284697,
+     "estimate": 0.4504816818197023
+    },
+    "n_points": 11,
+    "tercile": 0
+   },
+   {
+    "lambda_range": [
+     7.53295358048736,
+     12.47088909980636
+    ],
+    "mean_lambda_per_h": 9.984637542165942,
+    "mix_slope": {
+     "ci_high": 0.3938680759159353,
+     "ci_low": 0.34686782382701786,
+     "estimate": 0.3718761618908085
+    },
+    "n_points": 10,
+    "tercile": 1
+   },
+   {
+    "lambda_range": [
+     12.617062265463433,
+     17.570894645361918
+    ],
+    "mean_lambda_per_h": 15.280175464442467,
+    "mix_slope": {
+     "ci_high": 0.32187639044686256,
+     "ci_low": 0.2650999737060457,
+     "estimate": 0.292298617155499
+    },
+    "n_points": 11,
+    "tercile": 2
+   }
+  ],
+  "mix_slope_at_lambda_max": {
+   "ci_high": 0.2968885528563207,
+   "ci_low": 0.2197126020716991,
+   "estimate": 0.2578753327279023
+  },
+  "mix_slope_at_lambda_min": {
+   "ci_high": 0.539377538136645,
+   "ci_low": 0.4212253405657109,
+   "estimate": 0.4863875934295243
+  },
+  "mix_slope_at_lambda_nominal_6": {
+   "ci_high": 0.46684930989081347,
+   "ci_low": 0.38685724511082265,
+   "estimate": 0.4317544361888405
+  },
+  "realized_lambda": [
+   2.3644020817173326,
+   17.570894645361918
+  ],
+  "realized_p_mr": [
+   0.0016687174192430675,
+   0.9851197018842847
+  ]
+ },
+ "field_version": "1.0",
+ "guards": {
+  "b3_ci_equal_stored": {
+   "passed": true,
+   "recomputed": [
+    -0.020504118477732338,
+    -0.008902370738612574
+   ],
+   "stored": [
+    -0.020504118477732338,
+    -0.008902370738612574
+   ]
+  },
+  "coefficients_equal_stored": {
+   "max_abs_diff": 0.0,
+   "passed": true
+  },
+  "figure2_points_equal_paired_means": {
+   "max_abs_diff": 0.0,
+   "passed": true
+  },
+  "mix_slope_at_6_equal_stored": {
+   "passed": true,
+   "recomputed": [
+    0.4317544361888405,
+    0.38685724511082265,
+    0.46684930989081347
+   ],
+   "stored": [
+    0.4317544361888405,
+    0.38685724511082265,
+    0.46684930989081347
+   ]
+  },
+  "resamples_used": {
+   "passed": true,
+   "recomputed": 9999,
+   "stored": 9999
+  }
+ },
+ "inputs": {
+  "aor": "ALL",
+  "bootstrap_seed": 20260808,
+  "datafarm": "outputs/analysis/ex4_interaction/datafarm_r384.parquet",
+  "datafarm_in_git": false,
+  "datafarm_sha256": "ffa91dabde820ecf9087e6823d2d72812f4b2b688712717212610bec8df14ecf",
+  "n_resamples": 9999,
+  "response": "MOS-1",
+  "surface": "outputs/analysis/ex4_interaction/surface_r384.json",
+  "surface_sha256": "170c3943d7e4009f020fa97fc7dfbef817a7baaf74eea4828da986946e1d131e"
+ },
+ "method": {
+  "ci": "bootstrap percentil 2,5/97,5 reamostrando PONTOS DE PROJETO; o mesmo sorteio de surface_model.fit_surface (provado pelas guardas)",
+  "cross_term": "b3 * (lambda_max - lambda_min) * (p_mr_max - p_mr_min), faixas realizadas",
+  "decline_pct": "100 * (1 - slope(lambda_max) / slope(lambda_ref)), por reamostra",
+  "mix_slope": "b2 + b3 * lambda",
+  "model": "bilinear [1, L, p, L*p] por minimos quadrados sobre as 32 medias de Delta MOS-1 por ponto de projeto (surface_model.point_table)",
+  "terciles": "_tercile_points: corte nos quantis 1/3 e 2/3 de lambda (<=); a reta de cada tercil e avaliada na media de lambda do tercil -- a mesma regra da Figura 2 publicada"
+ },
+ "paper_claims": [
+  {
+   "format": ".0f",
+   "matches": true,
+   "printed": "47",
+   "recomputed_as_printed": "47",
+   "section": "4.2",
+   "text": "slope in pmr falls 47% across the realized intensity",
+   "value": 46.98151511028057
+  },
+  {
+   "format": "+.4f",
+   "matches": true,
+   "printed": "+0.4864",
+   "recomputed_as_printed": "+0.4864",
+   "section": "4.2",
+   "text": "... from +0.4864",
+   "value": 0.4863875934295243
+  },
+  {
+   "format": "+.4f",
+   "matches": true,
+   "printed": "+0.2579",
+   "recomputed_as_printed": "+0.2579",
+   "section": "4.2",
+   "text": "... to +0.2579",
+   "value": 0.2578753327279023
+  },
+  {
+   "format": "+.4f",
+   "matches": true,
+   "printed": "-0.2247",
+   "recomputed_as_printed": "-0.2247",
+   "section": "4.2",
+   "text": "the cross term amounts to -0.2247 of MOS-1",
+   "value": -0.22473060774934236
+  },
+  {
+   "format": ".3f",
+   "matches": true,
+   "printed": "17.571",
+   "recomputed_as_printed": "17.571",
+   "section": "4.2/4.4",
+   "text": "the largest intensity drawn, 17.571 UAS/h",
+   "value": 17.570894645361918
+  },
+  {
+   "format": ".3f",
+   "matches": true,
+   "printed": "2.364",
+   "recomputed_as_printed": "2.364",
+   "section": "4.4",
+   "text": "intensities drawn spanning [2.364; ...]",
+   "value": 2.3644020817173326
+  },
+  {
+   "format": "+.4f",
+   "matches": true,
+   "printed": "+0.4318",
+   "recomputed_as_printed": "+0.4318",
+   "section": "4.2",
+   "text": "the slope falls from +0.4318",
+   "value": 0.4317544361888405
+  },
+  {
+   "format": ".1f",
+   "matches": true,
+   "printed": "40.3",
+   "recomputed_as_printed": "40.3",
+   "section": "4.2",
+   "text": "... by 40.3%",
+   "value": 40.27268486128237
+  },
+  {
+   "format": ".1f",
+   "matches": true,
+   "printed": "26.2",
+   "recomputed_as_printed": "26.2",
+   "section": "4.2",
+   "text": "... [26.2%; ...]",
+   "value": 26.196399064414003
+  },
+  {
+   "format": ".1f",
+   "matches": true,
+   "printed": "51.6",
+   "recomputed_as_printed": "51.6",
+   "section": "4.2",
+   "text": "... [...; 51.6%]",
+   "value": 51.613177020545976
+  },
+  {
+   "format": ".1f",
+   "matches": true,
+   "printed": "4.8",
+   "recomputed_as_printed": "4.8",
+   "section": "Fig. 2",
+   "text": "legend lambda ~ 4.8 UAS/h",
+   "value": 4.753783623912031
+  },
+  {
+   "format": "+.2f",
+   "matches": true,
+   "printed": "+0.45",
+   "recomputed_as_printed": "+0.45",
+   "section": "4.2",
+   "text": "tercile slope +0.45",
+   "value": 0.4504816818197023
+  },
+  {
+   "format": ".1f",
+   "matches": true,
+   "printed": "10.0",
+   "recomputed_as_printed": "10.0",
+   "section": "Fig. 2",
+   "text": "legend lambda ~ 10.0 UAS/h",
+   "value": 9.984637542165942
+  },
+  {
+   "format": "+.2f",
+   "matches": true,
+   "printed": "+0.37",
+   "recomputed_as_printed": "+0.37",
+   "section": "4.2",
+   "text": "tercile slope +0.37",
+   "value": 0.3718761618908085
+  },
+  {
+   "format": ".1f",
+   "matches": true,
+   "printed": "15.3",
+   "recomputed_as_printed": "15.3",
+   "section": "Fig. 2",
+   "text": "legend lambda ~ 15.3 UAS/h",
+   "value": 15.280175464442467
+  },
+  {
+   "format": "+.2f",
+   "matches": true,
+   "printed": "+0.29",
+   "recomputed_as_printed": "+0.29",
+   "section": "4.2",
+   "text": "tercile slope +0.29",
+   "value": 0.292298617155499
+  }
+ ],
+ "passed": true,
+ "what": "grandezas da superficie bilinear do EX-4 citadas no paper e na Figura 2 mas ausentes de surface_r384.json (que so traz lambda = 2/6/12/18)"
+}

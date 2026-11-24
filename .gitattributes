@@ -1,0 +1,22 @@
+# Line endings: the repository stores text with LF, and checkouts follow
+# core.autocrlf. The data artifacts are written in text mode, so their line
+# endings follow the platform: with core.autocrlf=true on Windows (the Git for
+# Windows default) and the default on Linux, a checkout matches what a
+# regeneration writes on the same platform.
+* text=auto
+
+# Binary artifacts: never touched by end-of-line conversion.
+*.parquet binary
+*.png binary
+*.pdf binary
+*.gz binary
+*.zip binary
+*.jpg binary
+
+# Inputs whose bytes are fixed: always LF, on every platform.
+*.sysml text eol=lf
+scripts/data/*.json text eol=lf
+sysml/MANIFEST.sha256 text eol=lf
+# Written in LF by scripts/paper_derived_numbers_audit.py on every platform.
+outputs/verification/surface_derived_audit.json text eol=lf
+outputs/verification/reformat_audit.json text eol=lf

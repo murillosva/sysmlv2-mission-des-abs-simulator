@@ -1,0 +1,117 @@
+{
+  "eda": {
+    "correlation": {
+      "lambda_per_h": 0.503120132059276,
+      "uas_archetype_p_mr": -0.799268828421458
+    },
+    "figures": null,
+    "outlier_count": 0,
+    "response": "MOP-1",
+    "summary": {
+      "count": 32,
+      "max": 521.3846752786378,
+      "mean": 327.7846938029963,
+      "min": 168.83149359981317,
+      "std": 96.57820191965095
+    }
+  },
+  "feature_scores": [
+    {
+      "ranking": [
+        {
+          "factor": "uas_archetype_p_mr",
+          "score": 53.063529166570326
+        },
+        {
+          "factor": "lambda_per_h",
+          "score": 10.167625783720123
+        }
+      ],
+      "response": "MOP-1",
+      "scoring": "f_regression"
+    }
+  ],
+  "field_version": "1.0",
+  "hypothesis_tests": [
+    {
+      "aor": "ALL",
+      "bootstrap_test": {
+        "bootstrap_seed": 20260808,
+        "n_resamples": 9999,
+        "p_value": 0.0
+      },
+      "ci": {
+        "high": 330.1523181359752,
+        "low": 325.395553739447,
+        "method": "BCa",
+        "n_resamples": 9999
+      },
+      "effect": 327.7846938029963,
+      "n_pairs": 12288,
+      "p_value": 0.0,
+      "pre_checks": [
+        {
+          "name": "shapiro",
+          "p_value": 7.665553316349222e-43,
+          "passed": false,
+          "statistic": 0.9729745969849585
+        },
+        {
+          "name": "levene",
+          "p_value": 0.0,
+          "passed": false,
+          "statistic": 13635.348811359305
+        }
+      ],
+      "reject_h0": true,
+      "response": "MOP-1",
+      "statistic": 0.0,
+      "test": "wilcoxon"
+    }
+  ],
+  "pareto_front": {
+    "objectives": {
+      "maximize": [
+        "gain"
+      ],
+      "minimize": [
+        "cost"
+      ]
+    },
+    "points": [
+      {
+        "cost": 2.0658673979981184,
+        "design_point_id": 6,
+        "gain": 493.12725014765425
+      },
+      {
+        "cost": 2.169221303062066,
+        "design_point_id": 16,
+        "gain": 521.3846752786378
+      },
+      {
+        "cost": 2.107358656744299,
+        "design_point_id": 17,
+        "gain": 518.217266685932
+      }
+    ]
+  },
+  "study": {
+    "alpha": 0.05,
+    "aor": "ALL",
+    "bootstrap_seed": 20260808,
+    "factors": {
+      "lambda_per_h": {
+        "max": 17.570894645361918,
+        "min": 2.3644020817173326
+      },
+      "uas_archetype_p_mr": {
+        "max": 0.9851197018842847,
+        "min": 0.0016687174192430675
+      }
+    },
+    "n_design_points": 32,
+    "n_resamples": 9999,
+    "response": "MOP-1"
+  }
+}

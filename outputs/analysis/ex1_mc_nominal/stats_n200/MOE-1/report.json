@@ -1,0 +1,99 @@
+{
+  "eda": {
+    "correlation": {
+      "lambda_per_h": null,
+      "uas_archetype_p_mr": null
+    },
+    "figures": null,
+    "outlier_count": 0,
+    "response": "MOE-1",
+    "summary": {
+      "count": 1,
+      "max": 0.12803462991915027,
+      "mean": 0.12803462991915027,
+      "min": 0.12803462991915027,
+      "std": 0.0
+    }
+  },
+  "feature_scores": [
+    {
+      "note": "insufficient design points / factor variance",
+      "ranking": [],
+      "response": "MOE-1",
+      "scoring": "f_regression"
+    }
+  ],
+  "field_version": "1.0",
+  "hypothesis_tests": [
+    {
+      "aor": "ALL",
+      "bootstrap_test": {
+        "bootstrap_seed": 20260804,
+        "n_resamples": 9999,
+        "p_value": 0.0
+      },
+      "ci": {
+        "high": 0.13978389559488213,
+        "low": 0.11655618929600213,
+        "method": "BCa",
+        "n_resamples": 9999
+      },
+      "effect": 0.12803462991915027,
+      "n_pairs": 200,
+      "p_value": 4.5342682783217005e-54,
+      "pre_checks": [
+        {
+          "name": "shapiro",
+          "p_value": 0.3106156304343285,
+          "passed": true,
+          "statistic": 0.9916912211654475
+        },
+        {
+          "name": "levene",
+          "p_value": 0.0004584916020538379,
+          "passed": false,
+          "statistic": 12.484540818423932
+        }
+      ],
+      "reject_h0": true,
+      "response": "MOE-1",
+      "statistic": 21.600155537736562,
+      "test": "ttest_rel"
+    }
+  ],
+  "pareto_front": {
+    "objectives": {
+      "maximize": [
+        "gain"
+      ],
+      "minimize": [
+        "cost"
+      ]
+    },
+    "points": [
+      {
+        "cost": 2.474737333078858,
+        "design_point_id": 0,
+        "gain": 0.12803462991915027
+      }
+    ]
+  },
+  "study": {
+    "alpha": 0.05,
+    "aor": "ALL",
+    "bootstrap_seed": 20260804,
+    "factors": {
+      "lambda_per_h": {
+        "max": 6.0,
+        "min": 6.0
+      },
+      "uas_archetype_p_mr": {
+        "max": 0.5,
+        "min": 0.5
+      }
+    },
+    "n_design_points": 1,
+    "n_resamples": 9999,
+    "response": "MOE-1"
+  }
+}

@@ -1,0 +1,1570 @@
+{
+ "campaign_design_points": {
+  "n": 69,
+  "note": "o desenho experimental varia p_mr de proposito; TR-021 fixa a equiprobabilidade (p_mr = 0,5). Os pontos nunca passaram pelo verificador na campanha: este artefato e a primeira aplicacao.",
+  "points": [
+   {
+    "design_point_id": 0,
+    "lambda_per_h": 6.0,
+    "study": "EX-1",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 0,
+    "lambda_per_h": 10.503622310130394,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 1,
+    "lambda_per_h": 17.54166924763586,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 2,
+    "lambda_per_h": 8.869284695758799,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 3,
+    "lambda_per_h": 9.124694294578791,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 4,
+    "lambda_per_h": 16.07924972310569,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 5,
+    "lambda_per_h": 7.950412843931565,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 6,
+    "lambda_per_h": 6.721196739475342,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 7,
+    "lambda_per_h": 2.9921941910953755,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 8,
+    "lambda_per_h": 5.38756962372909,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 9,
+    "lambda_per_h": 12.018683709617886,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 10,
+    "lambda_per_h": 14.629616382076922,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 11,
+    "lambda_per_h": 3.9709156139811776,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 12,
+    "lambda_per_h": 4.017820790766903,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 13,
+    "lambda_per_h": 11.763612712424466,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 14,
+    "lambda_per_h": 13.131752804482124,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 15,
+    "lambda_per_h": 15.487619405676268,
+    "study": "EX-2",
+    "uas_archetype_p_mr": 0.5,
+    "violated": []
+   },
+   {
+    "design_point_id": 0,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.43665185821237545,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 1,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.08863449190342876,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 2,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.5381312879952513,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 3,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.015915401274688677,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 4,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.3231117802205175,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 5,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.12818864150269935,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 6,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.7531630973864577,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 7,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.8211465302711716,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 8,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.6426604291897133,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 9,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.919778989602133,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 10,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.475034525093768,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 11,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.7447814395119994,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 12,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.18326460073816053,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 13,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.6666972847701331,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 14,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.9824649688698752,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 15,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.8794302692933549,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 16,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.26988171020459434,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 17,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.3681955853041975,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 18,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.5604256732917021,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 19,
+    "lambda_per_h": 6.0,
+    "study": "EX-3",
+    "uas_archetype_p_mr": 0.21913726786243584,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 0,
+    "lambda_per_h": 4.878476639862743,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.22712104352717272,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 1,
+    "lambda_per_h": 3.6868935708985626,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.38419532625658265,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 2,
+    "lambda_per_h": 12.47088909980636,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.601621448603722,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 3,
+    "lambda_per_h": 14.242987644856159,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.8270653066329552,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 4,
+    "lambda_per_h": 5.67413787529728,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.2843683075051958,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 5,
+    "lambda_per_h": 5.1859671014587185,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.13627953984777863,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 6,
+    "lambda_per_h": 14.781174096867018,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.10137684346411915,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 7,
+    "lambda_per_h": 6.135176813597342,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.9851197018842847,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 8,
+    "lambda_per_h": 9.209466545325693,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.9126377881932825,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 9,
+    "lambda_per_h": 9.961250694924729,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.7720494920397896,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 10,
+    "lambda_per_h": 3.4520074211016016,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.5714744750366905,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 11,
+    "lambda_per_h": 2.9120964057540215,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.33289347034361627,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 12,
+    "lambda_per_h": 13.978574825073533,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.5105612970244289,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 13,
+    "lambda_per_h": 10.570645746054845,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.0016687174192430675,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 14,
+    "lambda_per_h": 15.248690183904888,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.7144308237534953,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 15,
+    "lambda_per_h": 11.615590507349069,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.5432083513106414,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 16,
+    "lambda_per_h": 17.570894645361918,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.05594380689054257,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 17,
+    "lambda_per_h": 16.99906586209883,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.07408101810252919,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 18,
+    "lambda_per_h": 13.435680361638433,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.7943685423793272,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 19,
+    "lambda_per_h": 2.3644020817173326,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.1617748733080937,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 20,
+    "lambda_per_h": 4.091805483320652,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.4865278560586087,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 21,
+    "lambda_per_h": 7.293866561668289,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.9539528968063847,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 22,
+    "lambda_per_h": 7.53295358048736,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.8948608151150517,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 23,
+    "lambda_per_h": 12.617062265463433,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.6492859212122374,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 24,
+    "lambda_per_h": 17.175439866638094,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.8609684126454004,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 25,
+    "lambda_per_h": 15.934851418070592,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.7427119014538835,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 26,
+    "lambda_per_h": 8.159225572678274,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.3530365132474013,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 27,
+    "lambda_per_h": 8.585986271221483,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.439178423077553,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 28,
+    "lambda_per_h": 11.411853683948939,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.19838810647821026,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 29,
+    "lambda_per_h": 10.328513719862665,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.275794659666251,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 30,
+    "lambda_per_h": 16.097508938894222,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.42412330311533064,
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "design_point_id": 31,
+    "lambda_per_h": 6.616789908355793,
+    "study": "EX-4",
+    "uas_archetype_p_mr": 0.6707045844540866,
+    "violated": [
+     "TR-021"
+    ]
+   }
+  ],
+  "violation_sets": {
+   "(nenhuma)": 17,
+   "TR-021": 52
+  }
+ },
+ "field_version": "1.0",
+ "injected_violations": {
+  "cases": [
+   {
+    "clause": "actualEmploymentRange <= maxEmploymentRange",
+    "detail": "BaselineSBAT70UnguidedRocketRequirement: baseline_envelope_m[1] violates constraint; actuals={'actualEmploymentRange': 2200.0}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-001",
+    "violated": [
+     "TR-001"
+    ]
+   },
+   {
+    "clause": "actualEmploymentRange <= maxEmploymentRange",
+    "detail": "ModernizedAPKWSLaserGuidedRocketRequirement: modernized_envelope_m[1] violates constraint; actuals={'actualEmploymentRange': 15400.000000000002}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-002",
+    "violated": [
+     "TR-002"
+    ]
+   },
+   {
+    "clause": "actualUpdateInterval >= minUpdateInterval",
+    "detail": "BaselineVHFVoiceVectoringRequirement: baseline_update_interval_s violates constraint; actuals={'actualUpdateInterval': 4.5}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-003",
+    "violated": [
+     "TR-003"
+    ]
+   },
+   {
+    "clause": "actualUpdateInterval <= maxUpdateInterval",
+    "detail": "BaselineVHFVoiceVectoringRequirement: baseline_update_interval_s violates constraint; actuals={'actualUpdateInterval': 66.0}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-003",
+    "violated": [
+     "TR-003"
+    ]
+   },
+   {
+    "clause": "actualUpdateInterval >= minUpdateInterval",
+    "detail": "ModernizedDatalinkCueingRequirement: modernized_update_interval_s violates constraint; actuals={'actualUpdateInterval': 0.9}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-004",
+    "violated": [
+     "TR-004"
+    ]
+   },
+   {
+    "clause": "actualUpdateInterval <= maxUpdateInterval",
+    "detail": "ModernizedDatalinkCueingRequirement: modernized_update_interval_s violates constraint; actuals={'actualUpdateInterval': 11.0}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-004",
+    "violated": [
+     "TR-004"
+    ]
+   },
+   {
+    "clause": "actualAcquisitionDistance <= maxAcquisitionDistance",
+    "detail": "BaselineNakedEyeVisualAcquisitionRequirement: baseline_max_acquisition_m, baseline_reaction_time_min_s violates constraint; actuals={'actualAcquisitionDistance': 14300.000000000002, 'actualAcquisitionTime': 12.5}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-005",
+    "violated": [
+     "TR-005"
+    ]
+   },
+   {
+    "clause": "actualAcquisitionTime >= minAcquisitionTime",
+    "detail": "BaselineNakedEyeVisualAcquisitionRequirement: baseline_max_acquisition_m, baseline_reaction_time_min_s violates constraint; actuals={'actualAcquisitionDistance': 13000.0, 'actualAcquisitionTime': 11.25}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-005",
+    "violated": [
+     "TR-005"
+    ]
+   },
+   {
+    "clause": "actualLaserRangefinderRange <= maxLaserRangefinderRange",
+    "detail": "ModernizedEOIRSensorAcquisitionRequirement: modernized_eoir_max_m, modernized_eoir_accuracy_m violates constraint; actuals={'actualLaserRangefinderRange': 22000.0, 'actualRangefinderAccuracy': 5.0}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-006",
+    "violated": [
+     "TR-006"
+    ]
+   },
+   {
+    "clause": "actualRangefinderAccuracy <= maxRangefinderAccuracy",
+    "detail": "ModernizedEOIRSensorAcquisitionRequirement: modernized_eoir_max_m, modernized_eoir_accuracy_m violates constraint; actuals={'actualLaserRangefinderRange': 20000.0, 'actualRangefinderAccuracy': 5.5}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-006",
+    "violated": [
+     "TR-006"
+    ]
+   },
+   {
+    "clause": "actualCruiseSpeed == requiredCruiseSpeed",
+    "detail": "CruiseSpeedStandardizationRequirement: a29_cruise_speed_mps violates constraint; actuals={'actualCruiseSpeed': 158.4}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-010",
+    "violated": [
+     "TR-010"
+    ]
+   },
+   {
+    "clause": "actualEndurance <= maxEndurance",
+    "detail": "MaximumEnduranceConstraintRequirement: a29_endurance_s violates constraint; actuals={'actualEndurance': 20592.0}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-011",
+    "violated": [
+     "TR-011"
+    ]
+   },
+   {
+    "clause": "actualDimensionalPenalty == requiredDimensionalPenalty",
+    "detail": "MultiRotorEngagementDimensionalPenaltyRequirement: dimensional_penalty_mr violates constraint; actuals={'actualDimensionalPenalty': 0.55}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-016",
+    "violated": [
+     "TR-016"
+    ]
+   },
+   {
+    "clause": "actualMultiRotorProbability == actualFixedWingProbability == required",
+    "detail": "UASClassEquiprobabilityRequirement: uas_archetype_p_mr violates constraint; actuals={'actualMultiRotorProbability': 0.55, 'actualFixedWingProbability': 0.44999999999999996}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-021",
+    "violated": [
+     "TR-021"
+    ]
+   },
+   {
+    "clause": "actualPEACommencementTime == requiredPEACommencementTime",
+    "detail": "PEASimultaneousCommencementRequirement: t_pea_start_s violates constraint; actuals={'actualPEACommencementTime': 10098.0}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-023",
+    "violated": [
+     "TR-023"
+    ]
+   },
+   {
+    "clause": "actualMaxSpeed <= requiredMaxSpeed",
+    "detail": "MultiRotorMaxSpeedRequirement: uas_mr.max_speed_mps violates constraint; actuals={'actualMaxSpeed': 31.900000000000002}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-028",
+    "violated": [
+     "TR-028"
+    ]
+   },
+   {
+    "clause": "actualMaxSpeed <= requiredMaxSpeed",
+    "detail": "FixedWingMaxSpeedRequirement: uas_fw.max_speed_mps violates constraint; actuals={'actualMaxSpeed': 143.0}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-029",
+    "violated": [
+     "TR-029"
+    ]
+   },
+   {
+    "clause": "actualZIDABoundaryDistance == requiredZIDABoundaryDistance",
+    "detail": "ZIDABoundaryDistanceRequirement: zida_boundary_nmi violates constraint; actuals={'actualZIDABoundaryDistance': 162976.0}",
+    "detected": true,
+    "only_target": true,
+    "req_id": "TR-030",
+    "violated": [
+     "TR-030"
+    ]
+   }
+  ],
+  "detected": 18,
+  "n": 18,
+  "only_target": 18
+ },
+ "nominal": {
+  "bound": [
+   {
+    "actuals": {
+     "actualEmploymentRange": [
+      2000.0
+     ]
+    },
+    "compares_model_with_model": true,
+    "config_fields": [
+     "baseline_envelope_m[1]"
+    ],
+    "field_origins": [
+     "model"
+    ],
+    "limits": {
+     "maxEmploymentRange": 2000.0
+    },
+    "name": "BaselineSBAT70UnguidedRocketRequirement",
+    "req_id": "TR-001",
+    "satisfied": true
+   },
+   {
+    "actuals": {
+     "actualEmploymentRange": [
+      14000.0
+     ]
+    },
+    "compares_model_with_model": true,
+    "config_fields": [
+     "modernized_envelope_m[1]"
+    ],
+    "field_origins": [
+     "model"
+    ],
+    "limits": {
+     "maxEmploymentRange": 14000.0
+    },
+    "name": "ModernizedAPKWSLaserGuidedRocketRequirement",
+    "req_id": "TR-002",
+    "satisfied": true
+   },
+   {
+    "actuals": {
+     "actualUpdateInterval": [
+      5.0,
+      60.0
+     ]
+    },
+    "compares_model_with_model": true,
+    "config_fields": [
+     "baseline_update_interval_s"
+    ],
+    "field_origins": [
+     "model"
+    ],
+    "limits": {
+     "maxUpdateInterval": 60.0,
+     "minUpdateInterval": 5.0
+    },
+    "name": "BaselineVHFVoiceVectoringRequirement",
+    "req_id": "TR-003",
+    "satisfied": true
+   },
+   {
+    "actuals": {
+     "actualUpdateInterval": [
+      1.0,
+      10.0
+     ]
+    },
+    "compares_model_with_model": true,
+    "config_fields": [
+     "modernized_update_interval_s"
+    ],
+    "field_origins": [
+     "model"
+    ],
+    "limits": {
+     "maxUpdateInterval": 10.0,
+     "minUpdateInterval": 1.0
+    },
+    "name": "ModernizedDatalinkCueingRequirement",
+    "req_id": "TR-004",
+    "satisfied": true
+   },
+   {
+    "actuals": {
+     "actualAcquisitionDistance": [
+      13000.0
+     ],
+     "actualAcquisitionTime": [
+      12.5
+     ]
+    },
+    "compares_model_with_model": false,
+    "config_fields": [
+     "baseline_max_acquisition_m",
+     "baseline_reaction_time_min_s"
+    ],
+    "field_origins": [
+     "model",
+     "default"
+    ],
+    "limits": {
+     "maxAcquisitionDistance": 13000.0,
+     "minAcquisitionTime": 12.5
+    },
+    "name": "BaselineNakedEyeVisualAcquisitionRequirement",
+    "req_id": "TR-005",
+    "satisfied": true
+   },
+   {
+    "actuals": {
+     "actualLaserRangefinderRange": [
+      20000.0
+     ],
+     "actualRangefinderAccuracy": [
+      5.0
+     ]
+    },
+    "compares_model_with_model": false,
+    "config_fields": [
+     "modernized_eoir_max_m",
+     "modernized_eoir_accuracy_m"
+    ],
+    "field_origins": [
+     "scenario",
+     "model"
+    ],
+    "limits": {
+     "maxLaserRangefinderRange": 20000.0,
+     "maxRangefinderAccuracy": 5.0
+    },
+    "name": "ModernizedEOIRSensorAcquisitionRequirement",
+    "req_id": "TR-006",
+    "satisfied": true
+   },
+   {
+    "actuals": {
+     "actualCruiseSpeed": [
+      144.0
+     ]
+    },
+    "compares_model_with_model": true,
+    "config_fields": [
+     "a29_cruise_speed_mps"
+    ],
+    "field_origins": [
+     "model"
+    ],
+    "limits": {
+     "requiredCruiseSpeed": 144.0
+    },
+    "name": "CruiseSpeedStandardizationRequirement",
+    "req_id": "TR-010",
+    "satisfied": true
+   },
+   {
+    "actuals": {
+     "actualEndurance": [
+      18720.0
+     ]
+    },
+    "compares_model_with_model": true,
+    "config_fields": [
+     "a29_endurance_s"
+    ],
+    "field_origins": [
+     "model"
+    ],
+    "limits": {
+     "maxEndurance": 18720.0
+    },
+    "name": "MaximumEnduranceConstraintRequirement",
+    "req_id": "TR-011",
+    "satisfied": true
+   },
+   {
+    "actuals": {
+     "actualDimensionalPenalty": [
+      0.5
+     ]
+    },
+    "compares_model_with_model": true,
+    "config_fields": [
+     "dimensional_penalty_mr"
+    ],
+    "field_origins": [
+     "model"
+    ],
+    "limits": {
+     "requiredDimensionalPenalty": 0.5
+    },
+    "name": "MultiRotorEngagementDimensionalPenaltyRequirement",
+    "req_id": "TR-016",
+    "satisfied": true
+   },
+   {
+    "actuals": {
+     "actualFixedWingProbability": [
+      0.5
+     ],
+     "actualMultiRotorProbability": [
+      0.5
+     ]
+    },
+    "compares_model_with_model": false,
+    "config_fields": [
+     "uas_archetype_p_mr"
+    ],
+    "field_origins": [
+     "scenario"
+    ],
+    "limits": {
+     "requiredProbability": 0.5
+    },
+    "name": "UASClassEquiprobabilityRequirement",
+    "req_id": "TR-021",
+    "satisfied": true
+   },
+   {
+    "actuals": {
+     "actualPEACommencementTime": [
+      9180.0
+     ]
+    },
+    "compares_model_with_model": false,
+    "config_fields": [
+     "t_pea_start_s"
+    ],
+    "field_origins": [
+     "scenario"
+    ],
+    "limits": {
+     "requiredPEACommencementTime": 9180.0
+    },
+    "name": "PEASimultaneousCommencementRequirement",
+    "req_id": "TR-023",
+    "satisfied": true
+   },
+   {
+    "actuals": {
+     "actualMaxSpeed": [
+      29.0
+     ]
+    },
+    "compares_model_with_model": true,
+    "config_fields": [
+     "uas_mr.max_speed_mps"
+    ],
+    "field_origins": [
+     "model"
+    ],
+    "limits": {
+     "requiredMaxSpeed": 29.0
+    },
+    "name": "MultiRotorMaxSpeedRequirement",
+    "req_id": "TR-028",
+    "satisfied": true
+   },
+   {
+    "actuals": {
+     "actualMaxSpeed": [
+      130.0
+     ]
+    },
+    "compares_model_with_model": true,
+    "config_fields": [
+     "uas_fw.max_speed_mps"
+    ],
+    "field_origins": [
+     "model"
+    ],
+    "limits": {
+     "requiredMaxSpeed": 130.0
+    },
+    "name": "FixedWingMaxSpeedRequirement",
+    "req_id": "TR-029",
+    "satisfied": true
+   },
+   {
+    "actuals": {
+     "actualZIDABoundaryDistance": [
+      148160.0
+     ]
+    },
+    "compares_model_with_model": false,
+    "config_fields": [
+     "zida_boundary_nmi"
+    ],
+    "field_origins": [
+     "scenario"
+    ],
+    "limits": {
+     "requiredZIDABoundaryDistance": 148160.0
+    },
+    "name": "ZIDABoundaryDistanceRequirement",
+    "req_id": "TR-030",
+    "satisfied": true
+   }
+  ],
+  "compares_model_with_model": 9,
+  "satisfied": 14,
+  "violated": []
+ },
+ "scope": {
+  "bound_to_config_fields": 14,
+  "by_package": {
+   "FunctionalRequirementsPackage": 15,
+   "MissionRequirementsPackage": 6,
+   "StakeholderNeedsPackage": 15,
+   "TechnicalRequirementsPackage": 30
+  },
+  "requirements_parsed": 66,
+  "unbound_listed_only": 52,
+  "with_require_constraint": 51
+ },
+ "traceability_matrix": [
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "E99MAirborneRadarDetectionRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-001"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "InterceptorAssignmentRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-002"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "VectoringInformationTransmissionRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-003"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "UASAcquisitionCapabilityRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-004"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "ContinuousTrackingMaintenanceRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-005"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "WeaponEmploymentEnvelopeEntryRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-006"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "KineticNeutralizationExecutionRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-007"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "EngagementOutcomeAssessmentRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-008"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "CAPPointHoldingRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-009"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "FARPRefuelingCapabilityRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-010"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "FARPOptimizedPositioningRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-011"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "MissionSynchronizationRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-012"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "EngagementCycleRepetitionRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-013"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "StochasticUASIncursionGenerationRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-014"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "MissionEffectivenessReportingRequirement",
+   "package": "FunctionalRequirementsPackage",
+   "req_id": "FR-015"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "UASNeutralizationBeforeZIDABoundaryRequirement",
+   "package": "MissionRequirementsPackage",
+   "req_id": "MR-001"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "UninterruptedAirspaceSurveillanceRequirement",
+   "package": "MissionRequirementsPackage",
+   "req_id": "MR-002"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "ComprehensiveUASEngagementChainRequirement",
+   "package": "MissionRequirementsPackage",
+   "req_id": "MR-003"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "MaximizeTimeOnStationThroughFARPRequirement",
+   "package": "MissionRequirementsPackage",
+   "req_id": "MR-004"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "RealTimeVectoringSupportRequirement",
+   "package": "MissionRequirementsPackage",
+   "req_id": "MR-005"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "ImmediateKineticEngagementRequirement",
+   "package": "MissionRequirementsPackage",
+   "req_id": "MR-006"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "ZIDABoundaryProtection",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-001"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "AirspaceSovereigntyPreservation",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-002"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "RulesOfEngagementEstablishment",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-003"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "ContinuousAirspaceSurveillance",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-004"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "AirTrafficIdentificationCapability",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-005"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "UASDetectionAndIdentification",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-006"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "AlertAssetControl",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-007"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "PermanentAirDefenseCoverage",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-008"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "LowAltitudeTrafficIntelligence",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-009"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "ExpandedCoverageSupport",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-010"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "CUASCapabilityEnhancement",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-011"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "OperationalPerformanceElevation",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-012"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "CombatLogisticsSustainment",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-013"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "EquipmentDistributionSupport",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-014"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "MaterielStandardizationAndSupport",
+   "package": "StakeholderNeedsPackage",
+   "req_id": "SHN-015"
+  },
+  {
+   "bound": true,
+   "config_fields": "baseline_envelope_m[1]",
+   "name": "BaselineSBAT70UnguidedRocketRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-001"
+  },
+  {
+   "bound": true,
+   "config_fields": "modernized_envelope_m[1]",
+   "name": "ModernizedAPKWSLaserGuidedRocketRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-002"
+  },
+  {
+   "bound": true,
+   "config_fields": "baseline_update_interval_s",
+   "name": "BaselineVHFVoiceVectoringRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-003"
+  },
+  {
+   "bound": true,
+   "config_fields": "modernized_update_interval_s",
+   "name": "ModernizedDatalinkCueingRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-004"
+  },
+  {
+   "bound": true,
+   "config_fields": "baseline_max_acquisition_m, baseline_reaction_time_min_s",
+   "name": "BaselineNakedEyeVisualAcquisitionRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-005"
+  },
+  {
+   "bound": true,
+   "config_fields": "modernized_eoir_max_m, modernized_eoir_accuracy_m",
+   "name": "ModernizedEOIRSensorAcquisitionRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-006"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "E99MPS890RadarDetectionRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-007"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "SixCAPPointSpacingRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-008"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "FourFARPOptimizedPositioningRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-009"
+  },
+  {
+   "bound": true,
+   "config_fields": "a29_cruise_speed_mps",
+   "name": "CruiseSpeedStandardizationRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-010"
+  },
+  {
+   "bound": true,
+   "config_fields": "a29_endurance_s",
+   "name": "MaximumEnduranceConstraintRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-011"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "BaselineVisualAcquisitionDimensionalPenaltyRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-012"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "ModernizedEOIRTrackingDimensionalPenaltyRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-013"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "APKWSHitProbabilitySpecificationRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-014"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "SBAT70UnguidedHitProbabilityRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-015"
+  },
+  {
+   "bound": true,
+   "config_fields": "dimensional_penalty_mr",
+   "name": "MultiRotorEngagementDimensionalPenaltyRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-016"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "E99MContinuousPresenceRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-017"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "E99MRadarDetectionIdealizedRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-018"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "UASEntryPointStochasticDistributionRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-019"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "UASHeadingVariationRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-020"
+  },
+  {
+   "bound": true,
+   "config_fields": "uas_archetype_p_mr",
+   "name": "UASClassEquiprobabilityRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-021"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "FiringPhilosophyEquiprobabilityRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-022"
+  },
+  {
+   "bound": true,
+   "config_fields": "t_pea_start_s",
+   "name": "PEASimultaneousCommencementRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-023"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "EngagementExclusivityRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-024"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "EngagementTerminationAndCAPReturnRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-025"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "DatalinkLatencyIdealizedRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-026"
+  },
+  {
+   "bound": false,
+   "config_fields": null,
+   "name": "RefuelingDurationDisregardedRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-027"
+  },
+  {
+   "bound": true,
+   "config_fields": "uas_mr.max_speed_mps",
+   "name": "MultiRotorMaxSpeedRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-028"
+  },
+  {
+   "bound": true,
+   "config_fields": "uas_fw.max_speed_mps",
+   "name": "FixedWingMaxSpeedRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-029"
+  },
+  {
+   "bound": true,
+   "config_fields": "zida_boundary_nmi",
+   "name": "ZIDABoundaryDistanceRequirement",
+   "package": "TechnicalRequirementsPackage",
+   "req_id": "TR-030"
+  }
+ ],
+ "what": "verificador de requisitos (src/cuas_sim/sysml_requirements.py): limite do requirement def em SI x valor da MissionConfig na unidade do limite; igualdade com math.isclose(rel 1e-9, abs 1e-9)"
+}

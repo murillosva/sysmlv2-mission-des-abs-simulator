@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, the consumed SysML v2 model or the published
+  study records in your research, please cite the accompanying paper using
+  the metadata below. The paper has been accepted at MODELSWARD 2027; the
+  volume, pages, DOI and ISBN will be added upon final acceptance.
+
+title: "SysML v2 Mission DES–ABS Simulator"
+
+authors:
+  - family-names: "Szvaticsek"
+    given-names: "Murillo S."
+    affiliation: "Aeronautics Institute of Technology (ITA), São José dos Campos, SP, Brazil"
+    email: "szvaticsek@ita.br"
+
+version: "1.0.0"
+date-released: "2026-11-24"
+
+# ── Publication ─────────────────────────────────────────────────────────────
+type: software
+license: MIT
+
+preferred-citation:
+  type: conference-paper
+  title: >-
+    From MBSE Mission Model to Executable Architecture:
+    An Exploration of Hybrid Simulation in Defense
+  authors:
+    - family-names: "Szvaticsek"
+      given-names: "Murillo S."
+      affiliation: "Aeronautics Institute of Technology (ITA), São José dos Campos, SP, Brazil"
+      email: "szvaticsek@ita.br"
+    - family-names: "Marcondes"
+      given-names: "Cesar A. C."
+      affiliation: "Aeronautics Institute of Technology (ITA), São José dos Campos, SP, Brazil"
+  collection-title: >-
+    Proceedings of the 15th International Conference on Model-Based Software
+    and Systems Engineering
+  publisher:
+    name: "SciTePress"
+  conference:
+    name: "15th International Conference on Model-Based Software and Systems Engineering (MODELSWARD 2027)"
+    city: "Valletta"
+    country: "MT"
+    date-start: 2027-02-19
+    date-end: 2027-02-21
+  year: 2027
+  month: 2
+  status: in-press
+  # doi: ""          # TODO: add the DOI upon final acceptance
+  # url: ""          # TODO: add the SCITEPRESS URL upon publication
+  notes: >-
+    Accepted as a paper at MODELSWARD 2027 (paper #12); the camera-ready
+    version has been submitted and final acceptance is pending. Volume,
+    pages, DOI and ISBN are TBD upon final acceptance. Repository:
+    https://github.com/murillosva/sysmlv2-mission-des-abs-simulator
+
+repository-code: "https://github.com/murillosva/sysmlv2-mission-des-abs-simulator"
+
+keywords:
+  - SysML v2
+  - Model-Based Systems Engineering
+  - Mission Engineering
+  - Hybrid Modeling and Simulation
+  - Model Transformation
+  - Model Execution and Simulation
+  - Design of Experiments

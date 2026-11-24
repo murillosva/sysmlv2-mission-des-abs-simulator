@@ -1,0 +1,2731 @@
+{
+  "by_design_point": {
+    "all_points_pass": false,
+    "aor": "ALL",
+    "factor": "uas_archetype_p_mr",
+    "max_half_width": 0.03272444852902484,
+    "n_design_points": 20,
+    "points": [
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.20675051700638503,
+        "ci_low": 0.14848571788855003,
+        "ci_method": "BCa",
+        "design_point_id": 0,
+        "half_width": 0.0291323995589175,
+        "half_width_ok": false,
+        "mean": 0.1762811997519976,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.21101588635006122,
+          "ci_low": 0.09907906530006487,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.7708333333333334,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.05596841052499817,
+          "mean": 0.16511990027373155,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.2720455069612768
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.14622315821010556,
+        "uas_archetype_p_mr": 0.43665185821237545
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.08163789860583304,
+        "ci_low": 0.04917922056173897,
+        "ci_method": "BCa",
+        "design_point_id": 1,
+        "half_width": 0.016229339022047033,
+        "half_width_ok": true,
+        "mean": 0.0650767187342391,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.09872046904816964,
+          "ci_low": 0.016955383223825258,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.6354166666666666,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.04088254291217219,
+          "mean": 0.06129993435285618,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0031003100310031005,
+          "std": 0.20428965137838148
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.08265739777477453,
+        "uas_archetype_p_mr": 0.08863449190342876
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.24145079385786128,
+        "ci_low": 0.1841747381497294,
+        "ci_method": "BCa",
+        "design_point_id": 2,
+        "half_width": 0.02863802785406594,
+        "half_width_ok": false,
+        "mean": 0.2118232247323478,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.2917861086334617,
+          "ci_low": 0.2081207433935693,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.875,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.0418326826199462,
+          "mean": 0.2514425277364435,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.21322701112897244
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.1430721730764796,
+        "uas_archetype_p_mr": 0.5381312879952513
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.0356765589208702,
+        "ci_low": 0.0012860312831947315,
+        "ci_method": "BCa",
+        "design_point_id": 3,
+        "half_width": 0.017195263818837733,
+        "half_width_ok": true,
+        "mean": 0.017809594975000394,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.05905308581876208,
+          "ci_low": -0.023797110350946844,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.46875,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.041425098084854464,
+          "mean": 0.018766538910937134,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.37173717371737175,
+          "std": 0.20911547994155846
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.038003800380038005,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.08526031892317658,
+        "uas_archetype_p_mr": 0.015915401274688677
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.14045073662467847,
+        "ci_low": 0.09840028221431066,
+        "ci_method": "BCa",
+        "design_point_id": 4,
+        "half_width": 0.021025227205183905,
+        "half_width_ok": true,
+        "mean": 0.11899384555688187,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.14920932254441438,
+          "ci_low": 0.07029804207699006,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.7083333333333334,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.03945564023371216,
+          "mean": 0.1113264183486244,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.20000506145139216
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.10673982999362451,
+        "uas_archetype_p_mr": 0.3231117802205175
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.08808848373764212,
+        "ci_low": 0.041519342707813656,
+        "ci_method": "BCa",
+        "design_point_id": 5,
+        "half_width": 0.023284570514914234,
+        "half_width_ok": true,
+        "mean": 0.06410792024810986,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.08040091014998245,
+          "ci_low": -0.01860390981528255,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.5729166666666666,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.0495024099826325,
+          "mean": 0.034711698441780715,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.16041604160416043,
+          "std": 0.2436528724432576
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.11576749823020237,
+        "uas_archetype_p_mr": 0.12818864150269935
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.3496087380408924,
+        "ci_low": 0.2841598409828427,
+        "ci_method": "BCa",
+        "design_point_id": 6,
+        "half_width": 0.03272444852902484,
+        "half_width_ok": false,
+        "mean": 0.3159900172046862,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.392614592547362,
+          "ci_low": 0.3104716427062202,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.9583333333333334,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.041071474920570894,
+          "mean": 0.3506928910150238,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.20882808546123055
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.16495623121494885,
+        "uas_archetype_p_mr": 0.7531630973864577
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.39474009619726685,
+        "ci_low": 0.3318449521711526,
+        "ci_method": "BCa",
+        "design_point_id": 7,
+        "half_width": 0.03144757201305712,
+        "half_width_ok": false,
+        "mean": 0.36334304746922674,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.47676009894103555,
+          "ci_low": 0.40144934048260295,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 1.0,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.0376553792292163,
+          "mean": 0.4380331791871556,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.1899760128755175
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.15956310075532332,
+        "uas_archetype_p_mr": 0.8211465302711716
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.29622656627628385,
+        "ci_low": 0.23397134412227039,
+        "ci_method": "BCa",
+        "design_point_id": 8,
+        "half_width": 0.031127611077006734,
+        "half_width_ok": false,
+        "mean": 0.2643875687792475,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.35104498829099634,
+          "ci_low": 0.27503648087643134,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.9270833333333334,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.0380042537072825,
+          "mean": 0.31321139295568057,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.19298137747308963
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.15573558396723172,
+        "uas_archetype_p_mr": 0.6426604291897133
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.46552520868660724,
+        "ci_low": 0.40853590640148013,
+        "ci_method": "BCa",
+        "design_point_id": 9,
+        "half_width": 0.028494651142563554,
+        "half_width_ok": false,
+        "mean": 0.4365435015409882,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.5636539355060404,
+          "ci_low": 0.4911004639546539,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.9895833333333334,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.036276735775693236,
+          "mean": 0.5276949534969729,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.18483313770364632
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.14490132249040846,
+        "uas_archetype_p_mr": 0.919778989602133
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.20926504856364336,
+        "ci_low": 0.15422771998637627,
+        "ci_method": "BCa",
+        "design_point_id": 10,
+        "half_width": 0.027518664288633546,
+        "half_width_ok": false,
+        "mean": 0.1822061463308077,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.2487527138351322,
+          "ci_low": 0.1555564806865784,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.8020833333333334,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.0465981165742769,
+          "mean": 0.2058993177070875,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.234337452576314
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.13835146536226092,
+        "uas_archetype_p_mr": 0.475034525093768
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.32549114055769834,
+        "ci_low": 0.2721341022117858,
+        "ci_method": "BCa",
+        "design_point_id": 11,
+        "half_width": 0.026678519172956272,
+        "half_width_ok": false,
+        "mean": 0.2976290846841329,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.3757600539931066,
+          "ci_low": 0.29679946887089814,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.9166666666666666,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.03948029256110422,
+          "mean": 0.3375531612208087,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.20014750835707473
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.13467042233714674,
+        "uas_archetype_p_mr": 0.7447814395119994
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.10933072961047763,
+        "ci_low": 0.06657657235476792,
+        "ci_method": "BCa",
+        "design_point_id": 12,
+        "half_width": 0.021377078627854852,
+        "half_width_ok": true,
+        "mean": 0.08727691471862331,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.11143566961924656,
+          "ci_low": 0.02925414339774178,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.6354166666666666,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.04109076311075239,
+          "mean": 0.0731231745550631,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.00030003000300030005,
+          "std": 0.20071390303690612
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.107301301409076,
+        "uas_archetype_p_mr": 0.18326460073816053
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.3385540487067521,
+        "ci_low": 0.28205178192039737,
+        "ci_method": "BCa",
+        "design_point_id": 13,
+        "half_width": 0.028251133393177363,
+        "half_width_ok": false,
+        "mean": 0.3092814326253488,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.3975471913883404,
+          "ci_low": 0.32356175939608456,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.96875,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.03699271599612791,
+          "mean": 0.3591949227675246,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.18522853360314667
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.14115482138304516,
+        "uas_archetype_p_mr": 0.6666972847701331
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.47504451169004824,
+        "ci_low": 0.4150791009998578,
+        "ci_method": "BCa",
+        "design_point_id": 14,
+        "half_width": 0.02998270534509523,
+        "half_width_ok": false,
+        "mean": 0.4449873715188522,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.5579164524637039,
+          "ci_low": 0.48997914143518234,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.9895833333333334,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.03396865551426079,
+          "mean": 0.5253210228001902,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.17069367831091384
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.1535251466664161,
+        "uas_archetype_p_mr": 0.9824649688698752
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.4112687755922355,
+        "ci_low": 0.3460320541078188,
+        "ci_method": "BCa",
+        "design_point_id": 15,
+        "half_width": 0.03261836074220836,
+        "half_width_ok": false,
+        "mean": 0.3776714499930318,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.4889644806572274,
+          "ci_low": 0.4106962071949494,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.9791666666666666,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.039134136731138996,
+          "mean": 0.4495536260965484,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.19575313635984787
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.16197235263812196,
+        "uas_archetype_p_mr": 0.8794302692933549
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.13323595579257191,
+        "ci_low": 0.0846644666890636,
+        "ci_method": "BCa",
+        "design_point_id": 16,
+        "half_width": 0.024285744551754154,
+        "half_width_ok": true,
+        "mean": 0.10764914240204278,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.16081956760709754,
+          "ci_low": 0.09150433680943379,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.65625,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.03465761539883187,
+          "mean": 0.12585579994698817,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.1724340448207127
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.12150248979311148,
+        "uas_archetype_p_mr": 0.26988171020459434
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.16960080148557516,
+        "ci_low": 0.12081449137323011,
+        "ci_method": "BCa",
+        "design_point_id": 17,
+        "half_width": 0.024393155056172525,
+        "half_width_ok": true,
+        "mean": 0.14500968095754993,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.1762642703082994,
+          "ci_low": 0.08657892808987966,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.71875,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.044842671109209864,
+          "mean": 0.13252540450714415,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.22794156344490274
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.12083265364791028,
+        "uas_archetype_p_mr": 0.3681955853041975
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.22932233132918217,
+        "ci_low": 0.17650870388386145,
+        "ci_method": "BCa",
+        "design_point_id": 18,
+        "half_width": 0.026406813722660363,
+        "half_width_ok": false,
+        "mean": 0.20296897102077816,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.2671839490005311,
+          "ci_low": 0.18457319761702384,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.8333333333333334,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.04130537569175363,
+          "mean": 0.2293897536309032,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.0,
+          "std": 0.2075933888118136
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.13434873867556704,
+        "uas_archetype_p_mr": 0.5604256732917021
+      },
+      {
+        "bootstrap_seed": 20260807,
+        "ci_high": 0.10752902274262958,
+        "ci_low": 0.05986813867037416,
+        "ci_method": "BCa",
+        "design_point_id": 19,
+        "half_width": 0.023830442036127712,
+        "half_width_ok": true,
+        "mean": 0.0840760589682607,
+        "mos2": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 0.08770516498724054,
+          "ci_low": -0.010006305479309583,
+          "ci_method": "BCa",
+          "config_in_datafarm": "modernized_vs_baseline",
+          "fraction_positive": 0.59375,
+          "h0": "media de MOS-2 = 0",
+          "half_width": 0.04885573523327506,
+          "mean": 0.04115051377894837,
+          "n": 96,
+          "n_resamples": 9999,
+          "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+          "p_value": 0.10451045104510451,
+          "std": 0.24977547213713072
+        },
+        "n": 96,
+        "n_eff_rockets": {
+          "baseline": 96,
+          "modernized": 96
+        },
+        "n_resamples": 9999,
+        "p_value": 0.0,
+        "sparsity": {
+          "fraction_degenerate": 0.0,
+          "n_degenerate_zero_delta": 0,
+          "n_no_engagement_either_arm": 0,
+          "n_reps": 96,
+          "rule": "sem linha rockets_per_engagement em nenhum braco = replica sem engajamento; MOS-1 sai 0.0 nos dois bracos e o par entra no Delta puxando para zero (ausente != zero, sec.5.4)"
+        },
+        "std": 0.12035706675122172,
+        "uas_archetype_p_mr": 0.21913726786243584
+      }
+    ],
+    "response": "MOS-1",
+    "rule": "criterio PRIMARIO do EX-2: max sobre os pontos de projeto da semi-largura do IC95% BCa <= alvo. O `max` e declarado a priori como estatistica -- nao se escolhe o ponto depois de ver os dados",
+    "target": 0.025,
+    "worst_design_point_id": 6
+  },
+  "cost_by_design_point": {
+    "0": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.14583333333333334,
+            "modernized_mean": 0.09375,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.020833333333333332,
+              "ci_low": -0.125,
+              "ci_method": "BCa",
+              "half_width": 0.07291666666666667,
+              "mean": -0.052083333333333336,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.16571657165716572,
+              "std": 0.3661978661775386
+            },
+            "reps_with_row_baseline": 14,
+            "reps_with_row_modernized": 9
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 2.6979166666666665,
+            "modernized_mean": 2.5729166666666665,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.17708333333333337,
+              "ci_low": -0.3854166666666667,
+              "ci_method": "BCa",
+              "half_width": 0.28125,
+              "mean": -0.125,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.4089408940894089,
+              "std": 1.4234871932945812
+            },
+            "reps_with_row_baseline": 92,
+            "reps_with_row_modernized": 85
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.7083333333333334,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 1.2395833333333333,
+              "ci_low": 0.375,
+              "ci_method": "BCa",
+              "half_width": 0.43229166666666663,
+              "mean": 0.7083333333333334,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.0021002100210021,
+              "std": 2.1072140083990005
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 14
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.0483967757514099,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.8802477688361976,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 2.281169330616059,
+          "ci_low": 1.5062877542925934,
+          "ci_method": "BCa",
+          "half_width": 0.3874407881617329,
+          "mean": 1.8318509930847877,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 1.9303102282229683
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "1": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.23958333333333334,
+            "modernized_mean": 0.14583333333333334,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": -0.008405581474505652,
+              "ci_low": -0.1875,
+              "ci_method": "BCa",
+              "half_width": 0.08954720926274717,
+              "mean": -0.09375,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.057705770577057704,
+              "std": 0.46062029116353415
+            },
+            "reps_with_row_baseline": 23,
+            "reps_with_row_modernized": 14
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 4.322916666666667,
+            "modernized_mean": 3.25,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": -0.5122816152417992,
+              "ci_low": -1.614583333333333,
+              "ci_method": "BCa",
+              "half_width": 0.551150859045767,
+              "mean": -1.0729166666666667,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.0,
+              "std": 2.765367746237347
+            },
+            "reps_with_row_baseline": 92,
+            "reps_with_row_modernized": 89
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.8854166666666666,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 1.5729166666666667,
+              "ci_low": 0.4583333333333333,
+              "ci_method": "BCa",
+              "half_width": 0.5572916666666667,
+              "mean": 0.8854166666666666,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.0026002600260026003,
+              "std": 2.6432427917503816
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 11
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.2353113610926112,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.499660734656139,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.7123920522769815,
+          "ci_low": 0.9333583056020183,
+          "ci_method": "BCa",
+          "half_width": 0.38951687333748164,
+          "mean": 1.2643493735635278,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 1.914201062996793
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "10": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.10416666666666667,
+            "modernized_mean": 0.0625,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.020833333333333332,
+              "ci_low": -0.11458333333333331,
+              "ci_method": "BCa",
+              "half_width": 0.06770833333333333,
+              "mean": -0.041666666666666664,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.2448244824482448,
+              "std": 0.32172779166529053
+            },
+            "reps_with_row_baseline": 10,
+            "reps_with_row_modernized": 6
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 3.2708333333333335,
+            "modernized_mean": 2.3645833333333335,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": -0.5416666666666666,
+              "ci_low": -1.3125,
+              "ci_method": "BCa",
+              "half_width": 0.3854166666666667,
+              "mean": -0.90625,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.0,
+              "std": 1.9253331905768523
+            },
+            "reps_with_row_baseline": 91,
+            "reps_with_row_modernized": 81
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.5625,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 1.09375,
+              "ci_low": 0.25,
+              "ci_method": "BCa",
+              "half_width": 0.421875,
+              "mean": 0.5625,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.008500850085008501,
+              "std": 2.0458558883238758
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 8
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.0325560938781722,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.5708271992509126,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.9043163210171399,
+          "ci_low": 1.2477639553938205,
+          "ci_method": "BCa",
+          "half_width": 0.3282761828116597,
+          "mean": 1.5382711053727405,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 1.6351244197952657
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "11": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.020833333333333332,
+            "modernized_mean": 0.0625,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.10416666666666667,
+              "ci_low": 0.0,
+              "ci_method": "BCa",
+              "half_width": 0.052083333333333336,
+              "mean": 0.041666666666666664,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.1413141314131413,
+              "std": 0.24779731389167609
+            },
+            "reps_with_row_baseline": 2,
+            "reps_with_row_modernized": 6
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 1.8333333333333333,
+            "modernized_mean": 1.6979166666666667,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.16666666666666666,
+              "ci_low": -0.40625,
+              "ci_method": "BCa",
+              "half_width": 0.2864583333333333,
+              "mean": -0.13541666666666666,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.35283528352835286,
+              "std": 1.4335806600160068
+            },
+            "reps_with_row_baseline": 75,
+            "reps_with_row_modernized": 74
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.14583333333333334,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.71875,
+              "ci_low": 0.0,
+              "ci_method": "BCa",
+              "half_width": 0.359375,
+              "mean": 0.14583333333333334,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.0963096309630963,
+              "std": 1.1605730586918703
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 2
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 0.9709401272675265,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.7169737012410677,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.9472598195758062,
+          "ci_low": 1.5884069351207262,
+          "ci_method": "BCa",
+          "half_width": 0.17942644222754,
+          "mean": 1.7460335739735413,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 0.8872124446911097
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "12": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.13541666666666666,
+            "modernized_mean": 0.11458333333333333,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.05208333333333334,
+              "ci_low": -0.10416666666666667,
+              "ci_method": "BCa",
+              "half_width": 0.078125,
+              "mean": -0.020833333333333332,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.6286628662866287,
+              "std": 0.40985662876224266
+            },
+            "reps_with_row_baseline": 13,
+            "reps_with_row_modernized": 11
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 3.34375,
+            "modernized_mean": 3.0520833333333335,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.14583333333333334,
+              "ci_low": -0.6770833333333334,
+              "ci_method": "BCa",
+              "half_width": 0.41145833333333337,
+              "mean": -0.2916666666666667,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.15911591159115912,
+              "std": 2.0309016232966015
+            },
+            "reps_with_row_baseline": 88,
+            "reps_with_row_modernized": 88
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.40625,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.875,
+              "ci_low": 0.15625,
+              "ci_method": "BCa",
+              "half_width": 0.359375,
+              "mean": 0.40625,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.0167016701670167,
+              "std": 1.6769529071001306
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 6
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.218517868127243,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.355757877403098,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.4781661295697757,
+          "ci_low": 0.8552603941569134,
+          "ci_method": "BCa",
+          "half_width": 0.31145286770643116,
+          "mean": 1.1372400092758548,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 1.5462622509993948
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "13": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.041666666666666664,
+            "modernized_mean": 0.020833333333333332,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.010416666666666666,
+              "ci_low": -0.07291666666666667,
+              "ci_method": "BCa",
+              "half_width": 0.04166666666666667,
+              "mean": -0.020833333333333332,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.30073007300730076,
+              "std": 0.20412414523193148
+            },
+            "reps_with_row_baseline": 4,
+            "reps_with_row_modernized": 2
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 2.0833333333333335,
+            "modernized_mean": 1.6458333333333333,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": -0.19791666666666666,
+              "ci_low": -0.6875,
+              "ci_method": "BCa",
+              "half_width": 0.24479166666666669,
+              "mean": -0.4375,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.00040004000400040005,
+              "std": 1.2123270359541038
+            },
+            "reps_with_row_baseline": 81,
+            "reps_with_row_modernized": 73
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.09375,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.3229166666666667,
+              "ci_low": 0.010416666666666666,
+              "ci_method": "BCa",
+              "half_width": 0.15625,
+              "mean": 0.09375,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.12961296129612962,
+              "std": 0.5996161052575311
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 3
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.0090399475001834,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.7182142210018085,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.9556154874501759,
+          "ci_low": 1.530520208090012,
+          "ci_method": "BCa",
+          "half_width": 0.21254763968008195,
+          "mean": 1.7091742735016247,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 1.0368441743938497
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "14": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.010416666666666666,
+            "modernized_mean": 0.0,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.0,
+              "ci_low": -0.05617896347578542,
+              "ci_method": "BCa",
+              "half_width": 0.02808948173789271,
+              "mean": -0.010416666666666666,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.6274627462746275,
+              "std": 0.10206207261596575
+            },
+            "reps_with_row_baseline": 1,
+            "reps_with_row_modernized": 0
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 0.5416666666666666,
+            "modernized_mean": 0.4166666666666667,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.041666666666666664,
+              "ci_low": -0.3125,
+              "ci_method": "BCa",
+              "half_width": 0.17708333333333334,
+              "mean": -0.125,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.1769176917691769,
+              "std": 0.8855566194861791
+            },
+            "reps_with_row_baseline": 35,
+            "reps_with_row_modernized": 29
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.041666666666666664,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.20833333333333334,
+              "ci_low": 0.0,
+              "ci_method": "BCa",
+              "half_width": 0.10416666666666667,
+              "mean": 0.041666666666666664,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.6157615761576157,
+              "std": 0.408248290463863
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 1
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 0.9312468958376255,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.7691022330083563,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.9405507337049315,
+          "ci_low": 1.7316811988433267,
+          "ci_method": "BCa",
+          "half_width": 0.10443476743080238,
+          "mean": 1.8378553371707314,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 0.5246636531411724
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "15": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.020833333333333332,
+            "modernized_mean": 0.020833333333333332,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.03125,
+              "ci_low": -0.03125,
+              "ci_method": "BCa",
+              "half_width": 0.03125,
+              "mean": 0.0,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 1.0,
+              "std": 0.14509525002200233
+            },
+            "reps_with_row_baseline": 2,
+            "reps_with_row_modernized": 2
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 1.2083333333333333,
+            "modernized_mean": 1.1875,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.16666666666666666,
+              "ci_low": -0.20833333333333334,
+              "ci_method": "BCa",
+              "half_width": 0.1875,
+              "mean": -0.020833333333333332,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.8326832683268327,
+              "std": 0.9174239296348591
+            },
+            "reps_with_row_baseline": 62,
+            "reps_with_row_modernized": 60
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.0625,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.3125,
+              "ci_low": 0.0,
+              "ci_method": "BCa",
+              "half_width": 0.15625,
+              "mean": 0.0625,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.2664266426642664,
+              "std": 0.5193619567365935
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 2
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 0.9610553253507595,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.784851597249285,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.9975968837080225,
+          "ci_low": 1.6851983466290164,
+          "ci_method": "BCa",
+          "half_width": 0.15619926853950306,
+          "mean": 1.8237962718985254,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 0.7878962088017806
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "16": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.10416666666666667,
+            "modernized_mean": 0.07291666666666667,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.041666666666666664,
+              "ci_low": -0.10416666666666667,
+              "ci_method": "BCa",
+              "half_width": 0.07291666666666667,
+              "mean": -0.03125,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.48004800480048004,
+              "std": 0.36858548961929405
+            },
+            "reps_with_row_baseline": 10,
+            "reps_with_row_modernized": 7
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 3.7083333333333335,
+            "modernized_mean": 3.09375,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": -0.20833333333333334,
+              "ci_low": -1.03125,
+              "ci_method": "BCa",
+              "half_width": 0.4114583333333333,
+              "mean": -0.6145833333333334,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.0037003700370037006,
+              "std": 2.017657796172617
+            },
+            "reps_with_row_baseline": 93,
+            "reps_with_row_modernized": 89
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.3541666666666667,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.8125,
+              "ci_low": 0.15625,
+              "ci_method": "BCa",
+              "half_width": 0.328125,
+              "mean": 0.3541666666666667,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.019101910191019103,
+              "std": 1.4362170094542168
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 10
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.142388104742981,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.4231374168039705,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.771161836709135,
+          "ci_low": 0.9327294852473323,
+          "ci_method": "BCa",
+          "half_width": 0.41921617573090136,
+          "mean": 1.2807493120609896,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 2.061854480859892
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "17": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.125,
+            "modernized_mean": 0.14583333333333334,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.10416666666666667,
+              "ci_low": -0.0625,
+              "ci_method": "BCa",
+              "half_width": 0.08333333333333334,
+              "mean": 0.020833333333333332,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.6237623762376238,
+              "std": 0.40985662876224266
+            },
+            "reps_with_row_baseline": 12,
+            "reps_with_row_modernized": 14
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 3.09375,
+            "modernized_mean": 2.84375,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.17708333333333334,
+              "ci_low": -0.7083333333333334,
+              "ci_method": "BCa",
+              "half_width": 0.44270833333333337,
+              "mean": -0.25,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.28412841284128415,
+              "std": 2.2478059477960652
+            },
+            "reps_with_row_baseline": 90,
+            "reps_with_row_modernized": 84
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.2916666666666667,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.9375,
+              "ci_low": 0.03125,
+              "ci_method": "BCa",
+              "half_width": 0.453125,
+              "mean": 0.2916666666666667,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.0777077707770777,
+              "std": 1.8291019750379474
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 3
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.0736978836884505,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.1750406398565745,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.3972651280605528,
+          "ci_low": 0.8918117483671861,
+          "ci_method": "BCa",
+          "half_width": 0.25272668984668334,
+          "mean": 1.101342756168124,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 1.265774758512231
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "18": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.16666666666666666,
+            "modernized_mean": 0.07291666666666667,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": -0.03125,
+              "ci_low": -0.17708333333333334,
+              "ci_method": "BCa",
+              "half_width": 0.07291666666666667,
+              "mean": -0.09375,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.013701370137013702,
+              "std": 0.3577157059954028
+            },
+            "reps_with_row_baseline": 16,
+            "reps_with_row_modernized": 7
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 2.4375,
+            "modernized_mean": 2.2083333333333335,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.0625,
+              "ci_low": -0.5104166666666666,
+              "ci_method": "BCa",
+              "half_width": 0.2864583333333333,
+              "mean": -0.22916666666666666,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.1255125512551255,
+              "std": 1.4471690452791046
+            },
+            "reps_with_row_baseline": 89,
+            "reps_with_row_modernized": 85
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.40625,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.8229166666666666,
+              "ci_low": 0.16666666666666666,
+              "ci_method": "BCa",
+              "half_width": 0.328125,
+              "mean": 0.40625,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.012901290129012902,
+              "std": 1.5799941705422107
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 7
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.0238550681130014,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.5240132497146814,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.8119193886568195,
+          "ci_low": 1.2603831339602316,
+          "ci_method": "BCa",
+          "half_width": 0.2757681273482939,
+          "mean": 1.5001581816016802,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 1.3665502793569069
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "19": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.125,
+            "modernized_mean": 0.09375,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.052083333333333336,
+              "ci_low": -0.11458333333333333,
+              "ci_method": "BCa",
+              "half_width": 0.08333333333333333,
+              "mean": -0.03125,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.5206520652065206,
+              "std": 0.3961160117148032
+            },
+            "reps_with_row_baseline": 12,
+            "reps_with_row_modernized": 9
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 3.2291666666666665,
+            "modernized_mean": 3.1770833333333335,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.4166666666666667,
+              "ci_low": -0.4791666666666667,
+              "ci_method": "BCa",
+              "half_width": 0.4479166666666667,
+              "mean": -0.052083333333333336,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.8284828482848284,
+              "std": 2.2588762537652567
+            },
+            "reps_with_row_baseline": 90,
+            "reps_with_row_modernized": 92
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.4270833333333333,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 1.0625,
+              "ci_low": 0.14583333333333334,
+              "ci_method": "BCa",
+              "half_width": 0.4583333333333333,
+              "mean": 0.4270833333333333,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.0388038803880388,
+              "std": 2.024818597029668
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 5
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.1717528769229135,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.2717951744606157,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.651378104568872,
+          "ci_low": 0.8405414824413475,
+          "ci_method": "BCa",
+          "half_width": 0.40541831106376225,
+          "mean": 1.100042297537702,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 1.7923527592630961
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "2": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.10416666666666667,
+            "modernized_mean": 0.03125,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": -0.010416666666666666,
+              "ci_low": -0.15625,
+              "ci_method": "BCa",
+              "half_width": 0.07291666666666667,
+              "mean": -0.07291666666666667,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.06090609060906091,
+              "std": 0.362586952668755
+            },
+            "reps_with_row_baseline": 10,
+            "reps_with_row_modernized": 3
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 2.375,
+            "modernized_mean": 1.8958333333333333,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": -0.17708333333333334,
+              "ci_low": -0.78125,
+              "ci_method": "BCa",
+              "half_width": 0.3020833333333333,
+              "mean": -0.4791666666666667,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.002000200020002,
+              "std": 1.5007308161213122
+            },
+            "reps_with_row_baseline": 85,
+            "reps_with_row_modernized": 79
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.2708333333333333,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.8020833333333334,
+              "ci_low": 0.08333333333333333,
+              "ci_method": "BCa",
+              "half_width": 0.359375,
+              "mean": 0.2708333333333333,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.059805980598059805,
+              "std": 1.4471690452791048
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 5
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.078208110921443,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.5845318665002295,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.7819985171122597,
+          "ci_low": 1.2943862075555046,
+          "ci_method": "BCa",
+          "half_width": 0.24380615477837753,
+          "mean": 1.5063237555787865,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 1.2159165666126694
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "3": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.15625,
+            "modernized_mean": 0.125,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.052083333333333336,
+              "ci_low": -0.11700867345518251,
+              "ci_method": "BCa",
+              "half_width": 0.08454600339425793,
+              "mean": -0.03125,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.5602560256025603,
+              "std": 0.44610890810959697
+            },
+            "reps_with_row_baseline": 15,
+            "reps_with_row_modernized": 12
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 4.03125,
+            "modernized_mean": 3.2708333333333335,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": -0.2708333333333333,
+              "ci_low": -1.25,
+              "ci_method": "BCa",
+              "half_width": 0.48958333333333337,
+              "mean": -0.7604166666666666,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.0027002700270027003,
+              "std": 2.4952366902462133
+            },
+            "reps_with_row_baseline": 91,
+            "reps_with_row_modernized": 86
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.8645833333333334,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 1.4791666666666667,
+              "ci_low": 0.4895833333333333,
+              "ci_method": "BCa",
+              "half_width": 0.49479166666666674,
+              "mean": 0.8645833333333334,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.00040004000400040005,
+              "std": 2.3780566664341554
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 14
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.3771097851290863,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.7524510271523135,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 2.0000148127252646,
+          "ci_low": 0.93185742049154,
+          "ci_method": "BCa",
+          "half_width": 0.5340786961168623,
+          "mean": 1.3753412420232276,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 2.6676034270298437
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "4": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.15625,
+            "modernized_mean": 0.07291666666666667,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.0,
+              "ci_low": -0.17708333333333334,
+              "ci_method": "BCa",
+              "half_width": 0.08854166666666667,
+              "mean": -0.08333333333333333,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.07590759075907591,
+              "std": 0.45111946525263635
+            },
+            "reps_with_row_baseline": 15,
+            "reps_with_row_modernized": 7
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 3.4375,
+            "modernized_mean": 2.90625,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": -0.09375,
+              "ci_low": -1.0625,
+              "ci_method": "BCa",
+              "half_width": 0.484375,
+              "mean": -0.53125,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.0372037203720372,
+              "std": 2.436361069947945
+            },
+            "reps_with_row_baseline": 92,
+            "reps_with_row_modernized": 92
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.53125,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 1.1875,
+              "ci_low": 0.21875,
+              "ci_method": "BCa",
+              "half_width": 0.484375,
+              "mean": 0.53125,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.016101610161016102,
+              "std": 2.1469838084355017
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 9
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.0984744014155778,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.5506001654971278,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.9186869153979762,
+          "ci_low": 1.1421123549824017,
+          "ci_method": "BCa",
+          "half_width": 0.38828728020778724,
+          "mean": 1.4521257640815495,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 1.87474589401244
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "5": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.10416666666666667,
+            "modernized_mean": 0.08333333333333333,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.052083333333333336,
+              "ci_low": -0.09375,
+              "ci_method": "BCa",
+              "half_width": 0.07291666666666667,
+              "mean": -0.020833333333333332,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.6006600660066007,
+              "std": 0.3833142634463313
+            },
+            "reps_with_row_baseline": 10,
+            "reps_with_row_modernized": 8
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 3.7708333333333335,
+            "modernized_mean": 3.5833333333333335,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.2708333333333333,
+              "ci_low": -0.6041666666666666,
+              "ci_method": "BCa",
+              "half_width": 0.4375,
+              "mean": -0.1875,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.4077407740774077,
+              "std": 2.192391148351138
+            },
+            "reps_with_row_baseline": 88,
+            "reps_with_row_modernized": 88
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.5208333333333334,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 1.1636288702606712,
+              "ci_low": 0.23958333333333334,
+              "ci_method": "BCa",
+              "half_width": 0.4620227684636689,
+              "mean": 0.5208333333333334,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.013301330133013302,
+              "std": 2.046713240226705
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 10
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.1948578586446235,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.4268347104284604,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.8036408382119098,
+          "ci_low": 0.867643627451956,
+          "ci_method": "BCa",
+          "half_width": 0.4679986053799769,
+          "mean": 1.231976851783837,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 2.2490123198746246
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "6": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.041666666666666664,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.10416666666666667,
+              "ci_low": 0.010416666666666666,
+              "ci_method": "BCa",
+              "half_width": 0.046875,
+              "mean": 0.041666666666666664,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.06040604060406041,
+              "std": 0.20087527770480484
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 4
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 1.75,
+            "modernized_mean": 1.46875,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": -0.0625,
+              "ci_low": -0.5104166666666666,
+              "ci_method": "BCa",
+              "half_width": 0.22395833333333331,
+              "mean": -0.28125,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.015001500150015001,
+              "std": 1.1211190368274202
+            },
+            "reps_with_row_baseline": 76,
+            "reps_with_row_modernized": 72
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.22916666666666666,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.65625,
+              "ci_low": 0.0625,
+              "ci_method": "BCa",
+              "half_width": 0.296875,
+              "mean": 0.22916666666666666,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.04750475047504751,
+              "std": 1.2181017731801238
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 5
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 0.9802644563057199,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.8376094860663357,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 2.129195220845877,
+          "ci_low": 1.6761508874173188,
+          "ci_method": "BCa",
+          "half_width": 0.22652216671427905,
+          "mean": 1.8573450297606164,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 1.094510059665106
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "7": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.03125,
+            "modernized_mean": 0.010416666666666666,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.0,
+              "ci_low": -0.07291666666666667,
+              "ci_method": "BCa",
+              "half_width": 0.036458333333333336,
+              "mean": -0.020833333333333332,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.2011201120112011,
+              "std": 0.14357588616379596
+            },
+            "reps_with_row_baseline": 3,
+            "reps_with_row_modernized": 1
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 1.4166666666666667,
+            "modernized_mean": 1.0729166666666667,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": -0.17708333333333334,
+              "ci_low": -0.5104166666666666,
+              "ci_method": "BCa",
+              "half_width": 0.16666666666666663,
+              "mean": -0.34375,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.0,
+              "std": 0.8562848148896057
+            },
+            "reps_with_row_baseline": 72,
+            "reps_with_row_modernized": 60
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.052083333333333336,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.23958333333333334,
+              "ci_low": 0.0,
+              "ci_method": "BCa",
+              "half_width": 0.11979166666666667,
+              "mean": 0.052083333333333336,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.2444244424442444,
+              "std": 0.41976915126159187
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 2
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 0.9494209506960319,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.6432614182039784,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.85926605397563,
+          "ci_low": 1.5533744835606063,
+          "ci_method": "BCa",
+          "half_width": 0.1529457852075119,
+          "mean": 1.6938404675079468,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 0.7701046765708197
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "8": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.07291666666666667,
+            "modernized_mean": 0.0625,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.041666666666666664,
+              "ci_low": -0.0625,
+              "ci_method": "BCa",
+              "half_width": 0.05208333333333333,
+              "mean": -0.010416666666666666,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.7622762276227623,
+              "std": 0.2712463113177924
+            },
+            "reps_with_row_baseline": 7,
+            "reps_with_row_modernized": 6
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 2.1354166666666665,
+            "modernized_mean": 1.71875,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": -0.16666666666666666,
+              "ci_low": -0.7395833333333334,
+              "ci_method": "BCa",
+              "half_width": 0.28645833333333337,
+              "mean": -0.4166666666666667,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.006200620062006201,
+              "std": 1.4485322274754842
+            },
+            "reps_with_row_baseline": 78,
+            "reps_with_row_modernized": 70
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.0625,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.3333333333333333,
+              "ci_low": 0.0,
+              "ci_method": "BCa",
+              "half_width": 0.16666666666666666,
+              "mean": 0.0625,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.26512651265126513,
+              "std": 0.5193619567365935
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 2
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 1.0437528046249989,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.6879479132156567,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 1.9058589034488433,
+          "ci_low": 1.4616329073917638,
+          "ci_method": "BCa",
+          "half_width": 0.2221129980285398,
+          "mean": 1.6441951085906572,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 1.0971547827145827
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    },
+    "9": {
+      "leaks": {
+        "n_reps": 96,
+        "reasons": {
+          "leak_bingo-fuel": {
+            "baseline_mean": 0.020833333333333332,
+            "modernized_mean": 0.010416666666666666,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.020833333333333332,
+              "ci_low": -0.052083333333333336,
+              "ci_method": "BCa",
+              "half_width": 0.036458333333333336,
+              "mean": -0.010416666666666666,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.716071607160716,
+              "std": 0.17739588001307705
+            },
+            "reps_with_row_baseline": 2,
+            "reps_with_row_modernized": 1
+          },
+          "leak_pending-evaded": {
+            "baseline_mean": 0.8020833333333334,
+            "modernized_mean": 0.6666666666666666,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.010416666666666666,
+              "ci_low": -0.2916666666666667,
+              "ci_method": "BCa",
+              "half_width": 0.15104166666666669,
+              "mean": -0.13541666666666666,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.0847084708470847,
+              "std": 0.7486098227158569
+            },
+            "reps_with_row_baseline": 49,
+            "reps_with_row_modernized": 42
+          },
+          "leak_winchester": {
+            "baseline_mean": 0.0,
+            "modernized_mean": 0.052083333333333336,
+            "paired_delta": {
+              "bootstrap_seed": 20260807,
+              "ci_high": 0.25,
+              "ci_low": 0.0,
+              "ci_method": "BCa",
+              "half_width": 0.125,
+              "mean": 0.052083333333333336,
+              "n": 96,
+              "n_resamples": 9999,
+              "p_value": 0.23602360236023603,
+              "std": 0.41976915126159187
+            },
+            "reps_with_row_baseline": 0,
+            "reps_with_row_modernized": 2
+          }
+        },
+        "reindex_rule": "produto (rep x config x motivo) com zero-fill; ausente = zero"
+      },
+      "rockets_per_engagement": {
+        "baseline": {
+          "mean": 0.9505960769629227,
+          "n_eff": 96
+        },
+        "missing_rule": "ausente = replica SEM engajamento -> media indefinida, NAO zero; nao aplicar zero-fill (contraste com leak_*)",
+        "modernized": {
+          "mean": 2.8715612076710477,
+          "n_eff": 96
+        },
+        "n_reps": 96,
+        "paired_delta": {
+          "bootstrap_seed": 20260807,
+          "ci_high": 2.1026251855118367,
+          "ci_low": 1.7867001273158576,
+          "ci_method": "BCa",
+          "half_width": 0.15796252909798958,
+          "mean": 1.920965130708125,
+          "n": 96,
+          "n_resamples": 9999,
+          "p_value": 0.0,
+          "std": 0.793578920040592
+        },
+        "paired_note": "pareado so nas 96 de 96 replicas com a linha nos dois bracos"
+      }
+    }
+  },
+  "criteria_declared_a_priori": {
+    "alpha": 0.05,
+    "confidence_level": 0.95,
+    "convergence_threshold": 0.05,
+    "drift_fraction": 0.25,
+    "half_width_rationale": "1/4 da margem de aceitacao do Spec 015 AC-3 (gap MOS-1 >= +0.10), aplicado ao PIOR ponto de projeto: cada ponto da curva deve decidir sozinho se supera a margem",
+    "half_width_target": 0.025,
+    "ladder": [
+      96,
+      192,
+      384,
+      768
+    ],
+    "primary_rule": "max sobre pontos de projeto da semi-largura do IC95% BCa <= alvo"
+  },
+  "design": {
+    "design_ref": "outputs\\analysis\\ex3_mix\\design.parquet",
+    "meta": {
+      "design_seed": 20260807,
+      "factors": {
+        "lambda_per_h": {
+          "high": 6.0,
+          "kind": "fixed",
+          "low": 6.0,
+          "options": null
+        },
+        "uas_archetype_p_mr": {
+          "high": 1.0,
+          "kind": "numeric",
+          "low": 0.0,
+          "options": null
+        }
+      },
+      "field_version": "1.0",
+      "n_samples": 20,
+      "sampler": "LatinHypercube+fixed"
+    },
+    "provenance": {
+      "argv": [
+        "--lhs",
+        "p_mr",
+        "--samples",
+        "20",
+        "--design-seed",
+        "20260807",
+        "--fixed",
+        "lambda=6.0",
+        "-o",
+        "outputs/analysis/ex3_mix/design.parquet"
+      ],
+      "design_seed": 20260807,
+      "design_seed_note": "seed do LHS (RNG meta-nivel, Article IV)",
+      "fixed": {
+        "lambda_per_h": 6.0
+      },
+      "generator": "scripts/make_study_design.py",
+      "git_head": "18b0446d0e9d90f2d75a9c7532754811a4a95ae5",
+      "git_src_clean": true,
+      "git_tree_clean": false,
+      "lhs_presets": [
+        "p_mr"
+      ],
+      "n_design_points": 20,
+      "sampler": "LatinHypercube+fixed"
+    },
+    "why": "validity.seeds.design sai null no report.json (o analysis report so le o sidecar do datafarm) -- este eco fecha a rastreabilidade do design_seed sem tocar a camada (docs/experimental_campaign.md sec.7.5 item 2)"
+  },
+  "inputs": {
+    "bootstrap_seed": 20260807,
+    "current": "outputs\\analysis\\ex3_mix\\datafarm_r96.parquet",
+    "n_resamples": 9999,
+    "previous": null
+  },
+  "mos2_one_sample": {
+    "bootstrap_seed": 20260807,
+    "ci_high": 0.2495159827154103,
+    "ci_low": 0.22584758086171677,
+    "ci_method": "BCa",
+    "config_in_datafarm": "modernized_vs_baseline",
+    "fraction_positive": 0.8,
+    "h0": "media de MOS-2 = 0",
+    "half_width": 0.011834200926846769,
+    "mean": 0.23759330658652064,
+    "n": 1920,
+    "n_resamples": 9999,
+    "note": "NAO e teste pareado: MOS-2 ja e um contraste por construcao e nao gera linha delta; analysis stats --response MOS-2 levanta ValueError",
+    "p_value": 0.0,
+    "scope": "POOLADO sobre pontos de projeto = media do espaco; o tratamento por ponto esta em by_design_point[].mos2",
+    "std": 0.2644109702275645
+  },
+  "nesting_check": null,
+  "stopping": {
+    "aor": "ALL",
+    "current": {
+      "bootstrap_seed": 20260807,
+      "ci_high": 0.2218279292640294,
+      "ci_low": 0.20551054651179435,
+      "ci_method": "BCa",
+      "half_width": 0.008158691376117522,
+      "mean": 0.21365564461060765,
+      "n": 1920,
+      "n_resamples": 9999,
+      "p_value": 0.0,
+      "std": 0.184447433116256
+    },
+    "previous": null,
+    "primary": {
+      "governs_stop": false,
+      "half_width": 0.008158691376117522,
+      "passed": true,
+      "rule": "semi-largura do IC95% bootstrap de Delta MOS-1 <= alvo",
+      "target": 0.025
+    },
+    "response": "MOS-1",
+    "scope": "AGREGADO sobre os pontos de projeto = efeito marginal MEDIO na faixa amostrada; NAO e um ponto de operacao. O criterio primario do EX-2 e o max por ponto, em by_design_point -- nao este bloco",
+    "secondary": null,
+    "verdict": "ACEITAR N"
+  },
+  "trend": {
+    "ci_method": "percentile bootstrap over design points",
+    "factor": "uas_archetype_p_mr",
+    "factor_span": 0.9665495675951865,
+    "intercept": -0.005213839653099653,
+    "n_points": 20,
+    "n_resamples": 9999,
+    "note": "unidade de reamostragem = PONTO DE PROJETO (replicas de um ponto sao correlacionadas; reamostrar replicas inflaria a precisao)",
+    "pearson": 0.9882591166898907,
+    "slope": 0.437009345044893,
+    "slope_ci_high": 0.4719310013187681,
+    "slope_ci_low": 0.4014278247596128,
+    "slope_half_width": 0.03525158827957764,
+    "total_change_half_width": 0.03407240740866931,
+    "total_change_over_span": 0.42239119348819704
+  }
+}

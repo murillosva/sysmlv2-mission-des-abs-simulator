@@ -1,0 +1,99 @@
+{
+  "eda": {
+    "correlation": {
+      "lambda_per_h": null,
+      "uas_archetype_p_mr": null
+    },
+    "figures": null,
+    "outlier_count": 0,
+    "response": "MOP-1",
+    "summary": {
+      "count": 1,
+      "max": 301.2537208773339,
+      "mean": 301.2537208773339,
+      "min": 301.2537208773339,
+      "std": 0.0
+    }
+  },
+  "feature_scores": [
+    {
+      "note": "insufficient design points / factor variance",
+      "ranking": [],
+      "response": "MOP-1",
+      "scoring": "f_regression"
+    }
+  ],
+  "field_version": "1.0",
+  "hypothesis_tests": [
+    {
+      "aor": "ALL",
+      "bootstrap_test": {
+        "bootstrap_seed": 20260804,
+        "n_resamples": 9999,
+        "p_value": 0.0
+      },
+      "ci": {
+        "high": 315.7808739469159,
+        "low": 287.80527989097925,
+        "method": "BCa",
+        "n_resamples": 9999
+      },
+      "effect": 301.2537208773339,
+      "n_pairs": 200,
+      "p_value": 1.4361464127613523e-34,
+      "pre_checks": [
+        {
+          "name": "shapiro",
+          "p_value": 0.00019442443120235852,
+          "passed": false,
+          "statistic": 0.9686755017321905
+        },
+        {
+          "name": "levene",
+          "p_value": 1.3207340278793726e-47,
+          "passed": false,
+          "statistic": 277.14054045301856
+        }
+      ],
+      "reject_h0": true,
+      "response": "MOP-1",
+      "statistic": 0.0,
+      "test": "wilcoxon"
+    }
+  ],
+  "pareto_front": {
+    "objectives": {
+      "maximize": [
+        "gain"
+      ],
+      "minimize": [
+        "cost"
+      ]
+    },
+    "points": [
+      {
+        "cost": 2.474737333078858,
+        "design_point_id": 0,
+        "gain": 301.2537208773339
+      }
+    ]
+  },
+  "study": {
+    "alpha": 0.05,
+    "aor": "ALL",
+    "bootstrap_seed": 20260804,
+    "factors": {
+      "lambda_per_h": {
+        "max": 6.0,
+        "min": 6.0
+      },
+      "uas_archetype_p_mr": {
+        "max": 0.5,
+        "min": 0.5
+      }
+    },
+    "n_design_points": 1,
+    "n_resamples": 9999,
+    "response": "MOP-1"
+  }
+}

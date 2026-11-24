@@ -1,0 +1,213 @@
+{
+ "ast_part_defs": {
+  "original": 22,
+  "reformatted": 22,
+  "structurally_equal": true
+ },
+ "extraction": {
+  "ast_extraction_identical": true,
+  "ast_supplied_fields_original": 21,
+  "ast_supplied_fields_reformatted": 21,
+  "regex_field_status": {
+   "a29_cruise_speed_mps": {
+    "original": 144.0,
+    "reformatted": 232.0,
+    "status": "changed"
+   },
+   "a29_endurance_s": {
+    "original": 18720.0,
+    "reformatted": 18720.0,
+    "status": "kept"
+   },
+   "baseline_envelope_m": {
+    "original": [
+     500.0,
+     2000.0
+    ],
+    "reformatted": null,
+    "status": "lost"
+   },
+   "baseline_max_acquisition_m": {
+    "original": 13000.0,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "baseline_rocket_budget": {
+    "original": 49,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "baseline_update_interval_s": {
+    "original": [
+     5.0,
+     60.0
+    ],
+    "reformatted": null,
+    "status": "lost"
+   },
+   "baseline_visual_acuity_rad": {
+    "original": 0.0002908882086657216,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "dimensional_penalty_fw": {
+    "original": 1.0,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "dimensional_penalty_mr": {
+    "original": 0.5,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "modernized_envelope_m": {
+    "original": [
+     2000.0,
+     14000.0
+    ],
+    "reformatted": null,
+    "status": "lost"
+   },
+   "modernized_eoir_accuracy_m": {
+    "original": 5.0,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "modernized_eoir_max_m": {
+    "original": 20000.0,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "modernized_p_hit_max": {
+    "original": 0.8,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "modernized_rocket_budget": {
+    "original": 49,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "modernized_update_interval_s": {
+    "original": [
+     1.0,
+     10.0
+    ],
+    "reformatted": null,
+    "status": "lost"
+   },
+   "uas_fw_ceiling_m": {
+    "original": 18000.0,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "uas_fw_dimension_m": {
+    "original": 14.0,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "uas_fw_max_speed_mps": {
+    "original": 130.0,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "uas_mr_ceiling_m": {
+    "original": 6000.0,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "uas_mr_dimension_m": {
+    "original": 1.0,
+    "reformatted": null,
+    "status": "lost"
+   },
+   "uas_mr_max_speed_mps": {
+    "original": 29.0,
+    "reformatted": null,
+    "status": "lost"
+   }
+  },
+  "regex_field_status_counts": {
+   "changed": 1,
+   "kept": 1,
+   "lost": 19,
+   "spurious": 0
+  },
+  "regex_supplied_fields_original": 21,
+  "regex_supplied_fields_reformatted": 2,
+  "warnings_logged_by_regex_on_reformatted": []
+ },
+ "field_version": "1.0",
+ "guards": {
+  "ast_and_regex_agree_on_original": {
+   "passed": true
+  },
+  "whitespace_only": {
+   "passed": true
+  }
+ },
+ "inputs": {
+  "package": "sysml/Technical/TechnicalComponentsPackage.sysml",
+  "package_sha256": "6cc29deafa0474178964d3bbc23704a1678d0914e5cd26807c2849e73c460357",
+  "reformatted": "reformat_runs/TechnicalComponentsPackage_reformatted.sysml",
+  "reformatted_sha256": "055b3a8a9df62bb6da0922c9ce1907e69a1cfee595994c8e73b4c58982036ae2"
+ },
+ "paper_claims": [
+  {
+   "format": "d",
+   "matches": true,
+   "printed": "1",
+   "recomputed_as_printed": "1",
+   "section": "3.2",
+   "text": "a regular-expression extractor recognize one definition ...",
+   "value": 1
+  },
+  {
+   "format": "d",
+   "matches": true,
+   "printed": "22",
+   "recomputed_as_printed": "22",
+   "section": "3.2",
+   "text": "... instead of 22",
+   "value": 22
+  },
+  {
+   "format": "d",
+   "matches": true,
+   "printed": "0",
+   "recomputed_as_printed": "0",
+   "section": "3.2",
+   "text": "silently (no warning logged by the extractor)",
+   "value": 0
+  },
+  {
+   "format": "",
+   "matches": true,
+   "printed": "true",
+   "recomputed_as_printed": "true",
+   "section": "3.2",
+   "text": "The syntax tree, by contrast, stayed identical",
+   "value": true
+  },
+  {
+   "format": "d",
+   "matches": true,
+   "printed": "22",
+   "recomputed_as_printed": "22",
+   "section": "3.2",
+   "text": "TechnicalComponentsPackage supplies parameters through its 22 part def",
+   "value": 22
+  }
+ ],
+ "passed": true,
+ "regex_part_defs": {
+  "original": 22,
+  "reformatted": 1,
+  "reformatted_names": [
+   "EmbraerEMB314SuperTucanoAirframeBaseline"
+  ]
+ },
+ "transformation": "fechar cada part def na linha do ultimo membro: remover o branco entre o ultimo membro e a chave de fechamento e por um espaco antes dela",
+ "what": "robustez do extrator a reformatacao: o mesmo pacote com SO os espacos mudados, lido pelo extrator legado por expressao regular e pelo parser",
+ "why_the_regex_fails": "o padrao _PART_DEF termina em ^\\s*\\} (chave no inicio de linha, re.MULTILINE); sem chave de definicao no inicio de linha, o primeiro casamento so termina na chave que fecha o PACOTE e engole as outras 21 definicoes"
+}

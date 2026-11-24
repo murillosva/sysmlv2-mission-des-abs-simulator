@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "--lhs",
+    "p_mr",
+    "--samples",
+    "20",
+    "--design-seed",
+    "20260807",
+    "--fixed",
+    "lambda=6.0",
+    "-o",
+    "outputs/analysis/ex3_mix/design.parquet"
+  ],
+  "design_seed": 20260807,
+  "design_seed_note": "seed do LHS (RNG meta-nivel, Article IV)",
+  "fixed": {
+    "lambda_per_h": 6.0
+  },
+  "generator": "scripts/make_study_design.py",
+  "git_head": "18b0446d0e9d90f2d75a9c7532754811a4a95ae5",
+  "git_src_clean": true,
+  "git_tree_clean": false,
+  "lhs_presets": [
+    "p_mr"
+  ],
+  "n_design_points": 20,
+  "sampler": "LatinHypercube+fixed"
+}

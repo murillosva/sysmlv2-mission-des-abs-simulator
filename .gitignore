@@ -1,0 +1,55 @@
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Outputs: only the published records are version-controlled (the study
+# records of the experimental campaign and the verification artifacts).
+# Everything else a user writes under outputs/ (for example outputs/runs/ from
+# `cuas-sim run`) stays out of version control.
+outputs/*
+!outputs/verification/
+!outputs/analysis/
+outputs/analysis/*
+!outputs/analysis/ex1_mc_nominal/
+!outputs/analysis/ex2_lambda/
+!outputs/analysis/ex3_mix/
+!outputs/analysis/ex4_interaction/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.tox/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

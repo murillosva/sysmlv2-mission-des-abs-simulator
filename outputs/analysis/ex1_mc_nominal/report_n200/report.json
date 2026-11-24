@@ -1,0 +1,1188 @@
+{
+  "anova_by_levels": [],
+  "decision_index": {
+    "criterion": "rank AoRs by significant paired dMOS-1 (prioriza neutralizacao); custo anotado, nao ponderado",
+    "label": "reporting composite (nao metrica do paper)",
+    "primary_response": "MOS-1",
+    "ranking": [
+      {
+        "aor": "AoR-2",
+        "borderline": false,
+        "cost": {
+          "leaks": 539.0,
+          "rockets_per_engagement": 2.474737333078858
+        },
+        "effect": 0.22223424723424723,
+        "note": "",
+        "rank": 1,
+        "significant": true
+      },
+      {
+        "aor": "AoR-5",
+        "borderline": false,
+        "cost": {
+          "leaks": 539.0,
+          "rockets_per_engagement": 2.474737333078858
+        },
+        "effect": 0.19275946275946274,
+        "note": "",
+        "rank": 2,
+        "significant": true
+      },
+      {
+        "aor": "ALL",
+        "borderline": false,
+        "cost": {
+          "leaks": 539.0,
+          "rockets_per_engagement": 2.474737333078858
+        },
+        "effect": 0.1853140040031311,
+        "note": "",
+        "rank": 3,
+        "significant": true
+      },
+      {
+        "aor": "AoR-6",
+        "borderline": false,
+        "cost": {
+          "leaks": 539.0,
+          "rockets_per_engagement": 2.474737333078858
+        },
+        "effect": 0.1792929292929293,
+        "note": "",
+        "rank": 4,
+        "significant": true
+      },
+      {
+        "aor": "AoR-3",
+        "borderline": false,
+        "cost": {
+          "leaks": 539.0,
+          "rockets_per_engagement": 2.474737333078858
+        },
+        "effect": 0.16399603174603175,
+        "note": "",
+        "rank": 5,
+        "significant": true
+      },
+      {
+        "aor": "AoR-4",
+        "borderline": false,
+        "cost": {
+          "leaks": 539.0,
+          "rockets_per_engagement": 2.474737333078858
+        },
+        "effect": 0.14976587301587302,
+        "note": "",
+        "rank": 6,
+        "significant": true
+      },
+      {
+        "aor": "AoR-1",
+        "borderline": false,
+        "cost": {
+          "leaks": 539.0,
+          "rockets_per_engagement": 2.474737333078858
+        },
+        "effect": 0.11576846307385229,
+        "note": "",
+        "rank": 7,
+        "significant": true
+      }
+    ]
+  },
+  "decision_summary": {
+    "dominant_factor": {
+      "factor": null,
+      "score": null,
+      "text": "sem fatores com variancia"
+    },
+    "evidence": {
+      "reasons": [
+        "pontos de projeto insuficientes (N=1 < 10; Loeppky 2009)"
+      ],
+      "sufficient": false,
+      "text": "evidencia insuficiente; rodar mais replicas/pontos (pontos de projeto insuficientes (N=1 < 10; Loeppky 2009))"
+    },
+    "headline": {
+      "borderline": false,
+      "effect": 0.1853140040031311,
+      "response": "MOS-1",
+      "significant": true,
+      "text": "MOS-1: efeito +0.19 significativo (alpha=0.05). Rejeita-se a hipotese nula de igualdade entre as configuracoes (wilcoxon, p=2.216e-32; IC 95% BCa [0.17, 0.20] exclui zero), indicando modernized > baseline."
+    },
+    "note": "the decision index below is a reporting composite (nao metrica do paper)",
+    "primary_response": "MOS-1",
+    "surrogate": null
+  },
+  "field_version": "1.0",
+  "figures": {
+    "decision_index": "decision_index.png"
+  },
+  "master_table": [
+    {
+      "aor": "ALL",
+      "borderline": false,
+      "ci_high": 0.20307543535531372,
+      "ci_low": 0.16827789667448073,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.1853140040031311,
+      "n_pairs": 200,
+      "p_value": 2.216458445873996e-32,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-1",
+      "borderline": false,
+      "ci_high": 0.16417165668662675,
+      "ci_low": 0.07584830339321358,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.11576846307385229,
+      "n_pairs": 167,
+      "p_value": 1.8325195484392975e-06,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-2",
+      "borderline": false,
+      "ci_high": 0.2687326308247505,
+      "ci_low": 0.18027898027898026,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.22223424723424723,
+      "n_pairs": 198,
+      "p_value": 1.6117109565391066e-16,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-3",
+      "borderline": false,
+      "ci_high": 0.20286904761904762,
+      "ci_low": 0.12462137105475647,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.16399603174603175,
+      "n_pairs": 200,
+      "p_value": 1.848017800021175e-12,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-4",
+      "borderline": false,
+      "ci_high": 0.18405981615024514,
+      "ci_low": 0.11596304638604413,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.14976587301587302,
+      "n_pairs": 200,
+      "p_value": 5.677946575086408e-13,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-5",
+      "borderline": false,
+      "ci_high": 0.24367521367521366,
+      "ci_low": 0.1449592641206198,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.19275946275946274,
+      "n_pairs": 195,
+      "p_value": 6.370210586952024e-11,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-6",
+      "borderline": false,
+      "ci_high": 0.2434343434343435,
+      "ci_low": 0.12272727272727274,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.1792929292929293,
+      "n_pairs": 165,
+      "p_value": 8.368218988455974e-08,
+      "response": "MOS-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "ALL",
+      "borderline": false,
+      "ci_high": 0.13978389559488213,
+      "ci_low": 0.11655618929600213,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.12803462991915027,
+      "n_pairs": 200,
+      "p_value": 4.5342682783217005e-54,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "ttest_rel"
+    },
+    {
+      "aor": "AoR-1",
+      "borderline": false,
+      "ci_high": 0.135557437108404,
+      "ci_low": 0.05756074546469546,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.09651889531215656,
+      "n_pairs": 164,
+      "p_value": 1.2172677328912013e-09,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-2",
+      "borderline": false,
+      "ci_high": 0.14004984883078947,
+      "ci_low": 0.09979995525999669,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.11986723612206342,
+      "n_pairs": 198,
+      "p_value": 2.2510332632867123e-24,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "ttest_rel"
+    },
+    {
+      "aor": "AoR-3",
+      "borderline": false,
+      "ci_high": 0.13852440333661586,
+      "ci_low": 0.09767470882274287,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.11763800034567379,
+      "n_pairs": 200,
+      "p_value": 1.5551716348856293e-20,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-4",
+      "borderline": false,
+      "ci_high": 0.1484446201899773,
+      "ci_low": 0.09776690363497434,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.12265580900675807,
+      "n_pairs": 200,
+      "p_value": 5.407287944853989e-19,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-5",
+      "borderline": false,
+      "ci_high": 0.1495327385714028,
+      "ci_low": 0.0982752745077381,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.1237527596587333,
+      "n_pairs": 195,
+      "p_value": 1.268522321890333e-17,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-6",
+      "borderline": false,
+      "ci_high": 0.12904556789950716,
+      "ci_low": 0.06835762378935903,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.09790505949468786,
+      "n_pairs": 165,
+      "p_value": 4.102952949483142e-12,
+      "response": "MOE-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "ALL",
+      "borderline": false,
+      "ci_high": 0.248483100853502,
+      "ci_low": 0.21786944117470447,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.23313739082350196,
+      "n_pairs": 200,
+      "p_value": 2.55111705917955e-75,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "ttest_rel"
+    },
+    {
+      "aor": "AoR-1",
+      "borderline": false,
+      "ci_high": 0.1633570782757376,
+      "ci_low": 0.07069470129646263,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.11483139232707923,
+      "n_pairs": 164,
+      "p_value": 2.5123539448552005e-06,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-2",
+      "borderline": false,
+      "ci_high": 0.2987216259360731,
+      "ci_low": 0.22430696848472037,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.26106959009312575,
+      "n_pairs": 198,
+      "p_value": 3.108031695065336e-30,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "ttest_rel"
+    },
+    {
+      "aor": "AoR-3",
+      "borderline": false,
+      "ci_high": 0.2230786836123822,
+      "ci_low": 0.1589058916325988,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.1911532352138937,
+      "n_pairs": 200,
+      "p_value": 1.441794926377651e-24,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "ttest_rel"
+    },
+    {
+      "aor": "AoR-4",
+      "borderline": false,
+      "ci_high": 0.24083260298138343,
+      "ci_low": 0.16641000481369042,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.20355876295093292,
+      "n_pairs": 200,
+      "p_value": 2.0226367259433374e-21,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "ttest_rel"
+    },
+    {
+      "aor": "AoR-5",
+      "borderline": false,
+      "ci_high": 0.2479237980354907,
+      "ci_low": 0.16652414384755745,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.20554964306989246,
+      "n_pairs": 195,
+      "p_value": 6.245587760236297e-17,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-6",
+      "borderline": false,
+      "ci_high": 0.2715204973228576,
+      "ci_low": 0.16760511083016255,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 0.2188072068717123,
+      "n_pairs": 165,
+      "p_value": 2.6094473090077497e-12,
+      "response": "MOE-3",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "ALL",
+      "borderline": false,
+      "ci_high": 315.7808739469159,
+      "ci_low": 287.80527989097925,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 301.2537208773339,
+      "n_pairs": 200,
+      "p_value": 1.4361464127613523e-34,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-1",
+      "borderline": false,
+      "ci_high": 441.09813043840063,
+      "ci_low": 362.0317861129821,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 399.55792682926835,
+      "n_pairs": 164,
+      "p_value": 1.520852384596969e-28,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-2",
+      "borderline": false,
+      "ci_high": 328.9730919806604,
+      "ci_low": 275.1327677811128,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 299.3920033670034,
+      "n_pairs": 198,
+      "p_value": 3.055372547137405e-34,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-3",
+      "borderline": false,
+      "ci_high": 320.5232623186902,
+      "ci_low": 265.558396425552,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 291.0006785714285,
+      "n_pairs": 200,
+      "p_value": 1.5024921084608252e-34,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-4",
+      "borderline": false,
+      "ci_high": 373.8520406577603,
+      "ci_low": 308.5234293257774,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 338.2636904761905,
+      "n_pairs": 200,
+      "p_value": 1.5955624385545708e-34,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-5",
+      "borderline": false,
+      "ci_high": 466.31087006079156,
+      "ci_low": 377.5610038263692,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 419.72641025641025,
+      "n_pairs": 195,
+      "p_value": 1.3520400252481922e-33,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-6",
+      "borderline": false,
+      "ci_high": 526.5512197491771,
+      "ci_low": 422.5514315369706,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": 472.4111111111111,
+      "n_pairs": 165,
+      "p_value": 9.157536851878662e-29,
+      "response": "MOP-1",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "ALL",
+      "borderline": false,
+      "ci_high": -0.13427221933621722,
+      "ci_low": -0.15928606966385028,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.14668970117144514,
+      "n_pairs": 200,
+      "p_value": 9.836585299117023e-58,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "ttest_rel"
+    },
+    {
+      "aor": "AoR-1",
+      "borderline": false,
+      "ci_high": -0.024109085602737376,
+      "ci_low": -0.1155971358720771,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.07318198019629198,
+      "n_pairs": 164,
+      "p_value": 0.00016996175135571177,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-2",
+      "borderline": false,
+      "ci_high": -0.11219660783971654,
+      "ci_low": -0.1752756198076965,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.14471797266588868,
+      "n_pairs": 198,
+      "p_value": 1.4282999436077794e-15,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-3",
+      "borderline": false,
+      "ci_high": -0.12423875731059005,
+      "ci_low": -0.17390771686951706,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.14973757370078805,
+      "n_pairs": 200,
+      "p_value": 3.175855701317933e-19,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-4",
+      "borderline": false,
+      "ci_high": -0.07904933396468772,
+      "ci_low": -0.14899974579351774,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.1169995591689906,
+      "n_pairs": 200,
+      "p_value": 2.5063663699623326e-12,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-5",
+      "borderline": false,
+      "ci_high": -0.10565255517137502,
+      "ci_low": -0.17407885000937234,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.14151885177427245,
+      "n_pairs": 195,
+      "p_value": 1.3122161871712679e-12,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "AoR-6",
+      "borderline": false,
+      "ci_high": -0.07296216507981537,
+      "ci_low": -0.1690421830189043,
+      "ci_method": "BCa",
+      "config": "modernized-baseline",
+      "effect": -0.1232321247259801,
+      "n_pairs": 165,
+      "p_value": 1.2178526180107773e-07,
+      "response": "MOE-2",
+      "significant": true,
+      "test": "wilcoxon"
+    },
+    {
+      "aor": "ALL",
+      "borderline": false,
+      "ci_high": null,
+      "ci_low": null,
+      "ci_method": null,
+      "config": "absolute",
+      "effect": 0.20121603594671134,
+      "n_pairs": 200,
+      "p_value": null,
+      "response": "MOS-2",
+      "significant": null,
+      "test": "absolute"
+    }
+  ],
+  "relationships": [],
+  "responses": [
+    {
+      "dominant_factor": {
+        "factor": null,
+        "score": null,
+        "text": "sem fatores com variancia"
+      },
+      "eda": {
+        "correlation": {
+          "lambda_per_h": null,
+          "uas_archetype_p_mr": null
+        },
+        "figures": null,
+        "histogram": {
+          "counts": [
+            1
+          ],
+          "edges": [
+            -0.314685995996869,
+            0.685314004003131
+          ]
+        },
+        "outlier_count": 0,
+        "response": "MOS-1",
+        "summary": {
+          "count": 1,
+          "max": 0.18531400400313106,
+          "mean": 0.18531400400313106,
+          "min": 0.18531400400313106,
+          "std": 0.0
+        }
+      },
+      "feature_scores": [],
+      "fit": null,
+      "hypothesis": {
+        "aor": "ALL",
+        "bootstrap_test": {
+          "bootstrap_seed": 20260804,
+          "n_resamples": 9999,
+          "p_value": 0.0
+        },
+        "ci": {
+          "high": 0.20307543535531372,
+          "low": 0.16827789667448073,
+          "method": "BCa",
+          "n_resamples": 9999
+        },
+        "effect": 0.1853140040031311,
+        "n_pairs": 200,
+        "p_value": 2.216458445873996e-32,
+        "pre_checks": [
+          {
+            "name": "shapiro",
+            "p_value": 0.02556683271923463,
+            "passed": false,
+            "statistic": 0.9843537618214457
+          },
+          {
+            "name": "levene",
+            "p_value": 9.91716703182128e-08,
+            "passed": false,
+            "statistic": 29.465260890782783
+          }
+        ],
+        "reject_h0": true,
+        "response": "MOS-1",
+        "statistic": 232.5,
+        "test": "wilcoxon"
+      },
+      "insight": {
+        "borderline": false,
+        "effect": 0.1853140040031311,
+        "response": "MOS-1",
+        "significant": true,
+        "text": "MOS-1: efeito +0.19 significativo (alpha=0.05). Rejeita-se a hipotese nula de igualdade entre as configuracoes (wilcoxon, p=2.216e-32; IC 95% BCa [0.17, 0.20] exclui zero), indicando modernized > baseline."
+      },
+      "outlier_count": 0,
+      "pareto_front": {
+        "objectives": {
+          "maximize": [
+            "gain"
+          ],
+          "minimize": [
+            "cost"
+          ]
+        },
+        "points": [
+          {
+            "cost": 2.474737333078858,
+            "design_point_id": 0,
+            "gain": 0.18531400400313106
+          }
+        ]
+      },
+      "response": "MOS-1"
+    },
+    {
+      "dominant_factor": {
+        "factor": null,
+        "score": null,
+        "text": "sem fatores com variancia"
+      },
+      "eda": {
+        "correlation": {
+          "lambda_per_h": null,
+          "uas_archetype_p_mr": null
+        },
+        "figures": null,
+        "histogram": {
+          "counts": [
+            1
+          ],
+          "edges": [
+            -0.37196537008084973,
+            0.6280346299191503
+          ]
+        },
+        "outlier_count": 0,
+        "response": "MOE-1",
+        "summary": {
+          "count": 1,
+          "max": 0.12803462991915027,
+          "mean": 0.12803462991915027,
+          "min": 0.12803462991915027,
+          "std": 0.0
+        }
+      },
+      "feature_scores": [],
+      "fit": null,
+      "hypothesis": {
+        "aor": "ALL",
+        "bootstrap_test": {
+          "bootstrap_seed": 20260804,
+          "n_resamples": 9999,
+          "p_value": 0.0
+        },
+        "ci": {
+          "high": 0.13978389559488213,
+          "low": 0.11655618929600213,
+          "method": "BCa",
+          "n_resamples": 9999
+        },
+        "effect": 0.12803462991915027,
+        "n_pairs": 200,
+        "p_value": 4.5342682783217005e-54,
+        "pre_checks": [
+          {
+            "name": "shapiro",
+            "p_value": 0.3106156304343285,
+            "passed": true,
+            "statistic": 0.9916912211654475
+          },
+          {
+            "name": "levene",
+            "p_value": 0.0004584916020538379,
+            "passed": false,
+            "statistic": 12.484540818423932
+          }
+        ],
+        "reject_h0": true,
+        "response": "MOE-1",
+        "statistic": 21.600155537736562,
+        "test": "ttest_rel"
+      },
+      "insight": {
+        "borderline": false,
+        "effect": 0.12803462991915027,
+        "response": "MOE-1",
+        "significant": true,
+        "text": "MOE-1: efeito +0.13 significativo (alpha=0.05). Rejeita-se a hipotese nula de igualdade entre as configuracoes (ttest_rel, p=4.534e-54; IC 95% BCa [0.12, 0.14] exclui zero), indicando modernized > baseline."
+      },
+      "outlier_count": 0,
+      "pareto_front": {
+        "objectives": {
+          "maximize": [
+            "gain"
+          ],
+          "minimize": [
+            "cost"
+          ]
+        },
+        "points": [
+          {
+            "cost": 2.474737333078858,
+            "design_point_id": 0,
+            "gain": 0.12803462991915027
+          }
+        ]
+      },
+      "response": "MOE-1"
+    },
+    {
+      "dominant_factor": {
+        "factor": null,
+        "score": null,
+        "text": "sem fatores com variancia"
+      },
+      "eda": {
+        "correlation": {
+          "lambda_per_h": null,
+          "uas_archetype_p_mr": null
+        },
+        "figures": null,
+        "histogram": {
+          "counts": [
+            1
+          ],
+          "edges": [
+            -0.26686260917649807,
+            0.7331373908235019
+          ]
+        },
+        "outlier_count": 0,
+        "response": "MOE-3",
+        "summary": {
+          "count": 1,
+          "max": 0.23313739082350196,
+          "mean": 0.23313739082350196,
+          "min": 0.23313739082350196,
+          "std": 0.0
+        }
+      },
+      "feature_scores": [],
+      "fit": null,
+      "hypothesis": {
+        "aor": "ALL",
+        "bootstrap_test": {
+          "bootstrap_seed": 20260804,
+          "n_resamples": 9999,
+          "p_value": 0.0
+        },
+        "ci": {
+          "high": 0.248483100853502,
+          "low": 0.21786944117470447,
+          "method": "BCa",
+          "n_resamples": 9999
+        },
+        "effect": 0.23313739082350196,
+        "n_pairs": 200,
+        "p_value": 2.55111705917955e-75,
+        "pre_checks": [
+          {
+            "name": "shapiro",
+            "p_value": 0.5633256888147122,
+            "passed": true,
+            "statistic": 0.9937456205269602
+          },
+          {
+            "name": "levene",
+            "p_value": 0.0007020128951296448,
+            "passed": false,
+            "statistic": 11.666016699334893
+          }
+        ],
+        "reject_h0": true,
+        "response": "MOE-3",
+        "statistic": 29.80763701378862,
+        "test": "ttest_rel"
+      },
+      "insight": {
+        "borderline": false,
+        "effect": 0.23313739082350196,
+        "response": "MOE-3",
+        "significant": true,
+        "text": "MOE-3: efeito +0.23 significativo (alpha=0.05). Rejeita-se a hipotese nula de igualdade entre as configuracoes (ttest_rel, p=2.551e-75; IC 95% BCa [0.22, 0.25] exclui zero), indicando modernized > baseline."
+      },
+      "outlier_count": 0,
+      "pareto_front": {
+        "objectives": {
+          "maximize": [
+            "gain"
+          ],
+          "minimize": [
+            "cost"
+          ]
+        },
+        "points": [
+          {
+            "cost": 2.474737333078858,
+            "design_point_id": 0,
+            "gain": 0.23313739082350196
+          }
+        ]
+      },
+      "response": "MOE-3"
+    },
+    {
+      "dominant_factor": {
+        "factor": null,
+        "score": null,
+        "text": "sem fatores com variancia"
+      },
+      "eda": {
+        "correlation": {
+          "lambda_per_h": null,
+          "uas_archetype_p_mr": null
+        },
+        "figures": null,
+        "histogram": {
+          "counts": [
+            1
+          ],
+          "edges": [
+            300.7537208773339,
+            301.7537208773339
+          ]
+        },
+        "outlier_count": 0,
+        "response": "MOP-1",
+        "summary": {
+          "count": 1,
+          "max": 301.2537208773339,
+          "mean": 301.2537208773339,
+          "min": 301.2537208773339,
+          "std": 0.0
+        }
+      },
+      "feature_scores": [],
+      "fit": null,
+      "hypothesis": {
+        "aor": "ALL",
+        "bootstrap_test": {
+          "bootstrap_seed": 20260804,
+          "n_resamples": 9999,
+          "p_value": 0.0
+        },
+        "ci": {
+          "high": 315.7808739469159,
+          "low": 287.80527989097925,
+          "method": "BCa",
+          "n_resamples": 9999
+        },
+        "effect": 301.2537208773339,
+        "n_pairs": 200,
+        "p_value": 1.4361464127613523e-34,
+        "pre_checks": [
+          {
+            "name": "shapiro",
+            "p_value": 0.00019442443120235852,
+            "passed": false,
+            "statistic": 0.9686755017321905
+          },
+          {
+            "name": "levene",
+            "p_value": 1.3207340278793726e-47,
+            "passed": false,
+            "statistic": 277.14054045301856
+          }
+        ],
+        "reject_h0": true,
+        "response": "MOP-1",
+        "statistic": 0.0,
+        "test": "wilcoxon"
+      },
+      "insight": {
+        "borderline": false,
+        "effect": 301.2537208773339,
+        "response": "MOP-1",
+        "significant": true,
+        "text": "MOP-1: efeito +301.25 significativo (alpha=0.05). Rejeita-se a hipotese nula de igualdade entre as configuracoes (wilcoxon, p=1.436e-34; IC 95% BCa [287.81, 315.78] exclui zero), indicando modernized > baseline."
+      },
+      "outlier_count": 0,
+      "pareto_front": {
+        "objectives": {
+          "maximize": [
+            "gain"
+          ],
+          "minimize": [
+            "cost"
+          ]
+        },
+        "points": [
+          {
+            "cost": 2.474737333078858,
+            "design_point_id": 0,
+            "gain": 301.2537208773339
+          }
+        ]
+      },
+      "response": "MOP-1"
+    },
+    {
+      "dominant_factor": {
+        "factor": null,
+        "score": null,
+        "text": "sem fatores com variancia"
+      },
+      "eda": {
+        "correlation": {
+          "lambda_per_h": null,
+          "uas_archetype_p_mr": null
+        },
+        "figures": null,
+        "histogram": {
+          "counts": [
+            1
+          ],
+          "edges": [
+            -0.6466897011714452,
+            0.35331029882855486
+          ]
+        },
+        "outlier_count": 0,
+        "response": "MOE-2",
+        "summary": {
+          "count": 1,
+          "max": -0.14668970117144514,
+          "mean": -0.14668970117144514,
+          "min": -0.14668970117144514,
+          "std": 0.0
+        }
+      },
+      "feature_scores": [],
+      "fit": null,
+      "hypothesis": {
+        "aor": "ALL",
+        "bootstrap_test": {
+          "bootstrap_seed": 20260804,
+          "n_resamples": 9999,
+          "p_value": 0.0
+        },
+        "ci": {
+          "high": -0.13427221933621722,
+          "low": -0.15928606966385028,
+          "method": "BCa",
+          "n_resamples": 9999
+        },
+        "effect": -0.14668970117144514,
+        "n_pairs": 200,
+        "p_value": 9.836585299117023e-58,
+        "pre_checks": [
+          {
+            "name": "shapiro",
+            "p_value": 0.12156059624497134,
+            "passed": true,
+            "statistic": 0.9888675652806729
+          },
+          {
+            "name": "levene",
+            "p_value": 0.11049061300705336,
+            "passed": true,
+            "statistic": 2.5585792191565866
+          }
+        ],
+        "reject_h0": true,
+        "response": "MOE-2",
+        "statistic": -22.920174536636758,
+        "test": "ttest_rel"
+      },
+      "insight": {
+        "borderline": false,
+        "effect": -0.14668970117144514,
+        "response": "MOE-2",
+        "significant": true,
+        "text": "MOE-2: efeito -0.15 significativo (alpha=0.05). Rejeita-se a hipotese nula de igualdade entre as configuracoes (ttest_rel, p=9.837e-58; IC 95% BCa [-0.16, -0.13] exclui zero), indicando modernized < baseline."
+      },
+      "outlier_count": 0,
+      "pareto_front": {
+        "objectives": {
+          "maximize": [
+            "gain"
+          ],
+          "minimize": [
+            "cost"
+          ]
+        },
+        "points": [
+          {
+            "cost": 2.474737333078858,
+            "design_point_id": 0,
+            "gain": -0.14668970117144514
+          }
+        ]
+      },
+      "response": "MOE-2"
+    }
+  ],
+  "study": {
+    "alpha": 0.05,
+    "aors": [
+      "ALL",
+      "AoR-1",
+      "AoR-2",
+      "AoR-3",
+      "AoR-4",
+      "AoR-5",
+      "AoR-6"
+    ],
+    "bootstrap_seed": 20260804,
+    "factors": {
+      "lambda_per_h": {
+        "max": 6.0,
+        "min": 6.0
+      },
+      "uas_archetype_p_mr": {
+        "max": 0.5,
+        "min": 0.5
+      }
+    },
+    "id": "consolidated",
+    "kind": "consolidated",
+    "model_seed": 20260804,
+    "n_design_points": 1,
+    "responses": [
+      "MOS-1",
+      "MOE-1",
+      "MOE-3",
+      "MOP-1",
+      "MOE-2",
+      "MOS-2"
+    ],
+    "responses_skipped": []
+  },
+  "thresholds": {
+    "alpha": 0.05,
+    "anova_n_levels": 3,
+    "design_points_per_factor": 10,
+    "min_pairs_for_power": 34,
+    "references": {
+      "correlation_strength": "Schober, Boer & Schwarte (2018)",
+      "design_points": "Loeppky, Sacks & Welch (2009)",
+      "power": "Cohen (1988)",
+      "significance": "Bussab & Morettin (2010)",
+      "surrogate_q2": "Golbraikh & Tropsha (2002)"
+    },
+    "schober_cutoffs": [
+      0.09,
+      0.39,
+      0.69,
+      0.89
+    ],
+    "surrogate_q2_min": 0.5
+  },
+  "validity": {
+    "byte_determinism_note": "byte-identidade das 3 camadas por-ambiente (mesmas versoes de matplotlib/jinja2)",
+    "caveats": [
+      "nao generalizar alem do espaco amostrado (faixas dos fatores)",
+      "correlacao nao implica causalidade"
+    ],
+    "factor_ranges": {
+      "lambda_per_h": {
+        "max": 6.0,
+        "min": 6.0
+      },
+      "uas_archetype_p_mr": {
+        "max": 0.5,
+        "min": 0.5
+      }
+    },
+    "max_arrivals": null,
+    "n_design_points": 1,
+    "n_reps": 200,
+    "seeds": {
+      "base": 20260804,
+      "bootstrap": 20260804,
+      "design": null,
+      "model": 20260804
+    }
+  }
+}
